@@ -11,7 +11,7 @@ const Container = styled.div`
 `
 
 const Box = styled.div`
-    width: 30%;
+    width: 380px;
     height: 320px;
     margin: 0 1% 2% 1%;
     background: #000000;
@@ -38,6 +38,7 @@ const Secondline = styled(Firstline)`
     margin-right: 2rem;
     height: 160px;
 `
+
 const CalltoActionButton = styled.button`
     background: #FFFFFF;
     margin-left: 2rem;
