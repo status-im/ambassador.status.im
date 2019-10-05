@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from "./components/nav";
 import Header from "./components/header";
+import Boxes from "./components/boxes";
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Nav />
       <Header />
+      <Boxes />
     </div>
 
   );

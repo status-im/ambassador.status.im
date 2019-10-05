@@ -8,7 +8,7 @@ const Tagline = styled.section`
     line-height: 47px;
     text-align: center;
     color: #2C2C2C;
-    margin-top: 5rem;
+    margin-top: 3rem;
 `
 
 const SecondTagline = styled.section`
@@ -19,12 +19,12 @@ const SecondTagline = styled.section`
     line-height: 140.8%;
     text-align: center;
     color: #2C2C2C;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
     margin: auto;
 `
 
 const CalltoActionButton = styled.button`
-    margin: 4rem;
+    margin: 3rem;
     color: #000000;
     border-radius: 5px;
     display: inline-block;
