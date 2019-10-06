@@ -10,28 +10,13 @@ const Container = styled.div`
     align-items: center;
 `
 const Line = styled.div`
-    width: 350px;
+    width: 470px;
     border-bottom: 1px solid #A8A8A8;
 `
 const Title = styled.div`
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #2C2C2C;
     margin: 0 2.5rem 0 2.5rem;
-    text-align: center;
-`
-
-const Box = styled(Container)`
-    width: 280px;
-    height: 280px;
-    margin: 5% 1% 2% 1%;
-    background: #000000;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 2.5rem;
-    border-radius: 8px;
-    float: left;
-    color: white;
-    font-size: 1.5rem;
 `
 
 const Text = styled.a`
@@ -41,33 +26,27 @@ const Text = styled.a`
     font-size: 1rem;
 `
 
-class Tasks extends Component {
+class Contact extends Component {
     render() {
         return (
             <div style={{ display: 'block', marginTop: '3rem' }}>
 
+
                 <Container>
 
                     <Line />
-                    <Title> We work across a range of areas and <br/> collaborate in many ways. </Title>
+
+                        <Title> Get in touch </Title>
+
                     <Line />
 
                 </Container>
 
                 <Container>
 
-                    <Text> Check out our shared project board. </Text>
+                    <Text> Contact us in the Status Public Channel #Statusphere </Text>
 
-                </Container>
-
-                <Container>
-
-                    <Box> Events & Meetups </Box>
-                    <Box> Content & Creative </Box>
-                    <Box> Community <br /> Development </Box>
-                    <Box> Technical <br /> Contribution </Box>
-
-                </Container>
+                </Container>                
 
             </div>
 
@@ -76,4 +55,4 @@ class Tasks extends Component {
 }
 
 
-export default Tasks;
+export default Contact;

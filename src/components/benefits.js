@@ -27,9 +27,10 @@ class Benefits extends Component {
                 <Container>
 
                     <Line />
-                    <Title> Benefits </Title>
-                    <Line />
 
+                        <Title> Benefits </Title>
+
+                    <Line />
 
                 </Container>
 
