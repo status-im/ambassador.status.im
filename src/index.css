@@ -12,4 +12,18 @@ code {
     monospace;
 }
 
+.ellipse-up {
+  background: url("./images/ellipse_up.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+}
 
+.ellipse-down{
+  background: url("./images/ellipse_down.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+}

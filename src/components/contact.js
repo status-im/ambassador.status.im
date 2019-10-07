@@ -19,18 +19,26 @@ const Title = styled.div`
     margin: 0 2.5rem 0 2.5rem;
 `
 
-const Text = styled.a`
+const Link = styled.div`
     text-align: center;
-    color: #4F6CDE;
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none !important;
+
+    a, a:visited {
+        color: #4F6CDE;
+        text-decoration: none !important;
+    }
+`
+
+const Blank = styled(Container)`
+    margin: 5rem;
 `
 
 class Contact extends Component {
     render() {
         return (
             <div style={{ display: 'block', marginTop: '3rem' }}>
-
 
                 <Container>
 
@@ -44,9 +52,11 @@ class Contact extends Component {
 
                 <Container>
 
-                    <Text> Contact us in the Status Public Channel #Statusphere </Text>
+                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Contact us in the Status Public Channel #Statusphere </a> </Link>
 
-                </Container>                
+                </Container>
+
+                <Blank></Blank>
 
             </div>
 

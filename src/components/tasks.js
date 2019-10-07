@@ -34,11 +34,16 @@ const Box = styled(Container)`
     font-size: 1.5rem;
 `
 
-const Text = styled.a`
+const Link = styled.div`
     text-align: center;
-    color: #4F6CDE;
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none !important;
+
+    a, a:visited {
+        color: #4F6CDE;
+        text-decoration: none !important;
+    }
 `
 
 class Tasks extends Component {
@@ -56,7 +61,7 @@ class Tasks extends Component {
 
                 <Container>
 
-                    <Text> Check out our shared project board. </Text>
+                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
 
                 </Container>
 
