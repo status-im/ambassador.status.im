@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Container } from './boxes';
 
-const Container = styled.div`
-    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: center;
-    align-items: center;
-`
+
 const Line = styled.div`
     width: 470px;
     border-bottom: 1px solid #A8A8A8;
@@ -42,21 +36,13 @@ class Contact extends Component {
 
                 <Container>
 
-                    <Line />
-
-                        <Title> Get in touch </Title>
-
-                    <Line />
-
-                </Container>
-
-                <Container>
-
+                    <Line /><Title> Get in touch </Title><Line />
+  
                     <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Contact us in the Status Public Channel #Statusphere </a> </Link>
 
                 </Container>
 
-                <Blank></Blank>
+                <Blank/>
 
             </div>
 

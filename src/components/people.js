@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import { Container } from './boxes';
 
-
-const Container = styled.div`
-    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: center;
-    align-items: center;
-`
 
 const Text = styled.section`
     width: 580px;
@@ -28,7 +20,8 @@ const Link = styled.div`
     margin-top: 3rem;
     font-size: 1.2rem;
     text-decoration: none !important;
-
+    position: relative
+    z-index: 1;
     a, a:visited {
         color: #4F6CDE;
         text-decoration: none !important;
@@ -42,18 +35,26 @@ class People extends Component {
                 
                 <div className="ellipse-up">
 
-                    <Container>
+                    <Container><Text>We are spread across the world <br /> with different backgrounds and areas of expertise</Text></Container>
 
-                        <Text>We are spread across the world <br /> with different backgrounds and areas of expertise</Text>
+                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
 
-                    </Container>
+                </div>
 
-                    <Container>
+                <div>
 
-                        <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
-
-                    </Container>
-
+                    <ul className="photo-row">
+                        <li className="list"><img src={require('../images/brian.jpg')} className="profile" alt="Brian XV" /></li>
+                        <li className="list"><img src={require('../images/danieltbar.jpg')} className="profile" alt="Daniel Bar" /></li>
+                        <li className="list"><img src={require('../images/eduardo.jpg')} className="profile" alt="Eduardo Garza" /></li>
+                        <li className="list"><img src={require('../images/enrico.jpg')} className="profile" alt="Enrico Del Fante" /></li>
+                        <li className="list"><img src={require('../images/kris.jpg')} className="profile" alt="Kris Calabio" /></li>
+                        <li className="list"><img src={require('../images/prabhleen.jpg')} className="profile" alt="Prabhleen Singh" /></li>
+                        <li className="list"><img src={require('../images/sebastian.jpg')} className="profile" alt="Sebastian Moonjava" /></li>
+                        <li className="list"><img src={require('../images/nanda.jpg')} className="profile" alt="Sourav Kumar Nanda" /></li>
+                        <li className="list"><img src={require('../images/warsoverjohn.jpg')} className="profile" alt="Warsoverjohn" /></li>
+                        <li className="list"><img src={require('../images/yalu.jpg')} className="profile" alt="Yalu" /></li>
+                    </ul>
 
                 </div>
 

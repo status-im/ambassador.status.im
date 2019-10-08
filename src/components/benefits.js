@@ -9,6 +9,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
 `
+
 const Line = styled.div`
     width: 485px;
     border-bottom: 1px solid #A8A8A8;
@@ -26,11 +27,7 @@ class Benefits extends Component {
 
                 <Container>
 
-                    <Line />
-
-                        <Title> Benefits </Title>
-
-                    <Line />
+                    <Line /><Title> Benefits </Title><Line />
 
                 </Container>
 

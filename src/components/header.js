@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import { Container } from './boxes';
 
-
-const Container = styled.div`
-    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: center;
-    align-items: center;
-`
 
 const Tagline = styled.section`
     font-style: normal;
@@ -36,6 +28,7 @@ const SecondTagline = styled.section`
 
 const CalltoActionButton = styled.button`
     font-family: 'DM Sans', sans-serif;
+    background-color: white;
     margin: 3rem;
     color: #000000;
     border-radius: 5px;

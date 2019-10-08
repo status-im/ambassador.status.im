@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;  /* TWEENER - IE 10 */
     display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: center;
+    flex-flow: row wrap;
     align-items: center;
 `
 
@@ -52,10 +53,10 @@ const CalltoActionButton = styled.button`
     }
 `
 
-class Boxes extends Component {
+export class Boxes extends Component {
     render() {
         return (
-            <div style={{ display: 'block', marginTop: '3rem'}}>
+            <div style={{ display: 'block'}}>
                 
                 <Container>
 
@@ -114,6 +115,3 @@ class Boxes extends Component {
         );
     }
 }
-
-
-export default Boxes;

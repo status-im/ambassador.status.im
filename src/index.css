@@ -16,14 +16,33 @@ code {
   background: url("./images/ellipse_up.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  position: relative;
   height: 300px;
+  margin-top: 100px;
 }
 
-.ellipse-down{
+.ellipse-down {
   background: url("./images/ellipse_down.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 310px;
+  box-sizing: border-box;
   position: relative;
-  height: 300px;
+}
+
+.profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.list {
+  margin: 1rem;
+  padding: 1rem 0 3rem 0;
+  display: inline; 
+}
+
+.photo-row {
+  list-style: none outside none;
+  margin: 6rem 6rem 10rem 6rem;
+  text-align: center;
 }
