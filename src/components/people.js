@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import { Container } from './boxes';
+import Profiles from './profiles';
+import AmbassadorsData from './ambassadors.json';
+import { TextareaAutosize } from '@material-ui/core';
 
 
 const Text = styled.section`
@@ -28,9 +31,57 @@ const Link = styled.div`
     }
 `
 
+
+function shuffleArray(array) {
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+
+
 class People extends Component {
+
+    constructor(props) {
+        super(props)
+        this.state = {
+            ambassadorList: [],
+            isDefault: true
+        }
+    }
+
+    componentDidMount() {
+        const ambassadorList = AmbassadorsData;
+        const shuffledList = shuffleArray(ambassadorList);
+        this.setState({
+            ambassadorList: ambassadorList,
+            shuffledList: shuffledList
+        })
+    }
+
     render() {
+        var profilePhotos = []
+        var { ambassadorList }  = this.state;
+        ambassadorList = AmbassadorsData;
+      
+            var shuffledList = shuffleArray(ambassadorList);
+            profilePhotos = shuffledList.map((item, index) => {
+                return <Profiles
+                    profile={item}
+                    key={`car-list-key ${index}`}
+                />
+            })
+
+
+            console.log(profilePhotos);
+        
+
         return (
+
             <div style={{ display: 'block', marginTop: '3rem' }}>
                 
                 <div className="ellipse-up">
@@ -41,22 +92,13 @@ class People extends Component {
 
                 </div>
 
-                <div>
-
-                    <ul className="photo-row">
-                        <li className="list"><img src={require('../images/brian.jpg')} className="profile" alt="Brian XV" /></li>
-                        <li className="list"><img src={require('../images/danieltbar.jpg')} className="profile" alt="Daniel Bar" /></li>
-                        <li className="list"><img src={require('../images/eduardo.jpg')} className="profile" alt="Eduardo Garza" /></li>
-                        <li className="list"><img src={require('../images/enrico.jpg')} className="profile" alt="Enrico Del Fante" /></li>
-                        <li className="list"><img src={require('../images/kris.jpg')} className="profile" alt="Kris Calabio" /></li>
-                        <li className="list"><img src={require('../images/prabhleen.jpg')} className="profile" alt="Prabhleen Singh" /></li>
-                        <li className="list"><img src={require('../images/sebastian.jpg')} className="profile" alt="Sebastian Moonjava" /></li>
-                        <li className="list"><img src={require('../images/nanda.jpg')} className="profile" alt="Sourav Kumar Nanda" /></li>
-                        <li className="list"><img src={require('../images/warsoverjohn.jpg')} className="profile" alt="Warsoverjohn" /></li>
-                        <li className="list"><img src={require('../images/yalu.jpg')} className="profile" alt="Yalu" /></li>
+                <div className="center">
+                    <ul className="contributor-photos-row">
+                        {profilePhotos}
                     </ul>
-
                 </div>
+
+
 
             </div>
 

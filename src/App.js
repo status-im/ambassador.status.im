@@ -11,13 +11,21 @@ import './App.css';
 function App() {
   return (
     <div>
+
       <Nav />
+
       <Header />
+
       <Boxes />
+
       <Benefits />
+
       <Tasks />
+
       <People />
+
       <Contact />
+      
     </div>
 
   );

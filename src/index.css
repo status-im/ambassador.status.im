@@ -29,20 +29,25 @@ code {
   position: relative;
 }
 
-.profile {
+.contributor-profile {
   width: 70px;
   height: 70px;
   border-radius: 50%;
 }
 
-.list {
-  margin: 1rem;
-  padding: 1rem 0 3rem 0;
-  display: inline; 
+.contributor-photos-row {
+  list-style: none outside none;
+  text-align: center;
+  float: left;
+  margin: 3rem auto;
 }
 
-.photo-row {
-  list-style: none outside none;
-  margin: 6rem 6rem 10rem 6rem;
-  text-align: center;
+.contributor-list {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }

@@ -32,7 +32,7 @@ const Blank = styled(Container)`
 class Contact extends Component {
     render() {
         return (
-            <div style={{ display: 'block', marginTop: '3rem' }}>
+            <div style={{ display: 'block', marginTop: '8rem' }}>
 
                 <Container>
 
