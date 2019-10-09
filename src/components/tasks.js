@@ -14,7 +14,7 @@ export const Title = styled.div`
     text-align: center;
 `
 
-const Box = styled(Container)`
+export const Box = styled(Container)`
     width: 280px;
     height: 280px;
     margin: 5% 1% 2% 1%;
@@ -50,10 +50,6 @@ export class Tasks extends Component {
                 <Container>
 
                     <Line/><Title> We work across a range of areas and <br/> collaborate in many ways. </Title><Line/>
-
-                </Container>
-
-                <Container>
 
                     <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
 

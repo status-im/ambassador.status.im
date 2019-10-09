@@ -26,7 +26,7 @@ const SecondTagline = styled.section`
     margin: auto;
 `
 
-const CalltoActionButton = styled.button`
+export const CalltoActionButton = styled.button`
     font-family: 'DM Sans', sans-serif;
     position: relative
     z-index: 1;
@@ -53,7 +53,7 @@ const CalltoActionButton = styled.button`
 `
 
 
-class Header extends Component {
+export class Header extends Component {
     render() {
         return (
             <header style={{ display: 'block', textAlign: 'center'}}>

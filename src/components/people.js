@@ -80,7 +80,7 @@ class People extends Component {
                 </div>
 
                 <div className="center">
-                    <ul className="contributor-photos-row">
+                    <ul className="contributors">
                         {profilePhotos}
                     </ul>
                 </div>
