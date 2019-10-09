@@ -26,17 +26,21 @@ const Box = styled.div`
 
     @media(max-width: 1250px) {
         width: 320px;
-        height: 310px;
+        height: 320px;
     }
 
     @media(max-width: 1024px) {
+        text-align: center;
         margin: 0 10rem 3rem 10rem;
-        width: 450px;
-        height: 300px;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 1.5rem;
+        margin: 3vw;
     }
+
 `
 
-const Firstline = styled.div`
+const Firstline = styled.p`
     font-weight: 500;
     text-align:left;
     font-size: 1.5rem;
@@ -44,28 +48,40 @@ const Firstline = styled.div`
     margin-top: 2rem;
     color: #FFFFFF;
     margin-left: 2rem;
+
+    @media(max-width: 1024px) {
+        margin-left: 0rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
 `
 
 const Secondline = styled(Firstline)`
     font-size: 1rem;
     margin-top: 1.5rem;
     margin-right: 2rem;
-    height: 160px;
+    margin-bottom: 1rem;
+    height: 20vh;
 
     @media(max-width: 1250px) {
-        font-size: 0.9rem;
+        height: 23vh;
     }
 
     @media(max-width: 1024px) {
-        font-size: 1rem;
-        height: 130px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        height: auto;
     }
 `
 
 const CalltoActionButton = styled.button`
     background: #FFFFFF;
     margin-left: 2rem;
+    margin-top: 1rem;
     border-radius: 5px;
+    position: relative;
     display: inline-block;
     padding: 0.5rem 1.2rem 0.5rem 1.2rem;
     a {
@@ -81,6 +97,12 @@ const CalltoActionButton = styled.button`
         border: grey;
         cursor: pointer;
     }
+
+    @media(max-width: 1024px) {
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+
 `
 
 export class Boxes extends Component {
@@ -92,49 +114,31 @@ export class Boxes extends Component {
 
                     <Box>
 
-                        <Firstline>
-                            What We Do
-                        </Firstline>
+                        <Firstline> What We Do </Firstline>
 
-                        <Secondline>
-                            We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status.
-                        </Secondline>
+                        <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
 
-                        <CalltoActionButton>
-                            <a href="www.status.im">Working Groups</a>
-                        </CalltoActionButton>
+                        <CalltoActionButton> <a href="www.status.im"> Working Groups </a></CalltoActionButton>
 
                     </Box>
 
                     <Box>
 
-                        <Firstline>
-                            Why we do it
-                        </Firstline>
+                        <Firstline> Why we do it </Firstline>
 
-                        <Secondline>
-                            We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality.
-                        </Secondline>
+                        <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
 
-                        <CalltoActionButton>
-                            <a href="www.status.im">Status Principles</a>
-                        </CalltoActionButton>
+                        <CalltoActionButton> <a href="www.status.im">Status Principles</a> </CalltoActionButton>
 
                     </Box>
 
                     <Box>
 
-                        <Firstline>
-                            What it takes
-                        </Firstline>
+                        <Firstline> What it takes </Firstline>
 
-                        <Secondline>
-                            Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved.
-                        </Secondline>
+                        <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
 
-                        <CalltoActionButton>
-                            <a href="www.status.im">Become an ambassador</a>
-                        </CalltoActionButton>
+                        <CalltoActionButton> <a href="www.status.im">Become an ambassador</a> </CalltoActionButton>
 
                     </Box>
 

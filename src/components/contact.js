@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Container } from './boxes';
-import {Line, Title, Link} from './tasks'
+import {Title, Link} from './tasks'
 
 
-const Line3 = styled(Line)`
+const Line3 = styled.div`
     width: 35%;
+    border-bottom: 1px solid #A8A8A8;
+
+    @media(max-width: 770px) {
+        width: 15%;
+    }
 `
 const Title3 = styled(Title)`
     font-size: 1.8rem;

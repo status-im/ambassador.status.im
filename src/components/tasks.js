@@ -3,14 +3,17 @@ import styled from 'styled-components';
 import { Container } from './boxes';
 
 
-export const Line = styled.div`
-    width: 27.5%;
+const Line = styled.div`
+    width: 17%;
     border-bottom: 1px solid #A8A8A8;
 
-    @media(max-width: 770px) {
+    @media(max-width: 1100px) {
         width: 10%;
     }
 
+    @media(max-width: 770px) {
+        display: none;
+    }
 `
 export const Title = styled.div`
     font-size: 1.5rem;
@@ -35,7 +38,8 @@ const Box = styled(Container)`
     font-size: 1.5rem;
 
     @media(max-width: 1220px) {
-        margin: 5% 8% 2% 8%;
+        width: 230px;
+        height: 230px;
     }
 `
 
@@ -53,6 +57,11 @@ export const Link = styled.div`
     a:hover {
         color: blue;
     }
+
+    @media(max-width: 1220px) {
+        font-size: 1rem;
+    }    
+    
 `
 
 export class Tasks extends Component {
@@ -62,7 +71,7 @@ export class Tasks extends Component {
 
                 <Container>
 
-                    <Line/><Title> We work across a range of areas and <br/> collaborate in many ways. </Title><Line/>
+                    <Line/><Title> We work across a range of areas and collaborate in many ways. </Title><Line/>
 
                 </Container>
 

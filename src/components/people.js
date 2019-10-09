@@ -16,6 +16,11 @@ const Text = styled.section`
     color: #2C2C2C;
     padding-top: 10rem;
     margin: auto;
+
+    @media(max-width: 770px) {
+        width: 75vw;
+    }
+
 `
 
 
@@ -73,7 +78,7 @@ class People extends Component {
                 
                 <div className="ellipse-up">
 
-                    <Container><Text>We are spread across the world <br /> with different backgrounds and areas of expertise</Text></Container>
+                    <Container><Text>We are spread across the world with different backgrounds and areas of expertise</Text></Container>
 
                     <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
 

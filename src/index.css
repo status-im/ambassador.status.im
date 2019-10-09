@@ -98,8 +98,38 @@ code {
 	 height: 26px;
 }
  
-
 .center {
     display: flex;
     justify-content: center;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+@media screen and (max-width: 900px) {
+	.mobile-nav {
+		display: flex;
+		align-items: center;
+	}
+
+	.mobile-logo {
+		margin: 1rem 30vw 1rem 2rem;;
+	}
+
+	.mobile-menu {
+		position: absolute;
+		right: 3rem;
+	}
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+	.ellipse-down {
+		height: 200px;
+		margin-bottom: 3rem;
+	}
 }

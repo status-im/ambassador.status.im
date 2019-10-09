@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Line, Title} from './tasks';
+import { Title} from './tasks';
 import { Container } from './boxes';
 import { CalltoActionButton } from './header';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
-const Line2 = styled(Line)`
+
+const Line2 = styled.div`
     width: 38%;
+    border-bottom: 1px solid #A8A8A8;
+
+    @media(max-width: 770px) {
+        width: 15%;
+    }
 `
 
 
@@ -29,7 +35,17 @@ const Box = styled(Container)`
     font-size: 1.5rem;
 
     @media(max-width: 1160px) {
-        margin: 5% 8% 2% 8%;
+        width: 220px;
+        height; 320px;
+    }
+
+    @media(max-width: 1024px) {
+        text-align: center;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
 `
@@ -41,9 +57,15 @@ const Text = styled.section`
     line-height: 180%;
     text-align: left;
     color: #000000;
-    padding: 15rem 1.2rem 2rem 1.3rem;
+    padding: 1.3rem;
     margin: auto;
+
+    @media(max-width: 1024px) {
+        text-align: center;
+    }
+
 `
+
 
 const BecomeAmbassador = styled(CalltoActionButton)`
     margin: 2rem;
@@ -55,6 +77,10 @@ const BecomeAmbassador = styled(CalltoActionButton)`
             color: white;
         }
         color: white;
+    }
+
+    @media(max-width: 770px) {
+       margin: 1.5rem;
     }
 
 `
@@ -78,7 +104,6 @@ export class Benefits extends Component {
                 <Container>
                     <BecomeAmbassador><Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
                         Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
-                
                 </Container>
 
 
