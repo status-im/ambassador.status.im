@@ -23,6 +23,17 @@ const Box = styled.div`
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     float: left;
+
+    @media(max-width: 1250px) {
+        width: 320px;
+        height: 310px;
+    }
+
+    @media(max-width: 1024px) {
+        margin: 0 10rem 3rem 10rem;
+        width: 450px;
+        height: 300px;
+    }
 `
 
 const Firstline = styled.div`
@@ -40,6 +51,15 @@ const Secondline = styled(Firstline)`
     margin-top: 1.5rem;
     margin-right: 2rem;
     height: 160px;
+
+    @media(max-width: 1250px) {
+        font-size: 0.9rem;
+    }
+
+    @media(max-width: 1024px) {
+        font-size: 1rem;
+        height: 130px;
+    }
 `
 
 const CalltoActionButton = styled.button`

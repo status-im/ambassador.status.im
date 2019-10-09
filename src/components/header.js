@@ -38,6 +38,8 @@ export const CalltoActionButton = styled.button`
     font-size: 1rem;
     padding: 1rem 1rem 1rem 1.2rem;
     cursor: pointer;
+    border: 1px solid #000000;
+    box-sizing: border-box;
     a {
         color: #000000;
         font-size: 1rem;

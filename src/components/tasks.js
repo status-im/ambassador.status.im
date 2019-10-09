@@ -6,15 +6,24 @@ import { Container } from './boxes';
 export const Line = styled.div`
     width: 27.5%;
     border-bottom: 1px solid #A8A8A8;
+
+    @media(max-width: 770px) {
+        width: 10%;
+    }
+
 `
 export const Title = styled.div`
     font-size: 1.5rem;
     color: #2C2C2C;
     margin: 0 2.5rem 0 2.5rem;
     text-align: center;
+
+    @media(max-width: 1024px) {
+        font-size: 1rem;
+    }
 `
 
-export const Box = styled(Container)`
+const Box = styled(Container)`
     width: 280px;
     height: 280px;
     margin: 5% 1% 2% 1%;
@@ -24,6 +33,10 @@ export const Box = styled(Container)`
     float: left;
     color: white;
     font-size: 1.5rem;
+
+    @media(max-width: 1220px) {
+        margin: 5% 8% 2% 8%;
+    }
 `
 
 export const Link = styled.div`
@@ -51,8 +64,12 @@ export class Tasks extends Component {
 
                     <Line/><Title> We work across a range of areas and <br/> collaborate in many ways. </Title><Line/>
 
-                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
+                </Container>
 
+                <Container>
+
+                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
+                
                 </Container>
 
                 <Container>

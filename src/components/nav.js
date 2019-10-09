@@ -20,11 +20,17 @@ const Navbar = styled.section`
     ul li {
         float: left;
         text-indent: 4rem;
+        @media(max-width: 1250px) {
+            text-indent: 3.5rem;
+        }
     }
 
     ul li a {
         color: black;
         text-decoration: none;
+        @media(max-width: 1250px) {
+            font-size: 0.8rem;
+        }
     }
 
     ul li a:hover {
@@ -45,6 +51,21 @@ const NavButton = styled.button`
         corlor: white;
         background: grey;        
     }
+    
+`
+
+const Logo = styled.ul`
+    margin-right: 8rem;
+    @media(max-width: 1250px) {
+        margin-right: 2rem;
+  }
+`
+
+const NavItem = styled.ul`
+    margin-left: 10rem;
+    @media(max-width: 1250px) {
+        margin-left: 2rem;
+    }
 `
 
 class Nav extends Component {
@@ -53,14 +74,14 @@ class Nav extends Component {
             <nav>
                 <Navbar>
 
-                    <ul style={{ marginRight: '8rem' }}>
+                    <Logo>
                         <a href="https://status.im/" target="_blank" rel="noopener noreferrer">
                             <img src={require('../images/logo.png')} alt="Status Logo" />
                         </a>
 
-                    </ul>
+                    </Logo>
 
-                    <ul style={{ marginLeft: '10rem' }}>
+                    <NavItem>
 
                         <li>
                             <a href="https://status.im/" target="_blank" rel="noopener noreferrer">
@@ -88,7 +109,8 @@ class Nav extends Component {
                             </NavButton>
                         </li>
 
-                    </ul>
+                    </NavItem>
+
                 </Navbar>
             </nav>
         );
