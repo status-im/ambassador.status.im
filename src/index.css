@@ -21,12 +21,12 @@ code {
 }
 
 .ellipse-down {
-  background: url("./images/ellipse_down.png");
+  background: url("./images/ellipse_up.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 310px;
-  box-sizing: border-box;
-  position: relative;
+  height: 300px;
+  transform: rotate(180deg);
+  margin-bottom: 5rem;
 }
 
 .contributor-profile {

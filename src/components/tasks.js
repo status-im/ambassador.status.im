@@ -3,12 +3,11 @@ import styled from 'styled-components';
 import { Container } from './boxes';
 
 
-const Line = styled.div`
-    width: 350px;
+export const Line = styled.div`
+    width: 27.5%;
     border-bottom: 1px solid #A8A8A8;
 `
-
-const Title = styled.div`
+export const Title = styled.div`
     font-size: 1.5rem;
     color: #2C2C2C;
     margin: 0 2.5rem 0 2.5rem;
@@ -27,7 +26,7 @@ const Box = styled(Container)`
     font-size: 1.5rem;
 `
 
-const Link = styled.div`
+export const Link = styled.div`
     text-align: center;
     margin-top: 3rem;
     font-size: 1.2rem;
@@ -37,18 +36,20 @@ const Link = styled.div`
         color: #4F6CDE;
         text-decoration: none !important;
     }
+
+    a:hover {
+        color: blue;
+    }
 `
 
-class Tasks extends Component {
+export class Tasks extends Component {
     render() {
         return (
             <div style={{ display: 'block', marginTop: '3rem' }}>
 
                 <Container>
 
-                    <Line />
-                    <Title> We work across a range of areas and <br/> collaborate in many ways. </Title>
-                    <Line />
+                    <Line/><Title> We work across a range of areas and <br/> collaborate in many ways. </Title><Line/>
 
                 </Container>
 
@@ -72,5 +73,3 @@ class Tasks extends Component {
         );
     }
 }
-
-export default Tasks;

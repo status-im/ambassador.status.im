@@ -28,18 +28,28 @@ const SecondTagline = styled.section`
 
 const CalltoActionButton = styled.button`
     font-family: 'DM Sans', sans-serif;
+    position: relative
+    z-index: 1;
     background-color: white;
-    margin: 3rem;
-    color: #000000;
+    margin: 10rem;
     border-radius: 5px;
     display: inline-block;
     align-item: center;
     font-size: 1rem;
     padding: 1rem 1rem 1rem 1.2rem;
+    cursor: pointer;
     a {
-        color: white !important;
+        color: #000000;
         font-size: 1rem;
+        text-decoration: none;
     }
+
+    :hover {
+        border: 3px solid black;
+    }
+    position: relative
+    z-index: 1;
+    transform: rotate(180deg);
 `
 
 
@@ -48,21 +58,21 @@ class Header extends Component {
         return (
             <header style={{ display: 'block', textAlign: 'center'}}>
 
-                    <Tagline>
-                        We are Status
-                    </Tagline>
+                <Tagline> We are Status </Tagline>
 
-                    <SecondTagline>
-                        As the Status Ambassadors, we build, educate, promote, and contribute to the next generation of the Web
-                    </SecondTagline>
+                <SecondTagline> As the Status Ambassadors, we build, educate, promote, and contribute to the next generation of the Web </SecondTagline>
 
-                    <div className="ellipse-down">
-                        <CalltoActionButton>
+                <div className="ellipse-down">
 
-                            <Container>Become an Ambassador <KeyboardArrowRightIcon /></Container>
-            
-                        </CalltoActionButton>
-                    </div>
+                    <CalltoActionButton>
+
+                        <Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
+                            Become an ambassador </a> <KeyboardArrowRightIcon /></Container>
+
+                    </CalltoActionButton>
+
+                </div>
+
 
             </header>
 

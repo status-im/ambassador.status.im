@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;  /* TWEENER - IE 10 */
@@ -10,6 +11,7 @@ export const Container = styled.div`
     flex-flow: row wrap;
     align-items: center;
 `
+
 
 const Box = styled.div`
     width: 380px;
@@ -50,6 +52,14 @@ const CalltoActionButton = styled.button`
         color: black;
         font-size: 1rem;
         text-decoration: none;
+    }
+    :hover {
+        background: grey;
+        a {
+            color: white;
+        }
+        border: grey;
+        cursor: pointer;
     }
 `
 

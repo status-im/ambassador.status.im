@@ -3,10 +3,9 @@ import styled from 'styled-components'
 
 const Navbar = styled.section`
     margin-top: 1.2rem;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr;
     font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
     
     img {
         width: 8rem;
@@ -20,13 +19,17 @@ const Navbar = styled.section`
 
     ul li {
         float: left;
-        text-indent: 3.5rem;
+        text-indent: 4rem;
     }
 
     ul li a {
         color: black;
         text-decoration: none;
     }
+
+    ul li a:hover {
+        color: grey;
+    }    
 `
 
 const NavButton = styled.button`
@@ -37,6 +40,11 @@ const NavButton = styled.button`
         color: white !important;
         font-size: 1rem;
     }
+
+    :hover {
+        corlor: white;
+        background: grey;        
+    }
 `
 
 class Nav extends Component {
@@ -45,29 +53,30 @@ class Nav extends Component {
             <nav>
                 <Navbar>
 
-                    <ul>
+                    <ul style={{ marginRight: '8rem' }}>
                         <a href="https://status.im/" target="_blank" rel="noopener noreferrer">
-                            <li><img src={require('../images/logo.png')} alt="Status Logo" /></li>
+                            <img src={require('../images/logo.png')} alt="Status Logo" />
                         </a>
+
                     </ul>
 
-                    <ul>
+                    <ul style={{ marginLeft: '10rem' }}>
 
                         <li>
                             <a href="https://status.im/" target="_blank" rel="noopener noreferrer">
-                                Who we are
+                                About
                             </a>
                         </li>
 
                         <li>
                             <a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer">
-                                What we do
+                                Benefits
                             </a>
                         </li>
 
                         <li>
                             <a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
-                                Upcoming events
+                                Working Groups
                             </a>
                         </li>
 

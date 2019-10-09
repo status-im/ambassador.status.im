@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Container } from './boxes';
 import Profiles from './profiles';
 import AmbassadorsData from './ambassadors.json';
-import { TextareaAutosize } from '@material-ui/core';
+import { Link } from './tasks'
 
 
 const Text = styled.section`
@@ -16,19 +16,6 @@ const Text = styled.section`
     color: #2C2C2C;
     padding-top: 10rem;
     margin: auto;
-`
-
-const Link = styled.div`
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 1.2rem;
-    text-decoration: none !important;
-    position: relative
-    z-index: 1;
-    a, a:visited {
-        color: #4F6CDE;
-        text-decoration: none !important;
-    }
 `
 
 

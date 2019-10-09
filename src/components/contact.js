@@ -1,28 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Container } from './boxes';
+import {Line, Title, Link} from './tasks'
 
 
-const Line = styled.div`
-    width: 470px;
-    border-bottom: 1px solid #A8A8A8;
+const Line3 = styled(Line)`
+    width: 35%;
 `
-const Title = styled.div`
+const Title3 = styled(Title)`
     font-size: 1.8rem;
-    color: #2C2C2C;
-    margin: 0 2.5rem 0 2.5rem;
-`
-
-const Link = styled.div`
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 1.2rem;
-    text-decoration: none !important;
-
-    a, a:visited {
-        color: #4F6CDE;
-        text-decoration: none !important;
-    }
 `
 
 const Blank = styled(Container)`
@@ -36,7 +22,7 @@ class Contact extends Component {
 
                 <Container>
 
-                    <Line /><Title> Get in touch </Title><Line />
+                    <Line3 /><Title3> Get in touch </Title3><Line3 />
   
                     <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Contact us in the Status Public Channel #Statusphere </a> </Link>
 
