@@ -15,6 +15,7 @@ const Line = styled.div`
         display: none;
     }
 `
+
 export const Title = styled.div`
     font-size: 1.5rem;
     color: #2C2C2C;
@@ -30,6 +31,9 @@ const Box = styled(Container)`
     width: 280px;
     height: 280px;
     margin: 5% 1% 2% 1%;
+    padding: 2rem;
+    text-align: center;
+    line-height: 180%;
     background: #000000;
     box-sizing: border-box;
     border-radius: 8px;
@@ -41,6 +45,17 @@ const Box = styled(Container)`
         width: 230px;
         height: 230px;
     }
+
+    @media(max-width: 1024px) {
+        text-align: center;
+        margin: 3rem 10rem 3rem 10rem;
+        width: 80vw;
+        height: auto;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
 `
 
 export const Link = styled.div`
@@ -60,6 +75,7 @@ export const Link = styled.div`
 
     @media(max-width: 1220px) {
         font-size: 1rem;
+        margin-bottom: 3rem;
     }    
     
 `
@@ -85,8 +101,8 @@ export class Tasks extends Component {
 
                     <Box> Events & Meetups </Box>
                     <Box> Content & Creative </Box>
-                    <Box> Community <br /> Development </Box>
-                    <Box> Technical <br /> Contribution </Box>
+                    <Box> Community Development </Box>
+                    <Box> Technical Contribution </Box>
 
                 </Container>
 
