@@ -4,6 +4,7 @@ import { Title} from './tasks';
 import { Container } from './boxes';
 import { CalltoActionButton } from './header';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 const Line2 = styled.div`
@@ -87,29 +88,29 @@ const BecomeAmbassador = styled(CalltoActionButton)`
 export class Benefits extends Component {
     render() {
         return (
-            <div style={{ display: 'block', marginTop: '3rem' }}>
+            <ScrollableAnchor id={'benefits'}>
+                <div style={{ display: 'block', marginTop: '3rem', paddingTop: '1rem' }}>
+                    
+                        <Container><Line2 /><Title2> Benefits </Title2><Line2 /></Container>
 
-                <Container><Line2 /><Title2> Benefits </Title2><Line2 /></Container>
+                        <Container>
 
-                <Container>
+                            <Box><Text>Receive funding to host meetups, workshops, and projects</Text></Box>
+                            <Box><Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
+                            <Box>
+                                <Text>Get some cool Status swag and earn SNT</Text>
+                            </Box>
+                            <Box><Text>Active contribution in building the next generation of the internet</Text></Box>
 
-                    <Box><Text>Receive funding to host meetups, workshops, and projects</Text></Box>
-                    <Box><Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
-                    <Box>
-                        <Text>Get some cool Status swag and earn SNT</Text>
-                    </Box>
-                    <Box><Text>Active contribution in building the next generation of the internet</Text></Box>
+                        </Container>
 
-                </Container>
-
-                <Container>
-                    <BecomeAmbassador><Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
-                        Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
-                </Container>
-
-
-            </div>
-
+                        <Container>
+                            <BecomeAmbassador><Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
+                                Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
+                        </Container>
+                    
+                </div>
+            </ScrollableAnchor>
         );
     }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Container } from './boxes';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 const Line = styled.div`
@@ -83,30 +84,36 @@ export const Link = styled.div`
 export class Tasks extends Component {
     render() {
         return (
-            <div style={{ display: 'block', marginTop: '3rem' }}>
 
-                <Container>
+            <ScrollableAnchor id={'tasks'}>
 
-                    <Line/><Title> We work across a range of areas and collaborate in many ways. </Title><Line/>
+                <div style={{ display: 'block', marginTop: '3rem', paddingTop: '1rem' }}>
 
-                </Container>
+                    <Container>
 
-                <Container>
+                        <Line /><Title> We work across a range of areas and collaborate in many ways. </Title><Line />
 
-                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
-                
-                </Container>
+                    </Container>
 
-                <Container>
+                    <Container>
 
-                    <Box> Events & Meetups </Box>
-                    <Box> Content & Creative </Box>
-                    <Box> Community Development </Box>
-                    <Box> Technical Contribution </Box>
+                        <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
 
-                </Container>
+                    </Container>
 
-            </div>
+                    <Container>
+
+                        <Box> Events & Meetups </Box>
+                        <Box> Content & Creative </Box>
+                        <Box> Community Development </Box>
+                        <Box> Technical Contribution </Box>
+
+                    </Container>
+
+                </div>
+
+            </ScrollableAnchor>
+
 
         );
     }

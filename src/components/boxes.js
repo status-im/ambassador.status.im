@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 export const Container = styled.div`
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -108,44 +108,45 @@ const CalltoActionButton = styled.button`
 export class Boxes extends Component {
     render() {
         return (
-            <div style={{ display: 'block'}}>
-                
-                <Container>
+            <ScrollableAnchor id={'about'}>
+                <div style={{ display: 'block', paddingTop: '1rem'}}>
+                    
+                    <Container>
 
-                    <Box>
+                        <Box>
 
-                        <Firstline> What We Do </Firstline>
+                            <Firstline> What We Do </Firstline>
 
-                        <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
+                            <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
 
-                        <CalltoActionButton> <a href="www.status.im"> Working Groups </a></CalltoActionButton>
+                            <CalltoActionButton> <a href="www.status.im"> Working Groups </a></CalltoActionButton>
 
-                    </Box>
+                        </Box>
 
-                    <Box>
+                        <Box>
 
-                        <Firstline> Why we do it </Firstline>
+                            <Firstline> Why we do it </Firstline>
 
-                        <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
+                            <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
 
-                        <CalltoActionButton> <a href="www.status.im">Status Principles</a> </CalltoActionButton>
+                            <CalltoActionButton> <a href="www.status.im">Status Principles</a> </CalltoActionButton>
 
-                    </Box>
+                        </Box>
 
-                    <Box>
+                        <Box>
 
-                        <Firstline> What it takes </Firstline>
+                            <Firstline> What it takes </Firstline>
 
-                        <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
+                            <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
 
-                        <CalltoActionButton> <a href="www.status.im">Become an ambassador</a> </CalltoActionButton>
+                            <CalltoActionButton> <a href="www.status.im">Become an ambassador</a> </CalltoActionButton>
 
-                    </Box>
+                        </Box>
 
-                </Container>
+                    </Container>
 
-            </div>
-
+                </div>
+            </ScrollableAnchor>
         );
     }
 }

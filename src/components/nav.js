@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
+
 const Navbar = styled.section`
     margin-top: 1.2rem;
     font-family: 'DM Sans', sans-serif;
@@ -125,13 +126,13 @@ class Nav extends Component {
 
                     <NavItem>
 
-                        <li><a href="https://status.im/" target="_blank" rel="noopener noreferrer"> About </a></li>
+                        <li><a href="#about"> About </a></li>
 
-                        <li><a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer"> Benefits </a></li>
+                        <li><a href="#benefits"> Benefits </a></li>
 
-                        <li><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Working Groups </a></li>
+                        <li><a href="#tasks"> Working Groups </a></li>
 
-                        <li><NavButton><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
+                        <li><NavButton><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
 
                     </NavItem>
 
@@ -161,13 +162,13 @@ class Nav extends Component {
 
                                 <MobileNav>
                                         <ul>
-                                            <li><a href="https://status.im/" target="_blank" rel="noopener noreferrer"> About </a></li>
+                                            <li><a href="#about"> About </a></li>
                                            
-                                            <li><a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer"> Benefits </a></li>
+                                            <li><a href="#benefits"> Benefits </a></li>
                                             
-                                            <li><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Working Groups </a></li>
+                                            <li><a href="#tasks"> Working Groups </a></li>
                                             
-                                            <li><NavButton><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
+                                            <li><NavButton><a href="http://bit.ly/status-ambassador-application"> Become an ambassador </a></NavButton></li>
                                         </ul>
                                 </MobileNav>
 

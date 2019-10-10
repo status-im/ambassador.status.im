@@ -80,7 +80,7 @@ class People extends Component {
 
                     <Container><Text>We are spread across the world with different backgrounds and areas of expertise</Text></Container>
 
-                    <Link> <a href="https://status.im" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
+                    <Link> <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
 
                 </div>
 
