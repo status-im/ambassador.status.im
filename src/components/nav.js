@@ -80,8 +80,14 @@ const NavItem = styled.ul`
 const MobileNav = styled.div`
 
     li {
-        margin: 2rem 2rem 2rem 0;
-        
+        padding: 1rem 1rem 1rem 0;
+        border-bottom: 1px solid #EBEBEB;
+        margin-right: 2.2rem;
+    }
+
+    li:last-child {
+        margin-top: 1.5rem;
+        border-bottom: 0;
     }
     
     a, a:hover, a:visited {
@@ -90,12 +96,9 @@ const MobileNav = styled.div`
     }
 
     ul {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
-    hr {
-
-    }
 `
 
 class Nav extends Component {
@@ -148,10 +151,10 @@ class Nav extends Component {
                             : 
                         <div className="mobile-nav-menu">
                             
-                            <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
+                            <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img className="padding-top-20" src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
                             <a href="#" className="mobile-menu" onClick={this.handleClick}>
                                 {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
-                                    : <svg className="padding-top-10" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
+                                    : <svg className="padding-top-20" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
                                 }
                             </a>
                             <div>
@@ -159,11 +162,11 @@ class Nav extends Component {
                                 <MobileNav>
                                         <ul>
                                             <li><a href="https://status.im/" target="_blank" rel="noopener noreferrer"> About </a></li>
-                                            
+                                           
                                             <li><a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer"> Benefits </a></li>
-
+                                            
                                             <li><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Working Groups </a></li>
-
+                                            
                                             <li><NavButton><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
                                         </ul>
                                 </MobileNav>

@@ -128,8 +128,8 @@ code {
 	position: relative;
 }
 
-.padding-top-10 {
-	padding-top: 10px;
+.padding-top-20 {
+	padding-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
