@@ -58,6 +58,12 @@ const NavButton = styled.button`
         background-color: white;
         border: 1px solid #000000;
     }
+
+    @media(max-width: 350px) {
+        a { 
+            font-size: 0.8rem;
+        }
+    }
     
 `
 
@@ -99,8 +105,25 @@ const MobileNav = styled.div`
     ul {
         margin-top: 1rem;
     }
-
 `
+
+const navList = 
+
+    <NavItem>
+
+        <li><a href="#about"> About </a></li>
+
+        <li><a href="#benefits"> Benefits </a></li>
+
+        <li><a href="#tasks"> Working Groups </a></li>
+
+        <li><NavButton><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
+
+    </NavItem>
+
+
+const statusLogo = <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer">
+    <img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
 
 class Nav extends Component {
 
@@ -123,56 +146,32 @@ class Nav extends Component {
                 <Navbar>
 
                     <Logo><a href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" /></a></Logo>
-
-                    <NavItem>
-
-                        <li><a href="#about"> About </a></li>
-
-                        <li><a href="#benefits"> Benefits </a></li>
-
-                        <li><a href="#tasks"> Working Groups </a></li>
-
-                        <li><NavButton><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
-
-                    </NavItem>
+                    {navList}
 
                 </Navbar>
 
                 <div className="mobile-nav">
 
-                    <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
-                    <a href="#" className="mobile-menu" onClick={this.handleClick}>
+                    {statusLogo}
+                    <button className="mobile-menu" onClick={this.handleClick}>
                         {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
                             : <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
                         }
-                    </a>
+                    </button>
 
                     <div>
                         {this.state.isToggleOn ? ""
                             : 
                         <div className="mobile-nav-menu">
                             
-                            <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img className="padding-top-20" src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
-                            <a href="#" className="mobile-menu" onClick={this.handleClick}>
+                            {statusLogo}
+                            <button className="mobile-menu" onClick={this.handleClick}>
                                 {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
                                     : <svg className="padding-top-20" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
                                 }
-                            </a>
-                            <div>
+                            </button>
 
-                                <MobileNav>
-                                        <ul>
-                                            <li><a href="#about"> About </a></li>
-                                           
-                                            <li><a href="#benefits"> Benefits </a></li>
-                                            
-                                            <li><a href="#tasks"> Working Groups </a></li>
-                                            
-                                            <li><NavButton><a href="http://bit.ly/status-ambassador-application"> Become an ambassador </a></NavButton></li>
-                                        </ul>
-                                </MobileNav>
-
-                            </div>
+                            <div><MobileNav> {navList} </MobileNav></div>
 
                         </div>
                         }

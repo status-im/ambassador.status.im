@@ -146,6 +146,12 @@ code {
 	.mobile-menu {
 		position: absolute;
 		right: 3rem;
+		border: none;
+		background: none;
+	}
+
+	.mobile-menu:focus {
+		outline:0;
 	}
 
 }
