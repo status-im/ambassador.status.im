@@ -117,7 +117,7 @@ export class Boxes extends Component {
 
                             <Firstline> What We Do </Firstline>
                             <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
-                            <CalltoActionButton> <a href="www.status.im"> Working Groups </a></CalltoActionButton>
+                            <CalltoActionButton> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> Working Groups </a></CalltoActionButton>
 
                         </Box>
 
@@ -125,7 +125,7 @@ export class Boxes extends Component {
 
                             <Firstline> Why we do it </Firstline>
                             <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
-                            <CalltoActionButton> <a href="www.status.im">Status Principles</a> </CalltoActionButton>
+                            <CalltoActionButton> <a href="https://status.im/about/" target="_blank" rel="noopener noreferrer">Status Principles</a> </CalltoActionButton>
 
                         </Box>
 
@@ -133,7 +133,7 @@ export class Boxes extends Component {
 
                             <Firstline> What it takes </Firstline>
                             <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
-                            <CalltoActionButton> <a href="www.status.im">Become an ambassador</a> </CalltoActionButton>
+                            <CalltoActionButton> <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer">Become an ambassador</a> </CalltoActionButton>
 
                         </Box>
 
