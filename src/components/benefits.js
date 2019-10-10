@@ -82,7 +82,6 @@ const BecomeAmbassador = styled(CalltoActionButton)`
     @media(max-width: 770px) {
        margin: 1.5rem;
     }
-
 `
 
 export class Benefits extends Component {
@@ -96,7 +95,9 @@ export class Benefits extends Component {
 
                     <Box><Text>Receive funding to host meetups, workshops, and projects</Text></Box>
                     <Box><Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
-                    <Box><Text>Get some cool Status swag and earn SNT</Text></Box>
+                    <Box>
+                        <Text>Get some cool Status swag and earn SNT</Text>
+                    </Box>
                     <Box><Text>Active contribution in building the next generation of the internet</Text></Box>
 
                 </Container>
