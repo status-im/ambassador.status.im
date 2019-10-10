@@ -108,17 +108,11 @@ const MobileNav = styled.div`
 `
 
 const navList = 
-
     <NavItem>
-
         <li><a href="#about"> About </a></li>
-
         <li><a href="#benefits"> Benefits </a></li>
-
         <li><a href="#tasks"> Working Groups </a></li>
-
         <li><NavButton><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
-
     </NavItem>
 
 
@@ -130,7 +124,6 @@ class Nav extends Component {
     constructor(props) {
         super(props);
         this.state = { isToggleOn: true };
-
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -144,14 +137,12 @@ class Nav extends Component {
         return (
             <nav>
                 <Navbar>
-
                     <Logo><a href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" /></a></Logo>
                     {navList}
-
                 </Navbar>
 
                 <div className="mobile-nav">
-
+                    
                     {statusLogo}
                     <button className="mobile-menu" onClick={this.handleClick}>
                         {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 

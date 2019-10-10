@@ -79,7 +79,6 @@ class People extends Component {
                 <div className="ellipse-up">
 
                     <Container><Text>We are spread across the world with different backgrounds and areas of expertise</Text></Container>
-
                     <Link> <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Join Us </a> </Link>
 
                 </div>
