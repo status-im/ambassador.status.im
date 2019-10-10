@@ -10,13 +10,11 @@ const Navbar = styled.section`
     img {
         width: 8rem;
     }
-
     ul {
         display: flex;
         list-style: none;
         align-items: center;
     }
-
     ul li {
         float: left;
         text-indent: 4rem;
@@ -24,7 +22,6 @@ const Navbar = styled.section`
             text-indent: 3.5rem;
         }
     }
-
     ul li a {
         color: black;
         text-decoration: none;
@@ -32,15 +29,12 @@ const Navbar = styled.section`
             font-size: 0.8rem;
         }
     }
-
     ul li a:hover {
         color: grey;
     }
-
     @media(max-width: 900px) {
         display: none;
     }
-
 `
 
 const NavButton = styled.button`
@@ -51,14 +45,17 @@ const NavButton = styled.button`
         color: white !important;
         font-size: 1rem;
     }
-
     :hover {
         corlor: white;
         background: grey;        
     }
 
     @media(max-width: 900px) {
-        display: none;
+        a { 
+            color: black !important;
+        }
+        background-color: white;
+        border: 1px solid #000000;
     }
     
 `
@@ -80,7 +77,42 @@ const NavItem = styled.ul`
     }
 `
 
+const MobileNav = styled.div`
+
+    li {
+        margin: 2rem 2rem 2rem 0;
+        
+    }
+    
+    a, a:hover, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        margin-top: 3rem;
+    }
+
+    hr {
+
+    }
+`
+
 class Nav extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { isToggleOn: true };
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        this.setState(state => ({
+            isToggleOn: !state.isToggleOn
+        }));
+    }
+
     render() {
         return (
             <nav>
@@ -103,11 +135,44 @@ class Nav extends Component {
                 </Navbar>
 
                 <div className="mobile-nav">
-                    
-                    <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" width="100px"/></a>
-                    <a href="" className="mobile-menu">
-                        <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg>
+
+                    <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
+                    <a href="#" className="mobile-menu" onClick={this.handleClick}>
+                        {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
+                            : <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
+                        }
                     </a>
+
+                    <div>
+                        {this.state.isToggleOn ? ""
+                            : 
+                        <div className="mobile-nav-menu">
+                            
+                            <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
+                            <a href="#" className="mobile-menu" onClick={this.handleClick}>
+                                {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
+                                    : <svg className="padding-top-10" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
+                                }
+                            </a>
+                            <div>
+
+                                <MobileNav>
+                                        <ul>
+                                            <li><a href="https://status.im/" target="_blank" rel="noopener noreferrer"> About </a></li>
+                                            
+                                            <li><a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer"> Benefits </a></li>
+
+                                            <li><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Working Groups </a></li>
+
+                                            <li><NavButton><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
+                                        </ul>
+                                </MobileNav>
+
+                            </div>
+
+                        </div>
+                        }
+                    </div>
 
                 </div>
 

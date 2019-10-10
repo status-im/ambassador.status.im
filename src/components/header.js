@@ -59,8 +59,6 @@ export const CalltoActionButton = styled.button`
     cursor: pointer;
     border: 1px solid #000000;
     box-sizing: border-box;
-    position: relative
-    z-index: 1;
     transform: rotate(180deg);
     a {
         color: #000000;

@@ -107,10 +107,36 @@ code {
 	display: none;
 }
 
+.mobile-nav-menu {
+	background:white;
+	box-shadow: 0px 2px 14px rgba(9, 9, 9, 0.25);
+	border-radius: 4px;
+	position: absolute;
+	padding: 1rem;
+	flex-direction: column;
+	width: 90%;
+	z-index: 2;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top: 1rem;
+}
+
+.mobile-nav-menu ul{
+	list-style: none;
+	position: relative;
+}
+
+.padding-top-10 {
+	padding-top: 10px;
+}
+
 @media screen and (max-width: 900px) {
 	.mobile-nav {
 		display: flex;
 		align-items: center;
+		width: calc(100% - 20px);
 	}
 
 	.mobile-logo {
