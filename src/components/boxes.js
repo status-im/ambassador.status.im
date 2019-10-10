@@ -54,7 +54,6 @@ const Firstline = styled.p`
         font-size: 1.3rem;
         text-align: center;
     }
-
 `
 
 const Secondline = styled(Firstline)`

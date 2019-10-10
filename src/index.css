@@ -132,6 +132,42 @@ code {
 	padding-top: 20px;
 }
 
+.funding-bg {
+	background-image: url("./images/funding.png");
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+
+.support-bg {
+	background-image: url("./images/support.png");
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+
+.rewards-bg {
+	background-image: url("./images/rewards.png");
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+
+.future-bg {
+	background-image: url("./images/future.png");
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+
 @media screen and (max-width: 900px) {
 	.mobile-nav {
 		display: flex;

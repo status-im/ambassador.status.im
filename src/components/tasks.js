@@ -34,7 +34,6 @@ const Box = styled(Container)`
     margin: 5% 1% 2% 1%;
     padding: 2rem;
     text-align: center;
-    line-height: 180%;
     background: #000000;
     box-sizing: border-box;
     border-radius: 8px;

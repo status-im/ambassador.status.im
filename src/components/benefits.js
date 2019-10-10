@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Title} from './tasks';
+import { Title } from './tasks';
 import { Container } from './boxes';
 import { CalltoActionButton } from './header';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
@@ -16,28 +16,25 @@ const Line2 = styled.div`
     }
 `
 
-
 const Title2 = styled(Title)`
     font-size: 1.8rem;
 `
 
 
 const Box = styled(Container)`
-    background: #FFFFFF;
+    display: block;
     width: 250px;
     margin: 5% 1.5% 2% 1.5%;
     height: 400px;
-    border: 1px solid #A8A8A8;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     border-radius: 8px;
     float: left;
-    color: white;
     font-size: 1.5rem;
 
     @media(max-width: 1160px) {
         width: 220px;
-        height; 320px;
+        height: 360px;
     }
 
     @media(max-width: 1024px) {
@@ -51,20 +48,31 @@ const Box = styled(Container)`
 
 `
 
+const Category = styled.p`
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-weight: bold;
+`
+
 const Text = styled.section`
-    font-style: normal;
     font-weight: normal;
     font-size: 1rem;
     line-height: 180%;
     text-align: left;
-    color: #000000;
-    padding: 1.3rem;
-    margin: auto;
+    color: white;
+    margin: 150px 20px 20px 20px;
 
-    @media(max-width: 1024px) {
-        text-align: center;
+    @media(max-width: 1160px) {
+        font-size: 0.8rem;
     }
 
+    @media(max-width: 1024px) {
+        margin: 100px 20px 20px 20px;
+        text-align: center;
+        font-size: 1rem;
+    }
 `
 
 
@@ -85,6 +93,7 @@ const BecomeAmbassador = styled(CalltoActionButton)`
     }
 `
 
+
 export class Benefits extends Component {
     render() {
         return (
@@ -95,12 +104,24 @@ export class Benefits extends Component {
 
                         <Container>
 
-                            <Box><Text>Receive funding to host meetups, workshops, and projects</Text></Box>
-                            <Box><Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
-                            <Box>
+                            <Box className="funding-bg">
+                                <Category>Funding</Category>
+                                <Text>Receive funding to host meetups, workshops, and projects</Text> 
+                            </Box>
+                            
+                            <Box className="support-bg">
+                                <Category>Access & Support</Category>
+                                <Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
+                            
+                            <Box className="rewards-bg">
+                                <Category>Rewards</Category>
                                 <Text>Get some cool Status swag and earn SNT</Text>
                             </Box>
-                            <Box><Text>Active contribution in building the next generation of the internet</Text></Box>
+
+                            <Box className="future-bg">
+                                <Category>Build the future</Category>                             
+                                <Text>Active contribution in building the next generation of the internet</Text>
+                            </Box>
 
                         </Container>
 
