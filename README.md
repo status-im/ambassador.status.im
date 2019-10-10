@@ -1,4 +1,4 @@
-# Translate Status into Your Language
+# Status Ambassador Program
 
 Status ambassadors are a group of passionate people from all over the world who help grow the community, educate new members, and spread the words about Status.
 
