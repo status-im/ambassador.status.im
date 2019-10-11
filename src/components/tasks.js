@@ -30,7 +30,8 @@ const Title = styled.div`
     @media(max-width: 1024px) {
         line-height: 23px;
         font-size: 1rem;
-        width: 50%
+        width: 55%
+        margin: 0 1rem 0 1rem;
     }
 `
 

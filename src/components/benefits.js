@@ -70,6 +70,11 @@ const Box = styled(Container)`
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
+
+        @media(max-width: 1160px) {
+            margin-top: 40px;
+        }        
+        
     }
 
 `
@@ -80,6 +85,10 @@ const Category = styled.p`
     color: black;
     margin-top: 50px;
     font-weight: bold;
+
+    @media(max-width: 1160px) {
+        margin-top: 30px;
+    }
 `
 
 const Text = styled.section`
