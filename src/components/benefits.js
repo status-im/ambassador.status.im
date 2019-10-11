@@ -123,6 +123,14 @@ const BecomeAmbassador = styled(CalltoActionButton)`
         color: white;
     }
 
+    @media(max-width: 1024px) {
+       background: black;
+       color: white;
+       a {
+           color: white;
+       }
+    }
+
     @media(max-width: 770px) {
        margin: 1.5rem;
     }
