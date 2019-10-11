@@ -132,8 +132,8 @@ code {
 	padding-top: 20px;
 }
 
-.funding-bg {
-	background-image: url("./images/funding.png");
+.event-bg {
+	background-image: url("./images/event.png");
 	background-color: black;
 	background-position: center;
 	background-size: cover;
@@ -141,8 +141,8 @@ code {
 	height: 100%
 }
 
-.support-bg {
-	background-image: url("./images/support.png");
+.content-bg {
+	background-image: url("./images/content.png");
 	background-color: black;
 	background-position: center;
 	background-size: cover;
@@ -150,8 +150,8 @@ code {
 	height: 100%
 }
 
-.rewards-bg {
-	background-image: url("./images/rewards.png");
+.community-bg {
+	background-image: url("./images/community.png");
 	background-color: black;
 	background-position: center;
 	background-size: cover;
@@ -159,8 +159,8 @@ code {
 	height: 100%
 }
 
-.future-bg {
-	background-image: url("./images/future.png");
+.technical-bg {
+	background-image: url("./images/technical.png");
 	background-color: black;
 	background-position: center;
 	background-size: cover;

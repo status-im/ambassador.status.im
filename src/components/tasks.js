@@ -29,12 +29,12 @@ export const Title = styled.div`
 `
 
 const Box = styled(Container)`
+    display: flex;
     width: 280px;
     height: 280px;
     margin: 5% 1% 2% 1%;
     padding: 2rem;
     text-align: center;
-    background: #000000;
     box-sizing: border-box;
     border-radius: 8px;
     float: left;
@@ -102,10 +102,10 @@ export class Tasks extends Component {
 
                     <Container>
 
-                        <Box> Events & Meetups </Box>
-                        <Box> Content & Creative </Box>
-                        <Box> Community Development </Box>
-                        <Box> Technical Contribution </Box>
+                        <Box className="event-bg"> Events & Meetups </Box>
+                        <Box className="content-bg"> Content & Creative </Box>
+                        <Box className="community-bg"> Community Development </Box>
+                        <Box className="technical-bg"> Technical Contribution </Box>
 
                     </Container>
 
