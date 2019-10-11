@@ -41,7 +41,7 @@ class Profiles extends Component {
                     ?
                         <div>
                             <img src={require('../images/ambassadors/' + profileItem.photo)} className="contributor-profile" alt={profileItem.name} />
-                            <div class="contributor-info">
+                            <div className="contributor-info">
                                 <img src={require('../images/ambassadors/' + profileItem.photo)} className="contributor-profile" alt={profileItem.name} />
                                 <b>{profileItem.name}</b>
                                 <span></span>

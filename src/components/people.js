@@ -68,10 +68,6 @@ class People extends Component {
                 />
             })
 
-
-            console.log(profilePhotos);
-        
-
         return (
 
             <div style={{ display: 'block', marginTop: '3rem' }}>
