@@ -100,7 +100,7 @@ code {
  
 .center {
     display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .mobile-nav {
@@ -200,4 +200,9 @@ code {
 		height: 200px;
 		margin-bottom: 3rem;
 	}
+
+	.center {
+		margin-top: 2rem;
+	}
+
 }

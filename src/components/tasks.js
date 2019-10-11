@@ -5,26 +5,32 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 const Line = styled.div`
-    width: 17%;
+    width: 25%;
     border-bottom: 1px solid #A8A8A8;
 
     @media(max-width: 1100px) {
-        width: 10%;
+        width: 24%;
     }
 
     @media(max-width: 770px) {
-        display: none;
+        position: absolute;
+        width: 15%;
+        left: ${props => { if (props.left) { return "0" } }};
+        right: ${props => { if (props.right) { return "0" } }};
     }
 `
 
-export const Title = styled.div`
+const Title = styled.div`
+    width: 35%
     font-size: 1.5rem;
     color: #2C2C2C;
     margin: 0 2.5rem 0 2.5rem;
     text-align: center;
 
     @media(max-width: 1024px) {
+        line-height: 23px;
         font-size: 1rem;
+        width: 50%
     }
 `
 
@@ -48,10 +54,10 @@ const Box = styled(Container)`
 
     @media(max-width: 1024px) {
         text-align: center;
-        margin: 3rem 10rem 3rem 10rem;
-        width: 80vw;
+        margin: 3rem 0.5rem 3rem 0.5rem;
+        width: 85vw;
         height: auto;
-        padding: 1rem;
+        padding: 3rem;
         margin: 1rem;
         font-size: 1rem;
     }
@@ -90,7 +96,7 @@ export class Tasks extends Component {
 
                     <Container>
 
-                        <Line /><Title> We work across a range of areas and collaborate in many ways. </Title><Line />
+                        <Line left /><Title> We work across a range of areas and collaborate in many ways. </Title><Line right/>
 
                     </Container>
 
