@@ -202,7 +202,7 @@ export class Benefits extends Component {
                         </Carousel>      
 
                         <Container style={{ marginTop: '1rem'}}>
-                            <BecomeAmbassador><Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
+                            <BecomeAmbassador><Container><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer">
                                 Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
                         </Container>
                     
