@@ -79,7 +79,7 @@ const Box = styled.div`
         }        
         @media(max-width: 1024px) {
             filter: brightness(0) invert(1);
-            width: 90px !important; 
+            width: auto !important;
         }     
     } 
 `
