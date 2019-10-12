@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import { Container } from './boxes';
-
+import Fade from 'react-reveal/Fade';
 
 const Tagline = styled.section`
     font-style: normal;
@@ -46,25 +46,21 @@ const SecondTagline = styled.section`
 
 `
 
-export const CalltoActionButton = styled.button`
+const CalltoActionButton = styled.button`
     font-family: 'DM Sans', sans-serif;
     position: relative
     z-index: 1;
     background-color: white;
-    margin: 10rem;
     border-radius: 5px;
-    display: inline-block;
-    align-item: center;
+    display: inline-flex;
+    align-items: center;
     padding: 1rem 1rem 1rem 1.2rem;
     cursor: pointer;
     border: 1px solid #000000;
     box-sizing: border-box;
     transform: rotate(180deg);
-    a {
-        color: #000000;
-        font-size: 1rem;
-        text-decoration: none;
-    }
+    color: #000000;
+    font-size: 1rem;
 
     :hover {
         border: 3px solid black;
@@ -72,20 +68,11 @@ export const CalltoActionButton = styled.button`
 
     @media(max-width: 900px) {
         padding: 0.8rem 0.8rem 0.8rem 1rem;
-        a {
-            font-size: 0.8rem;      
-        }
+        font-size: 0.8rem;      
     }
-
-    @media(max-width: 767px) {
-        margin: 6rem 3rem 3rem 3rem;
-
-    }
-
 `
 
-
-export class Header extends Component {
+class Header extends Component {
     render() {
         return (
             <header style={{ display: 'block', textAlign: 'center'}}>
@@ -96,13 +83,12 @@ export class Header extends Component {
 
                 <div className="ellipse-down">
 
-                    <CalltoActionButton>
+                    <Fade left>
 
-                        <Container><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer">
-                            Become an ambassador </a> <KeyboardArrowRightIcon /></Container>
+                        <Container className="cta-top"><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
+                            Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
 
-                    </CalltoActionButton>
-
+                    </Fade>
                 </div>
 
 

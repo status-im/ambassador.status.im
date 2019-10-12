@@ -12,11 +12,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+	text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+/* People section */
 .ellipse-up {
   background: url("./images/ellipse_up.png");
   background-size: 100%;
@@ -25,6 +30,7 @@ code {
   margin-top: 100px;
 }
 
+/* Header section */
 .ellipse-down {
   background: url("./images/ellipse_up.png");
   background-size: 100%;
@@ -34,6 +40,7 @@ code {
   margin-bottom: 5rem;
 }
 
+/* Start of the profile photos */
 .contributors {
 	 display: flex;
 	 flex-wrap: wrap;
@@ -103,7 +110,9 @@ code {
 	 width: 26px;
 	 height: 26px;
 }
- 
+
+/* End of the profile photos */
+
 .center {
     display: flex;
 	justify-content: center;
@@ -117,7 +126,7 @@ code {
 	background:white;
 	box-shadow: 0px 2px 14px rgba(9, 9, 9, 0.25);
 	border-radius: 4px;
-	position: absolute;
+	position: fixed;
 	padding: 1rem;
 	flex-direction: column;
 	width: 90%;
@@ -134,8 +143,8 @@ code {
 	position: relative;
 }
 
-.padding-top-20 {
-	padding-top: 20px;
+.padding-top-10 {
+	padding-top: 10px;
 }
 
 .event-bg {
@@ -174,6 +183,10 @@ code {
 	height: 100%
 }
 
+.cta-top{
+	position: relative;
+	top: 10rem;
+}
 
 @media screen and (min-width: 1025px) {
   .carousel-display{
@@ -195,7 +208,6 @@ code {
 	  padding-left: 0;
   }
 }
-
 
 @media screen and (max-width: 900px) {
 	.mobile-nav {
@@ -230,8 +242,19 @@ code {
 		margin-bottom: 3rem;
 	}
 
+	.mobile-nav-menu {
+		padding: 0.5rem;
+	}
+
 	.center {
 		margin-top: 2rem;
 	}
+
+    @media(max-width: 767px) {
+
+		.cta-top{
+        	top: 6rem;
+		}
+    }
 
 }

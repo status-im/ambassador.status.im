@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade';
 
-
+//Navigation bar container
 const Navbar = styled.section`
     margin-top: 1.2rem;
     font-family: 'DM Sans', sans-serif;
@@ -38,35 +39,32 @@ const Navbar = styled.section`
     }
 `
 
+//Navigation CTA
 const NavButton = styled.button`
     background: #000000;
     border-radius: 5px;
     padding: 0.7rem 1.2rem 0.7rem 1.2rem;
-    a {
-        color: white !important;
-        font-size: 1rem;
-    }
+    color: white !important;
+    font-size: 1rem;
+    cursor: pointer;
     :hover {
         corlor: white;
         background: grey;        
     }
 
     @media(max-width: 900px) {
-        a { 
-            color: black !important;
-        }
+        color: black !important;
         background-color: white;
         border: 1px solid #000000;
     }
 
     @media(max-width: 350px) {
-        a { 
-            font-size: 0.8rem;
-        }
+        font-size: 0.8rem;
     }
     
 `
 
+//Status logo
 const Logo = styled.ul`
     margin-right: 8rem;
     @media(max-width: 1250px) {
@@ -77,6 +75,8 @@ const Logo = styled.ul`
     }
 `
 
+
+//Menus
 const NavItem = styled.ul`
     margin-left: 10rem;
     @media(max-width: 1250px) {
@@ -84,6 +84,8 @@ const NavItem = styled.ul`
     }
 `
 
+
+//Mobile version
 const MobileNav = styled.div`
 
     li {
@@ -107,15 +109,6 @@ const MobileNav = styled.div`
     }
 `
 
-const navList = 
-    <NavItem>
-        <li><a href="#about"> About </a></li>
-        <li><a href="#benefits"> Benefits </a></li>
-        <li><a href="#tasks"> Working Groups </a></li>
-        <li><NavButton><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> Become an ambassador </a></NavButton></li>
-    </NavItem>
-
-
 const statusLogo = <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer">
     <img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
 
@@ -135,39 +128,57 @@ class Nav extends Component {
 
     render() {
         return (
-            <nav>
+            <nav >
+
+                {/* Desktop version */}
                 <Navbar>
                     <Logo><a href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" /></a></Logo>
-                    {navList}
+                    <NavItem >
+                        <li><a href="#about" > About </a></li>
+                        <li><a href="#benefits"> Benefits </a></li>
+                        <li><a href="#tasks"> Working Groups </a></li>
+                        <li><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                    </NavItem>
                 </Navbar>
 
-                <div className="mobile-nav">
+                {/* Mobile version */}
+                <div className="mobile-nav" style={{ paddingTop: '10px' }}>
                     
-                    {statusLogo}
+                    <div style={{ paddingTop: '10px' }}>{statusLogo}</div>
                     <button className="mobile-menu" onClick={this.handleClick}>
                         {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
                             : <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
                         }
                     </button>
-
+                    
+                    {/* clicked */}
+                    
                     <div>
                         {this.state.isToggleOn ? ""
                             : 
-                        <div className="mobile-nav-menu">
+                            <Fade duration={500}>
+                                <div className="mobile-nav-menu">
                             
-                            {statusLogo}
-                            <button className="mobile-menu" onClick={this.handleClick}>
-                                {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
-                                    : <svg className="padding-top-20" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
-                                }
-                            </button>
+                                    <div style={{ paddingTop: '15px' }}> {statusLogo} 
+                                        <button className="mobile-menu" onClick={this.handleClick}>
+                                            {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
+                                                : <svg className="padding-top-10" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909" /> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909" /> </svg>
+                                            }
+                                        </button>
+                                    </div>
 
-                            <div><MobileNav> {navList} </MobileNav></div>
+                                    <div><MobileNav><NavItem >
+                                        <li><a onClick={this.handleClick} href="#about" > About </a></li>
+                                        <li><a onClick={this.handleClick} href="#benefits"> Benefits </a></li>
+                                        <li><a onClick={this.handleClick} href="#tasks"> Working Groups </a></li>
+                                        <li><a onClick={this.handleClick} href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                                    </NavItem></MobileNav></div>
 
-                        </div>
+                                </div>
+                            </Fade>
                         }
                     </div>
-
+                    
                 </div>
 
             </nav>

@@ -35,6 +35,7 @@ const Title = styled.div`
     }
 `
 
+//Task boxes for desktop and mobile
 const Box = styled(Container)`
     display: flex;
     width: 280px;

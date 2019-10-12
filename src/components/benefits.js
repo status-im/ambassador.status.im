@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Container } from './boxes';
-import { CalltoActionButton } from './header';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { Carousel } from 'react-responsive-carousel';
+
 
 const Line = styled.div`
     width: 35%;
@@ -84,6 +84,7 @@ const Box = styled.div`
     } 
 `
 
+// Category in the boxes
 const Category = styled.p`
     font-size: 1.2rem;
     text-align: center;
@@ -100,6 +101,7 @@ const Category = styled.p`
     }
 `
 
+// details in the boxes
 const Text = styled.section`
     font-weight: normal;
     font-size: 0.85rem;
@@ -121,9 +123,23 @@ const Text = styled.section`
     }
 `
 
-const BecomeAmbassador = styled(CalltoActionButton)`
-    margin: 2rem;
-    transform: rotate(0deg);
+// CTA below the boxes
+const BecomeAmbassador = styled.button`
+
+    font-family: 'DM Sans', sans-serif;
+    position: relative
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1.2rem;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 1rem;
+    
     :hover {
         border: 1px solid grey;
         background: grey;
@@ -140,12 +156,9 @@ const BecomeAmbassador = styled(CalltoActionButton)`
            color: white;
        }
     }
-
-    @media(max-width: 770px) {
-       margin: 1.5rem;
-    }
 `
 
+// Box content
 const funding = 
     <Box className="funding-bg">
         <img src={require('../images/funding.png')} alt="Status Logo" height="90px" />
@@ -202,8 +215,8 @@ export class Benefits extends Component {
                         </Carousel>      
 
                         <Container style={{ marginTop: '1rem'}}>
-                            <BecomeAmbassador><Container><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer">
-                                Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
+                        <Container style={{ marginTop: '1rem' }}><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
+                            Become an ambassador  <KeyboardArrowRightIcon /></BecomeAmbassador></a> </Container>
                         </Container>
                     
                 </div>

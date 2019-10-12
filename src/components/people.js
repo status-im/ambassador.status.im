@@ -5,7 +5,7 @@ import Profiles from './profiles';
 import AmbassadorsData from './ambassadors.json';
 import { Link } from './tasks'
 
-
+// Text in the section
 const Text = styled.section`
     width: 580px;
     font-style: normal;
@@ -23,7 +23,7 @@ const Text = styled.section`
 
 `
 
-
+//Shuffle ambassador profile photos
 function shuffleArray(array) {
     let i = array.length - 1;
     for (; i > 0; i--) {
@@ -59,7 +59,8 @@ class People extends Component {
         var profilePhotos = []
         var { ambassadorList }  = this.state;
         ambassadorList = AmbassadorsData;
-      
+
+            // Show shuffled profile photos
             var shuffledList = shuffleArray(ambassadorList);
             profilePhotos = shuffledList.map((item, index) => {
                 return <Profiles

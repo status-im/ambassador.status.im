@@ -49,6 +49,7 @@ const Link2 = styled(Link)`
     }   
 `
 
+//A blank put at the bottom
 const Blank = styled(Container)`
     margin: 5rem;
 

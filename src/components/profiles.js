@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+// Profile photo component
 class Profiles extends Component {
     constructor(props) {
         super(props)

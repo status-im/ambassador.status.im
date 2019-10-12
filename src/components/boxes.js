@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
+//Align components vertically and horizontally
 export const Container = styled.div`
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;  /* TWEENER - IE 10 */
@@ -12,7 +13,7 @@ export const Container = styled.div`
     align-items: center;
 `
 
-
+//Containers of the black boxes
 const Box = styled.div`
     width: 380px;
     height: 320px;
@@ -40,6 +41,7 @@ const Box = styled.div`
 
 `
 
+//The first line in the box
 const Firstline = styled.p`
     font-weight: 500;
     text-align:left;
@@ -56,6 +58,7 @@ const Firstline = styled.p`
     }
 `
 
+//The second line in the boxs
 const Secondline = styled(Firstline)`
     font-size: 1rem;
     margin-top: 1.5rem;
@@ -75,6 +78,7 @@ const Secondline = styled(Firstline)`
     }
 `
 
+//CTAs in the boxes
 const CalltoActionButton = styled.button`
     background: #FFFFFF;
     margin-left: 2rem;
@@ -83,11 +87,9 @@ const CalltoActionButton = styled.button`
     position: relative;
     display: inline-block;
     padding: 0.5rem 1.2rem 0.5rem 1.2rem;
-    a {
-        color: black;
-        font-size: 1rem;
-        text-decoration: none;
-    }
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
     :hover {
         background: grey;
         a {
@@ -116,7 +118,7 @@ export class Boxes extends Component {
 
                             <Firstline> What We Do </Firstline>
                             <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
-                            <CalltoActionButton> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> Working Groups </a></CalltoActionButton>
+                            <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Working Groups </CalltoActionButton></a>
 
                         </Box>
 
@@ -124,7 +126,7 @@ export class Boxes extends Component {
 
                             <Firstline> Why we do it </Firstline>
                             <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
-                            <CalltoActionButton> <a href="https://status.im/about/" target="_blank" rel="noopener noreferrer">Status Principles</a> </CalltoActionButton>
+                            <a href="https://status.im/about/" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Status Principles </CalltoActionButton> </a> 
 
                         </Box>
 
@@ -132,7 +134,7 @@ export class Boxes extends Component {
 
                             <Firstline> What it takes </Firstline>
                             <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
-                            <CalltoActionButton> <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer">Become an ambassador</a> </CalltoActionButton>
+                            <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Become an ambassador </CalltoActionButton></a> 
 
                         </Box>
 
