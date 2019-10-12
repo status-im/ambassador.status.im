@@ -4,7 +4,7 @@ import { Container } from './boxes';
 import { CalltoActionButton } from './header';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import ScrollableAnchor from 'react-scrollable-anchor'
-
+import { Carousel } from 'react-responsive-carousel';
 
 const Line = styled.div`
     width: 35%;
@@ -13,6 +13,7 @@ const Line = styled.div`
     @media(max-width: 1100px) {
         width: 34%;
     }
+
     @media(max-width: 770px) {
         position: absolute;
         width: 30%;
@@ -33,10 +34,8 @@ const Title = styled.div`
     }
 `
 
-
-const Box = styled(Container)`
-    background: #FFFFFF;
-    display: block;
+const Box = styled.div`
+    background: white;
     width: 250px;
     height: 400px;
     margin: 5% 1.5% 2% 1.5%;
@@ -53,10 +52,14 @@ const Box = styled(Container)`
     }
 
     @media(max-width: 1024px) {
+        background: black;
+        border: none;
+        float: none;
         text-align: center;
-        width: 80vw;
+        width: auto;
         height: auto;
-        padding-bottom: 1.5rem;
+        padding-bottom: 2rem;
+        margin: auto;
     }
 
     hr {
@@ -74,9 +77,11 @@ const Box = styled(Container)`
         @media(max-width: 1160px) {
             margin-top: 40px;
         }        
-        
-    }
-
+        @media(max-width: 1024px) {
+            filter: brightness(0) invert(1);
+            width: 90px !important; 
+        }     
+    } 
 `
 
 const Category = styled.p`
@@ -88,6 +93,10 @@ const Category = styled.p`
 
     @media(max-width: 1160px) {
         margin-top: 30px;
+    }
+
+    @media(max-width: 1024px) {
+        color: white;
     }
 `
 
@@ -107,9 +116,10 @@ const Text = styled.section`
     @media(max-width: 1024px) {
         text-align: center;
         font-size: 1rem;
+        color: white;
+        padding: 0.5rem 2rem 1rem 2rem;
     }
 `
-
 
 const BecomeAmbassador = styled(CalltoActionButton)`
     margin: 2rem;
@@ -136,47 +146,62 @@ const BecomeAmbassador = styled(CalltoActionButton)`
     }
 `
 
+const funding = 
+    <Box className="funding-bg">
+        <img src={require('../images/funding.png')} alt="Status Logo" height="90px" />
+        <Category>Funding</Category>
+        <hr />
+        <Text>Receive funding to host meetups, workshops, and projects</Text>
+    </Box>
+
+const support = 
+    <Box className="support-bg">
+        <img src={require('../images/support.png')} alt="Status Logo" height="90px" />
+        <Category>Access & Support</Category>
+        <hr />
+        <Text>Help from core contributors on technical, organizational, and other projects</Text>
+    </Box>
+
+const rewards = 
+    <Box className="rewards-bg">
+        <img src={require('../images/rewards.png')} alt="Status Logo" height="90px" />
+        <Category>Rewards</Category>
+        <hr />
+        <Text>Get some cool Status swag and earn SNT</Text>
+    </Box>
+
+const future = 
+    <Box className="future-bg">
+        <img src={require('../images/future.png')} alt="Status Logo" height="90px" />
+        <Category>Build the future</Category>
+        <hr />
+        <Text>Active contribution in building the next generation of the internet</Text>
+    </Box>
 
 export class Benefits extends Component {
+    
     render() {
         return (
             <ScrollableAnchor id={'benefits'}>
-                <div style={{ display: 'block', marginTop: '3rem', paddingTop: '1rem' }}>
+                <div style={{ marginTop: '3rem', paddingTop: '1rem'}}>
                     
-                        <Container><Line left/><Title> Benefits </Title><Line right/></Container>
+                        <Container style={{ marginBottom: '2rem'}}><Line left/><Title> Benefits </Title><Line right/></Container>
 
-                        <Container>
-
-                            <Box className="funding-bg">
-                                <img src={require('../images/funding.png')} alt="Status Logo" height="90px" />
-                                <Category>Funding</Category>
-                                <hr />
-                                <Text>Receive funding to host meetups, workshops, and projects</Text> 
-                            </Box>
-                            
-                            <Box className="support-bg">
-                                <img src={require('../images/support.png')} alt="Status Logo" height="90px" />
-                                <Category>Access & Support</Category>
-                                <hr />
-                                <Text>Help from core contributors on technical, organizational, and other projects</Text></Box>
-                            
-                            <Box className="rewards-bg">
-                                <img src={require('../images/rewards.png')} alt="Status Logo" height="90px" />
-                                <Category>Rewards</Category>
-                                <hr />
-                                <Text>Get some cool Status swag and earn SNT</Text>
-                            </Box>
-
-                            <Box className="future-bg">
-                                <img src={require('../images/future.png')} alt="Status Logo" height="90px" />
-                                <Category>Build the future</Category>  
-                                <hr />                           
-                                <Text>Active contribution in building the next generation of the internet</Text>
-                            </Box>
-
+                        <Container className="box-display">
+                            {funding}
+                            {support}
+                            {rewards}
+                            {future}
                         </Container>
 
-                        <Container>
+                        <Carousel className="carousel-display carousel-center" showThumbs={false} showArrows={false} showStatus={false}>
+                            {funding}
+                            {support}
+                            {rewards}
+                            {future}
+                        </Carousel>      
+
+                        <Container style={{ marginTop: '1rem'}}>
                             <BecomeAmbassador><Container><a href="https://our.status.im/" target="_blank" rel="noopener noreferrer">
                                 Become an ambassador </a> <KeyboardArrowRightIcon /></Container></BecomeAmbassador>
                         </Container>

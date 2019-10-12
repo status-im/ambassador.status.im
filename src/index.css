@@ -168,6 +168,25 @@ code {
 	height: 100%
 }
 
+
+@media screen and (min-width: 1025px) {
+  .carousel-display{
+	display: none;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .box-display{
+    display: none !important;
+  }
+  .carousel-center ul{
+	  padding-left: 0;
+	  padding-top: 2rem;
+  }
+}
+
+
 @media screen and (max-width: 900px) {
 	.mobile-nav {
 		display: flex;

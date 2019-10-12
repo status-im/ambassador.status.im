@@ -9,7 +9,7 @@ const Line = styled.div`
     border-bottom: 1px solid #A8A8A8;
 
     @media(max-width: 1100px) {
-        width: 24%;
+        width: 15%;
     }
 
     @media(max-width: 770px) {
