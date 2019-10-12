@@ -19,6 +19,7 @@ const Text = styled.section`
 
     @media(max-width: 770px) {
         width: 75vw;
+        font-size: 1.3rem;
     }
 
 `
