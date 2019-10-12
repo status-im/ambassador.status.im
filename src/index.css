@@ -205,12 +205,12 @@ code {
 	}
 
 	.mobile-logo {
-		margin: 1rem 30vw 1rem 2rem;;
+		margin: 1.1rem 30vw 1rem 2rem;
 	}
 
 	.mobile-menu {
 		position: absolute;
-		right: 3rem;
+		right: 1.6rem;
 		border: none;
 		background: none;
 	}
