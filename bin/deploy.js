@@ -1,6 +1,7 @@
 const { promisify } = require('util')
 const { publish } = require('gh-pages')
 const ghpublish = promisify(publish)
+const env = process.env
 
 /* fix for "Unhandled promise rejections" */
 process.on('unhandledRejection', err => { throw err })
@@ -10,11 +11,8 @@ const branch = 'gh-pages'
 let url = 'git@github.com:status-im/ambassador.status.im.git'
 
 /* alternative is to use github used and API token */
-if (process.env.GH_USER != undefined) {
-  url = ( 
-    'https://' + process.env.GH_USER + ':' + process.env.GH_TOKEN
-    + '@github.com/status-im/ambassador.status.im.git'
-  )
+if (env.GH_USER != undefined) {
+  url = url.replace('git@', `https://${env.GH_USER}:${env.GH_TOKEN}@`)
 }
 
 const main = async (url, branch)=> {
