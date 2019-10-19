@@ -85,7 +85,7 @@ class Header extends Component {
 
                     <Fade left>
 
-                        <Container className="cta-top"><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
+                        <Container className="cta-top"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
                             Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
 
                     </Fade>

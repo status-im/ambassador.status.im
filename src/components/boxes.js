@@ -134,7 +134,7 @@ export class Boxes extends Component {
 
                             <Firstline> What it takes </Firstline>
                             <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
-                            <a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Become an ambassador </CalltoActionButton></a> 
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Become an ambassador </CalltoActionButton></a> 
 
                         </Box>
 

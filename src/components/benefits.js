@@ -215,7 +215,7 @@ export class Benefits extends Component {
                         </Carousel>      
 
                         <Container style={{ marginTop: '1rem'}}>
-                        <Container style={{ marginTop: '1rem' }}><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
+                        <Container style={{ marginTop: '1rem' }}><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
                             Become an ambassador  <KeyboardArrowRightIcon /></BecomeAmbassador></a> </Container>
                         </Container>
                     

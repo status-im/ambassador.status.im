@@ -137,7 +137,7 @@ class Nav extends Component {
                         <li><a href="#about" > About </a></li>
                         <li><a href="#benefits"> Benefits </a></li>
                         <li><a href="#tasks"> Working Groups </a></li>
-                        <li><a href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
                     </NavItem>
                 </Navbar>
 
@@ -171,7 +171,7 @@ class Nav extends Component {
                                         <li><a onClick={this.handleClick} href="#about" > About </a></li>
                                         <li><a onClick={this.handleClick} href="#benefits"> Benefits </a></li>
                                         <li><a onClick={this.handleClick} href="#tasks"> Working Groups </a></li>
-                                        <li><a onClick={this.handleClick} href="http://bit.ly/status-ambassador-application" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                                        <li><a onClick={this.handleClick} href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
                                     </NavItem></MobileNav></div>
 
                                 </div>
