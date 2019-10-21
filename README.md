@@ -30,8 +30,10 @@ Active contribution in building the next generation of the internet
 ## Become an ambassador
 
 - **1. Application**  
-https://forms.gle/MLrsoxTVXN9KXGkC8
+https://forms.gle/MLrsoxTVXN9KXGkC8 
 
+or send an application email to ambassador@status.im 
+(Form: https://github.com/status-im/ambassador.status.im/blob/master/application-form.md)
 
 - **2. Interview**  
 A call with a Status team member (conversations via email or written form are available)
