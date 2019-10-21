@@ -32,3 +32,4 @@ We’re excited you’ve decided to take this step and apply to be an ambassador
     - Translation of Status application and other content (docs, blog posts, etc)
     - Others
 
+Please send your response to ambassador@status.im
