@@ -158,6 +158,23 @@ const BecomeAmbassador = styled.button`
     }
 `
 
+var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";
+
+function becomeAmbassador({ locale }) {
+    if (locale === 'zh') {
+        return (
+            <a href="mailto:ambassador@status.im?subject=Status Ambassador Application&body=Please find the application form at https://github.com/status-im/ambassador.status.im/blob/master/application-form.md" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
+                Become an ambassador  <KeyboardArrowRightIcon /></BecomeAmbassador></a>
+        )
+    }
+    else {
+        return (
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
+                Become an ambassador  <KeyboardArrowRightIcon /></BecomeAmbassador></a>
+        )
+    }
+}
+
 // Box content
 const funding = 
     <Box className="funding-bg">
@@ -215,8 +232,7 @@ export class Benefits extends Component {
                         </Carousel>      
 
                         <Container style={{ marginTop: '1rem'}}>
-                        <Container style={{ marginTop: '1rem' }}><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><BecomeAmbassador>
-                            Become an ambassador  <KeyboardArrowRightIcon /></BecomeAmbassador></a> </Container>
+                        <Container style={{ marginTop: '1rem' }}> { becomeAmbassador({ locale }) } </Container>
                         </Container>
                     
                 </div>

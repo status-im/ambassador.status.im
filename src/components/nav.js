@@ -109,6 +109,21 @@ const MobileNav = styled.div`
     }
 `
 
+var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";
+
+function becomeAmbassador({ locale }) {
+    if (locale === 'zh') {
+        return (
+            <li><a href="mailto:ambassador@status.im?subject=Status Ambassador Application&body=Please find the application form at https://github.com/status-im/ambassador.status.im/blob/master/application-form.md" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+        )
+    }
+    else {
+        return (
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+        )
+    }
+}
+
 const statusLogo = <a className="mobile-logo" href="https://status.im/" target="_blank" rel="noopener noreferrer">
     <img src={require('../images/logo.png')} alt="Status Logo" width="100px" /></a>
 
@@ -137,7 +152,7 @@ class Nav extends Component {
                         <li><a href="#about" > About </a></li>
                         <li><a href="#benefits"> Benefits </a></li>
                         <li><a href="#tasks"> Working Groups </a></li>
-                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                        { becomeAmbassador({ locale }) }
                     </NavItem>
                 </Navbar>
 
@@ -171,7 +186,7 @@ class Nav extends Component {
                                         <li><a onClick={this.handleClick} href="#about" > About </a></li>
                                         <li><a onClick={this.handleClick} href="#benefits"> Benefits </a></li>
                                         <li><a onClick={this.handleClick} href="#tasks"> Working Groups </a></li>
-                                        <li><a onClick={this.handleClick} href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"> <NavButton>Become an ambassador </NavButton></a></li>
+                                        { becomeAmbassador({ locale }) }
                                     </NavItem></MobileNav></div>
 
                                 </div>

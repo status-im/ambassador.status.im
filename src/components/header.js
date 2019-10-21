@@ -72,13 +72,12 @@ const CalltoActionButton = styled.button`
     }
 `
 
-var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";;
+var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";
 
-function becomeAmbassador({locale}){
-    console.log(locale)
+function becomeAmbassador({ locale }){
     if(locale === 'zh'){
         return (
-            <Container className="cta-top"><a href="mailto:jinho@status.im?subject=Status Ambassador Application&body=Please find the form at https://github.com/status-im/ambassador.status.im" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
+            <Container className="cta-top"><a href="mailto:ambassador@status.im?subject=Status Ambassador Application&body=Please find the application form at https://github.com/status-im/ambassador.status.im/blob/master/application-form.md" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
                 Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
         )
     }
@@ -88,7 +87,6 @@ function becomeAmbassador({locale}){
                 Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
         )
     }
-
 }
 
 class Header extends Component {
@@ -104,7 +102,7 @@ class Header extends Component {
 
                     <Fade left>
 
-                        {becomeAmbassador({locale})}
+                        { becomeAmbassador({locale}) }
 
                     </Fade>
                 </div>
