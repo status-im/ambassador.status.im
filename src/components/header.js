@@ -72,6 +72,25 @@ const CalltoActionButton = styled.button`
     }
 `
 
+var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";;
+
+function becomeAmbassador({locale}){
+    console.log(locale)
+    if(locale === 'zh'){
+        return (
+            <Container className="cta-top"><a href="mailto:jinho@status.im?subject=Status Ambassador Application&body=Please find the form at https://github.com/status-im/ambassador.status.im" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
+                Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
+        )
+    }
+    else{
+        return (
+            <Container className="cta-top"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
+                Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
+        )
+    }
+
+}
+
 class Header extends Component {
     render() {
         return (
@@ -85,8 +104,7 @@ class Header extends Component {
 
                     <Fade left>
 
-                        <Container className="cta-top"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhMBGfCRQ-CuFhB3sFFm9MBtsQd6kJybkGI2M-JqpXOrY2pA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><CalltoActionButton>
-                            Become an ambassador <KeyboardArrowRightIcon /></CalltoActionButton></a> </Container>
+                        {becomeAmbassador({locale})}
 
                     </Fade>
                 </div>
