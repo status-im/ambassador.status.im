@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3ede5f5.chunk.css",
-    "main.js": "/static/js/main.c8431347.chunk.js",
-    "main.js.map": "/static/js/main.c8431347.chunk.js.map",
+    "main.css": "/static/css/main.6ea16034.chunk.css",
+    "main.js": "/static/js/main.024fa3d4.chunk.js",
+    "main.js.map": "/static/js/main.024fa3d4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79aca55a.js",
     "runtime-main.js.map": "/static/js/runtime-main.79aca55a.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.5c863eb8.chunk.js": "/static/js/2.5c863eb8.chunk.js",
-    "static/js/2.5c863eb8.chunk.js.map": "/static/js/2.5c863eb8.chunk.js.map",
+    "static/js/2.859961bc.chunk.js": "/static/js/2.859961bc.chunk.js",
+    "static/js/2.859961bc.chunk.js.map": "/static/js/2.859961bc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e0d888afd30d20feb2a55a20f00d98f.js": "/precache-manifest.9e0d888afd30d20feb2a55a20f00d98f.js",
+    "precache-manifest.1b65723eee4c20d7557cbb561a8a3197.js": "/precache-manifest.1b65723eee4c20d7557cbb561a8a3197.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.e3ede5f5.chunk.css.map": "/static/css/main.e3ede5f5.chunk.css.map",
+    "static/css/main.6ea16034.chunk.css.map": "/static/css/main.6ea16034.chunk.css.map",
     "static/media/brian.jpg": "/static/media/brian.ec711803.jpg",
     "static/media/index.css": "/static/media/technical.a5873808.png",
-    "static/media/danieltbar.jpg": "/static/media/danieltbar.47a83dd4.jpg",
+    "static/media/danieltbar.png": "/static/media/danieltbar.3bfe1759.png",
     "static/media/eduardo.jpg": "/static/media/eduardo.c3e5010d.jpg",
     "static/media/enrico.jpg": "/static/media/enrico.32b89039.jpg",
+    "static/media/joly.jpg": "/static/media/joly.b8daf221.jpg",
     "static/media/kris.jpg": "/static/media/kris.821b9f17.jpg",
     "static/media/logo.png": "/static/media/logo.b8735962.png",
     "static/media/nanda.jpg": "/static/media/nanda.5e4b690e.jpg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.79aca55a.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.5c863eb8.chunk.js",
-    "static/css/main.e3ede5f5.chunk.css",
-    "static/js/main.c8431347.chunk.js"
+    "static/js/2.859961bc.chunk.js",
+    "static/css/main.6ea16034.chunk.css",
+    "static/js/main.024fa3d4.chunk.js"
   ]
 }
