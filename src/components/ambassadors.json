@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Daniel Bar",
-        "photo": "danieltbar.jpg",
+        "photo": "danieltbar.png",
         "status": "https://get.status.im/user/0x049029a0412381e65b9b206f037adf3b98f29d085d1d05075db52d593677c12886ddfa8a25896a6a321e538e6d9645b904a735546442926f9680614f255f1e1d9a",
         "twitter": "https://twitter.com/danieltbar"
     },
@@ -40,17 +40,8 @@
         "twitter": "https://twitter.com/KuyaKris88"
     },
 
-
     {
         "id": 6,
-        "name": "Prabhleen Singh",
-        "photo": "prabhleen.jpg",
-        "status": "https://get.status.im/user/0x04e1ea5f4015bf2fce8afc973d76708bbdc42d1379dbb8a093a1868a88f91f450f68ed39ef1fd3ef8696634bf0f00fabe9616437e4e727439fdfe1ebe2c32c25f3",
-        "twitter": "https://twitter.com/PrabhleenDua"
-    },
-
-    {
-        "id": 7,
         "name": "Sebastian Moonjava",
         "photo": "sebastian.jpg",
         "status": "https://get.status.im/user/0x040936b96b92470cfbec14d63667cac0d84a47291d76843f4a16e435910e90363a438b32bbca9d3898b5f9ac3fb8143d43805010640ba93fdc2a7474b959d2a7e8",
@@ -58,7 +49,7 @@
     },
 
     {
-        "id": 8,
+        "id": 7,
         "name": "Sourav Kumar Nanda",
         "photo": "nanda.jpg",
         "status": "https://get.status.im/user/0x041beada27e0f0072108f52a86b11f08ded17bc7e77d00d47861f1038ed64ddbd5466cab1e15a765d8f7a95f666d4ed147a36ff1d582c9de206456a9744ec0dbd2",
@@ -66,7 +57,7 @@
     },
     
     {
-        "id": 9,
+        "id": 8,
         "name": "Warsoverjohn",
         "photo": "warsoverjohn.jpg",
         "status": "https://get.status.im/user/0x04c940125c0b746c44dad3ef29a15a567fe63f291fa70bb06f0167c1711de2f13bd2dffb3932755775e06886ea3da91ccc5b9b44c8568c62d8e8b08a8bcdc168b3",
@@ -74,11 +65,19 @@
     },
     
     {
-        "id": 10,
+        "id": 9,
         "name": "Yalu",
         "photo": "yalu.jpg",
         "status": "https://get.status.im/user/0x04b1e0402ac86f3fe1cbc40edee047c8f4cc9f87003a84d894741fb387832660130aba6481a4bbf38c320a3fc19ead53663dc268b525fafd85981b434d42fa01fd",
         "twitter": "https://twitter.com/yalu"
+    },
+
+    {
+        "id": 10,
+        "name": "Joselito Mutuc",
+        "photo": "joly.jpg",
+        "status": "https://get.status.im/user/0x04a354c120ec1ebddbd625c802e9760c0f12bfd2f3031f06d9b67c4f388046ea9fd3a13808476e4bba43277965c5bd8b2ba5c05c00008efb5b553a3d8c5bc827fe",
+        "twitter": "https://twitter.com/joselitommutuc"
     }
 
 ]
