@@ -123,6 +123,10 @@ export const Link = styled.div`
     @media(max-width: 1220px) {
         font-size: 1rem;
         margin-bottom: 3rem;
+    }
+
+    @media(max-width: 340px) {
+        font-size: 0.9rem;
     }    
 `
 
