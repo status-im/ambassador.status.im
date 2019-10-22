@@ -38,7 +38,6 @@ const Box = styled.div`
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
-
 `
 
 //The first line in the box
@@ -103,7 +102,28 @@ const CalltoActionButton = styled.button`
         margin-top: 0rem;
         margin-left: 0rem;
     }
+`
 
+export const Link = styled.div`
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none !important;
+
+    a, a:visited {
+        color: #4F6CDE;
+        text-decoration: none !important;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    @media(max-width: 1220px) {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }    
 `
 
 var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";
@@ -152,6 +172,12 @@ export class Boxes extends Component {
                             { becomeAmbassador({ locale }) }
 
                         </Box>
+
+                    </Container>
+
+                    <Container>
+
+                        <Link> <a href="https://docs.google.com/presentation/d/e/2PACX-1vTq-r4ZSEX7y9gr7Mlw95IDXEfVGbd2rxp0jk2NvmX6Q2EWwqaLUcWcWuUAZdiz1GDvouv5bpuIVSCW/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer"> Learn more about the Status Ambassadors</a> </Link>
 
                     </Container>
 

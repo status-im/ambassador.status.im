@@ -85,7 +85,6 @@ export const Link = styled.div`
         font-size: 1rem;
         margin-bottom: 3rem;
     }    
-    
 `
 
 export class Tasks extends Component {
