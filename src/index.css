@@ -52,7 +52,7 @@ code {
 .contributors {
 	 display: flex;
 	 flex-wrap: wrap;
-	 padding-top: 3rem;
+	 padding: 3rem 1.5rem 0 1.5rem;
 	 justify-content: center;
 }
  .contributors .contributor {
