@@ -59,7 +59,7 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
 
 - **Working groups**
 
-  - Ambassadors are free to choose their own contributions but you can find some examples as below.
+  - Ambassadors are free to choose their own contributions but ambassadors can find some task examples as below.
   
   - Event
     - Host a meetup
