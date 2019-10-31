@@ -13,7 +13,7 @@ We’re excited you’ve decided to take this step and apply to be an ambassador
 
 5. What languages can you speak & read fluently?
 
-6. Would you prefer to have the interview in text (email / text chat)? - Yes or No
+6. 6. Do you prefer to have the interview in text(email) or call? (Call, Text, or others)
 
 7. What is your profession? (optional)
 
