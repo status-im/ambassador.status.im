@@ -65,12 +65,16 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
     - Host a meetup
     - Attend a Hackathon and build something with Status or Embark
     - Represent Status at an event or conference
+    - Give a presentation at the biweekly Town Hall, or co-host
     
   - Content
     - Write a blog post 
     - Translations
     - Design an infographic
     - Make a tutorial
+    - Draft a blog post about one of the principles - decentralisation, privacy, etc
+    - Write a “my vision for Status” story - a creative writing piece on how you think Status could change the world, and how you would like to see Status develop in the future.
+    - Get Status in your local press - or tell us where you’d like to see us feature.
 
   - Community developemnt 
     - Invite your friends to Status
