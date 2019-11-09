@@ -6,6 +6,7 @@ import Benefits from "./components/benefits";
 import { Tasks } from "./components/tasks";
 import People from "./components/people";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 import './App.css';
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <People />
 
       <Contact />
+
+      <Footer />
       
     </div>
 
