@@ -27,7 +27,15 @@ const GetStarted = styled.p`
     @media(max-width: 770px) {
         font-size: 20px;
         text-align: center;
-    }  
+    }
+    @media(max-width: 425px) {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    @media(max-width: 340px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 `
 
 const CtaButton = styled.button`
@@ -115,7 +123,7 @@ class Footer extends Component {
             <FirstRow>
                 <div>
                     <Container>
-                            <DivContainer><GetStarted>Ready to get started with Status?</GetStarted></DivContainer>
+                            <DivContainer><GetStarted>Ready to get started with the Status Network?</GetStarted></DivContainer>
                             <a href="https://status.im/get/" target="_blank" rel="noopener noreferrer"><CtaButton>Get Status <KeyboardArrowRightIcon style={{ marginLeft: '30px' }}/></CtaButton></a>
                     </Container>
                 </div>
