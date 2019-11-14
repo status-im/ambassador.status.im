@@ -94,6 +94,30 @@
         "photo": "bobjiang.png",
         "status": "https://get.status.im/user/0x04f1ad04965cb25cf8b6c7c933bc3786a86b9cb3d838ad68a6cfeca8779859c71e8c95c142b22b2fa242323f124106b7e6ba8e1f191d8dc90022d7d33900254e47",
         "twitter": "https://twitter.com/bobjiang123"
+    },
+
+    {
+        "id": 13,
+        "name": "Odeneye Iyiolapo",
+        "photo": "odeneye.jpg",
+        "status": "https://get.status.im/user/0x044fc07eea8dddb5777442e360ba4606918ec3912149cc3343f340fb23a19b07d738e830aa932306785992ad3a25cd3a1bedd3a7057efcb67bb9a619ff2ce7811f",
+        "twitter": "https://twitter.com/iamthethirdkind"
+    },
+
+    {
+        "id": 14,
+        "name": "Oluwatosin",
+        "photo": "bob.jpg",
+        "status": "https://get.status.im/user/0x04b22169e3cdcb692344f0c4306a4f5e74c4224835dfa59d44e7b397468f596835dba7d676df4558ae62520555e6edbd017b0357bd8d1ecf5d62c522762e9a9f10",
+        "twitter": "https://twitter.com/bobman7000"
+    },
+
+    {
+        "id": 15,
+        "name": "Or Elpriist",
+        "photo": "elpriist.png",
+        "status": "https://get.status.im/user/0x0470937a65203de5ceb2940b4633620fc80ac9c339103e69d314b665cdeb2b224803fb0d48eb4e460e0b48d5ebf6acd4052256e5c8f25e0846f80f7a583115fe1b",
+        "twitter": "https://twitter.com/el_priist"
     }
 
 ]
