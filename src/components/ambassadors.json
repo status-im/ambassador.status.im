@@ -92,7 +92,7 @@
         "id": 12,
         "name": "Bob Jiang",
         "photo": "bobjiang.png",
-        "status": "0x04f1ad04965cb25cf8b6c7c933bc3786a86b9cb3d838ad68a6cfeca8779859c71e8c95c142b22b2fa242323f124106b7e6ba8e1f191d8dc90022d7d33900254e47",
+        "status": "https://get.status.im/user/0x04f1ad04965cb25cf8b6c7c933bc3786a86b9cb3d838ad68a6cfeca8779859c71e8c95c142b22b2fa242323f124106b7e6ba8e1f191d8dc90022d7d33900254e47",
         "twitter": "https://twitter.com/bobjiang123"
     }
 
