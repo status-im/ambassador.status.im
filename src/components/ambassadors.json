@@ -86,6 +86,14 @@
         "photo": "prabhleen.jpg",
         "status": "https://get.status.im/user/0x04e1ea5f4015bf2fce8afc973d76708bbdc42d1379dbb8a093a1868a88f91f450f68ed39ef1fd3ef8696634bf0f00fabe9616437e4e727439fdfe1ebe2c32c25f3",
         "twitter": "https://twitter.com/PrabhleenDua"
+    },
+
+    {
+        "id": 12,
+        "name": "Bob Jiang",
+        "photo": "bobjiang.png",
+        "status": "0x04f1ad04965cb25cf8b6c7c933bc3786a86b9cb3d838ad68a6cfeca8779859c71e8c95c142b22b2fa242323f124106b7e6ba8e1f191d8dc90022d7d33900254e47",
+        "twitter": "https://twitter.com/bobjiang123"
     }
 
 ]
