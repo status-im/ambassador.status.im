@@ -118,6 +118,30 @@
         "photo": "elpriist.png",
         "status": "https://get.status.im/user/0x0470937a65203de5ceb2940b4633620fc80ac9c339103e69d314b665cdeb2b224803fb0d48eb4e460e0b48d5ebf6acd4052256e5c8f25e0846f80f7a583115fe1b",
         "twitter": "https://twitter.com/el_priist"
+    },
+
+    {
+        "id": 16,
+        "name": "Funke Benedicta Fatai",
+        "photo": "funke.jpeg",
+        "status": "",
+        "twitter": "https://twitter.com/FataiFunke"
+    },
+
+    {
+        "id": 17,
+        "name": "Wondeuk Cho",
+        "photo": "wondeuk.jpg",
+        "status": "https://get.status.im/user/0x04a47c684b6eba46ccb7532ca2735cffd787e2584281b38e88e6178a9c6df749cda2ea9d42bbb0842b6235d856adda854e24987125884ba322e55682eac705aa22",
+        "twitter": "https://twitter.com/cryptojohnburre"
+    },
+
+    {
+        "id": 18,
+        "name": "Henry Dada",
+        "photo": "henry.jpg",
+        "status": "https://get.status.im/user/0x04b7d2bae0f81dc93fdab66ffe93270bcf4744869d5ef871240bf40235a21b964c04db4143e7526ef8c891f51d7f0259b992bfa152a39ad0b15b7948f6555a1299",
+        "twitter": "https://twitter.com/HenryBitmod"
     }
 
 ]
