@@ -5,6 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "@material-ui/icons": "^4.4.3",
+    "content-hash": "^2.5.0",
+    "embark": "^4.1.1",
+    "openzeppelin-solidity": "^2.4.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-responsive-carousel": "^3.1.50",
@@ -19,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "node bin/deploy.js",
-    "clean": "rm -fr build"
+    "clean": "embark reset && rm -fr build"
   },
   "eslintConfig": {
     "extends": "react-app"
