@@ -124,8 +124,8 @@
         "id": 16,
         "name": "Funke Benedicta Fatai",
         "photo": "funke.jpeg",
-        "status": "",
-        "twitter": "https://twitter.com/FataiFunke"
+        "status": "https://get.status.im/user/0x041d26e36ed1d5e11c72f873b07e5ab85cde6595b3009d315c554e5587e1567a075a98f8b3ee7113b89d03ea3f7e84887a317b92089bac60d130fa7c093f05d9be",
+        "twitter": "https://twitter.com/phunky___"
     },
 
     {
@@ -142,6 +142,22 @@
         "photo": "henry.jpg",
         "status": "https://get.status.im/user/0x04b7d2bae0f81dc93fdab66ffe93270bcf4744869d5ef871240bf40235a21b964c04db4143e7526ef8c891f51d7f0259b992bfa152a39ad0b15b7948f6555a1299",
         "twitter": "https://twitter.com/HenryBitmod"
-    }
+    },
+
+    {
+        "id": 19,
+        "name": "SDH01",
+        "photo": "sdh.png",
+        "status": "https://get.status.im/user/0x04c65e27e830098990e7c61de72c026d776752c65f36a76ad6dd4d0d842a52665037476648ca23a4c3d88dabf75702324011d85a2850b57bc708298d9a796edba3",
+        "twitter": "https://twitter.com/shygalchi"
+    },
+
+    {
+        "id": 20,
+        "name": "CryptoUnknown",
+        "photo": "cryptounknown.jpg",
+        "status": "https://get.status.im/user/0x044e356ffed7a5a72439ee5fc65e550e075e227b55a03edd31db65e769840d59e2a68a7a79519fb2a7a850907079b395419d1b49d72612d4c98c558d99def57d08",
+        "twitter": "https://twitter.com/CryptoUnknown"
+    }   
 
 ]
