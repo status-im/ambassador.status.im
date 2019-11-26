@@ -158,6 +158,22 @@
         "photo": "cryptounknown.jpg",
         "status": "https://get.status.im/user/0x044e356ffed7a5a72439ee5fc65e550e075e227b55a03edd31db65e769840d59e2a68a7a79519fb2a7a850907079b395419d1b49d72612d4c98c558d99def57d08",
         "twitter": "https://twitter.com/CryptoUnknown"
-    }   
+    },
+
+    {
+        "id": 21,
+        "name": "Pearlumie",
+        "photo": "pearlumie.jpg",
+        "status": "",
+        "twitter": "https://twitter.com/Pearlumie"
+    }, 
+    
+    {
+        "id": 22,
+        "name": "Eve",
+        "photo": "eve.png",
+        "status": "",
+        "twitter": ""
+    }
 
 ]
