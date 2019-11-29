@@ -164,23 +164,15 @@
         "id": 21,
         "name": "Pearlumie",
         "photo": "pearlumie.jpg",
-        "status": "",
+        "status": "https://get.status.im/user/0x04d1ea25c4c7c9965ea3b0c40e06b91d0f6e7f73477ff5ec3ee6249d884105f54b6c6b24fadfe2224188efd7719253795999cf4e4fe4b37f8e2ff75f1784951949",
         "twitter": "https://twitter.com/Pearlumie"
     }, 
-    
-    {
-        "id": 22,
-        "name": "Eve",
-        "photo": "eve.png",
-        "status": "",
-        "twitter": ""
-    },
 
     {
         "id": 23,
         "name": "Rachid Moulakhnif",
         "photo": "rachid.jpg",
-        "status": "",
+        "status": "https://get.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
         "twitter": "https://twitter.com/rachid_eth"
     }   
 
