@@ -33,4 +33,7 @@ function App() {
 
 export default App;*/
 import BadgeAdminUI from './components/badgeAdmin';
-export default function() { return <div><BadgeAdminUI /></div>; };
+import BadgeViewAddress from './components/badgeViewAddress';
+import BadgeViewToken from './components/badgeViewToken';
+
+export default function() { return <div><BadgeAdminUI /><BadgeViewToken/><BadgeViewAddress /></div>; };

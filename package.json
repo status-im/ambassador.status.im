@@ -7,6 +7,7 @@
     "@material-ui/icons": "^4.4.3",
     "content-hash": "^2.5.0",
     "embark": "^4.1.1",
+    "ipfs-http-client": "^40.0.1",
     "openzeppelin-solidity": "^2.4.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",

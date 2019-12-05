@@ -2,7 +2,7 @@ module.exports = {
   default: {
     deployment: {
       host: "localhost", 
-      port: 8546,
+      port: 8556,
       type: "ws"
     },
     dappConnection: [
@@ -22,7 +22,19 @@ module.exports = {
   livenet: {
   },
   testnet: {
+    contracts: {
+      StatusAmbassadorBadge: {
+        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE",
+        deploy: false
+      }
+    }
   },
   rinkeby: {
+    contracts: {
+      StatusAmbassadorBadge: {
+        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE",
+        deploy: false
+      }
+    }
   }
 }
