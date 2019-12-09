@@ -57,16 +57,14 @@ class BadgeToken extends React.Component {
             return(<React.Fragment>Error loading #{this.props.tokenId}: {JSON.stringify(error.message)}.</React.Fragment>)
         }
         return (
-        <React.Fragment>
+        <div className="badgeToken">
             <ul>
-                <li>ID: {token.tokenId}</li>
-                <li>contenthash: {token.contenthash}</li>
-                <li>ipfsLink: {token.ipfsLink}</li>
+                <li>#{token.tokenId}</li>
                 <li>{token.content.meta.text}</li>
                 <li><img width={"100px"} height={"100px"} src={"data:image/svg+xml;base64,"+btoa(token.imageData) }/></li>
                 {token.ownerOf && <li>Owner: {token.ownerOf}</li>}
             </ul>
-        </React.Fragment>
+        </div>
         )
     }
 
