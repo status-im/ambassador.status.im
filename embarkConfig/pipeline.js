@@ -1,3 +1,4 @@
 module.exports = {
-    enabled: false 
+    typescript: false,
+    enabled: true 
 };

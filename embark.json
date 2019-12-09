@@ -1,5 +1,9 @@
 {
   "contracts": ["contracts/**"],
+  "app": {
+    "js/dapp.js": ["src/dapp.js"],
+    "index.html": "src/index.html"
+  },
   "buildDir": "dist/",
   "config": "embarkConfig/",
   "versions": {

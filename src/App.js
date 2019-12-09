@@ -1,5 +1,5 @@
 import React from 'react';
-/*import Nav from "./components/nav";
+import Nav from "./components/nav";
 import Header from "./components/header";
 import { Boxes } from "./components/boxes";
 import Benefits from "./components/benefits";
@@ -31,9 +31,4 @@ function App() {
   );
 }
 
-export default App;*/
-import BadgeAdminUI from './components/badgeAdmin';
-import BadgeViewAddress from './components/badgeViewAddress';
-import BadgeViewToken from './components/badgeViewToken';
-
-export default function() { return <div><BadgeAdminUI /><BadgeViewToken/><BadgeViewAddress /></div>; };
+export default App;
