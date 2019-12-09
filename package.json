@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "@material-ui/icons": "^4.4.3",
+    "@yellowdig/cljs-tools": "^0.1.1",
     "content-hash": "^2.5.0",
     "embark": "^4.1.1",
     "ipfs-http-client": "^40.0.1",

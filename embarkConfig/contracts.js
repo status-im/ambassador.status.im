@@ -24,16 +24,14 @@ module.exports = {
   testnet: {
     contracts: {
       StatusAmbassadorBadge: {
-        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE",
-        deploy: false
+        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE"
       }
     }
   },
   rinkeby: {
     contracts: {
       StatusAmbassadorBadge: {
-        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE",
-        deploy: false
+        address: "0x7Cb1C6CC7e81272ff81A8Ca2587B0227168a61fE"
       }
     }
   }

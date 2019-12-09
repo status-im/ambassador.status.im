@@ -37,8 +37,8 @@ class BadgeAdminUI extends React.Component {
         super(props);
         this.state = {
             input: {
-                destination: "0x3D597789ea16054a084ac84ce87F50df9198F415",
-                text: "test",
+                destination: "",
+                text: "",
                 image: null
             },
             result: null,

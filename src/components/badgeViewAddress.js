@@ -18,20 +18,23 @@ class BadgeViewAddress extends React.Component {
     }  
     
     async loadAddress(e){ 
+        //TODO: pagination
         e.preventDefault();
         const {input} = this.state;
         const result = {};
         try{
-            await this.setState({loading:true});
+            await this.setState({loading:true,  error: null});
             result.balance = await StatusAmbassadorBadge.methods.balanceOf(input.viewAddress).call();
-            result.tokens = await new Array(result.balance).map(async (element, index) => {
+            const array = new Array(result.balance);
+            for (let index = 0; index < array.length; index++) {
                 const r = {};
                 r.tokenOwner = input.viewAddress;
                 r.tokenIndex = index;
                 r.tokenId = await StatusAmbassadorBadge.methods.tokenOfOwnerByIndex(input.viewAddress, index).call(); 
-                return r;
-            });
-            this.setState({result: result, error: null});
+                array[index] = r;
+            }
+            result.tokens = array;
+            this.setState({result: result});
         }catch(e) {
             this.setState({result: result, error: e});
         } finally {
@@ -53,11 +56,12 @@ class BadgeViewAddress extends React.Component {
     }
 
     render() {
-        const {input, result} = this.state;
+        const {loading, error, input, result} = this.state;
         return (
         <React.Fragment>
             <h3> View Address</h3>
             <div id="form">
+                {error && <div>Error: {JSON.stringify(error)}</div>}
                 <form>
                     <FormControl>
                         <InputLabel>Address:</InputLabel>           
@@ -69,6 +73,7 @@ class BadgeViewAddress extends React.Component {
                     </FormControl>
                     <Button bsStyle="primary" onClick={(e) => this.loadAddress(e)}>Load</Button>
                 </form>
+                {loading && <div>Loading: {input.viewAddress}</div>}
                 {result && <div>
                     {result.balance > 0 ? <div>{this.tokenList(result.tokens)}</div> : <div>No tokens :(</div>}
                 </div> }
