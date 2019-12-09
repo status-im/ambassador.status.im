@@ -1,7 +1,7 @@
 import React, { Fragment,  useState, useEffect} from 'react';
 import contentHash from 'content-hash';
-import EmbarkJS from '../embarkArtifacts/embarkjs';
-import StatusAmbassadorBadge from '../embarkArtifacts/contracts/StatusAmbassadorBadge';
+import EmbarkJS from '../../embarkArtifacts/embarkjs';
+import StatusAmbassadorBadge from '../../embarkArtifacts/contracts/StatusAmbassadorBadge';
 import { FormControl, Input, InputLabel, Button } from '@material-ui/core';
 const divStyle = {
     alignItems: "left"

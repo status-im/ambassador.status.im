@@ -2,7 +2,7 @@ import React from 'react';
 import contentHash from 'content-hash';
 import ipfsClient from 'ipfs-http-client';
 import cljs from '@yellowdig/cljs-tools'
-import StatusAmbassadorBadge from '../embarkArtifacts/contracts/StatusAmbassadorBadge';
+import StatusAmbassadorBadge from '../../embarkArtifacts/contracts/StatusAmbassadorBadge';
 
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: '5001', protocol: 'https' });
 

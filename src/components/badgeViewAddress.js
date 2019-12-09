@@ -1,5 +1,5 @@
 import React from 'react';
-import StatusAmbassadorBadge from '../embarkArtifacts/contracts/StatusAmbassadorBadge';
+import StatusAmbassadorBadge from '../../embarkArtifacts/contracts/StatusAmbassadorBadge';
 import { FormControl, Input, InputLabel, Button } from '@material-ui/core';
 import BadgeToken from './badgeToken';
 
