@@ -70,7 +70,7 @@ class Contact extends Component {
 
                 </Container>
                 
-                <Link2> <a href="status-im://chat/public/statusphere" target="_blank" rel="noopener noreferrer"> Contact us in the Status Hangout channel #Statusphere </a> </Link2>
+                <Link2> <a href="https://get.status.im/chat/public/statusphere" target="_blank" rel="noopener noreferrer"> Contact us in the Status Hangout channel #Statusphere </a> </Link2>
                 
                 <Blank/>
 
