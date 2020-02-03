@@ -1,5 +1,11 @@
 # Status Ambassador Program
 
+<br />
+
+<img src="https://lh3.googleusercontent.com/a6Lt8NQE9kBj1zjuWbiqHCEFTQlqU6uh3nKEH4n9tOfAc-Rt_YARjkeD7TtcaPFvM6a8X8q-YnmyY4EDSUQeJ8s0UP18Yxzw3sMQeCZCvdmAaLHqO2YVYcp60ktszfM45jyzwR60sQ=w2400" width="600px" alt="Status Ambassador">
+
+<br />
+
 Status ambassadors are a group of passionate people from all over the world who help grow the community, educate new members, and spread the words about Status.
 
 As the Status ambassadors, we build, educate, promote, and contribute to the next generation of the Web together.
