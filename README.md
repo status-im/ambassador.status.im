@@ -145,7 +145,8 @@ Example
 
 and add a profile photo [here](https://github.com/status-im/ambassador.status.im/tree/master/src/images/ambassadors)
 
-## Contributors ✨
+## Status Ambassadors ✨
+The profile below doesn't include all the Status ambassadors. There are more than 30 ambassadors at the moment.
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
