@@ -100,6 +100,32 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
     
 <br />
 
+## Status Ambassadors ✨
+The profile below doesn't include all the Status ambassadors. There are more than 30 ambassadors at the moment.
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/tbenr"><img src="https://avatars2.githubusercontent.com/u/15999009?v=4" width="100px;" alt=""/><br /><sub><b>Enrico Del Fante</b></sub></a><br /><a href="#translation-tbenr" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/shygalchi1234"><img src="https://avatars0.githubusercontent.com/u/52996496?v=4" width="100px;" alt=""/><br /><sub><b>shygalchi1234</b></sub></a><br /><a href="#content-shygalchi1234" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/acolytec3"><img src="https://avatars2.githubusercontent.com/u/17355484?v=4" width="100px;" alt=""/><br /><sub><b>acolytec3</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=acolytec3" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+<br />
+
 ## Contact us
 
 - **Status Ambassadors Hangout chat** : https://get.status.im/chat/public/statusphere
@@ -144,27 +170,3 @@ Example
 ```
 
 and add a profile photo [here](https://github.com/status-im/ambassador.status.im/tree/master/src/images/ambassadors)
-
-## Status Ambassadors ✨
-The profile below doesn't include all the Status ambassadors. There are more than 30 ambassadors at the moment.
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/tbenr"><img src="https://avatars2.githubusercontent.com/u/15999009?v=4" width="100px;" alt=""/><br /><sub><b>Enrico Del Fante</b></sub></a><br /><a href="#translation-tbenr" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/shygalchi1234"><img src="https://avatars0.githubusercontent.com/u/52996496?v=4" width="100px;" alt=""/><br /><sub><b>shygalchi1234</b></sub></a><br /><a href="#content-shygalchi1234" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/acolytec3"><img src="https://avatars2.githubusercontent.com/u/17355484?v=4" width="100px;" alt=""/><br /><sub><b>acolytec3</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=acolytec3" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
