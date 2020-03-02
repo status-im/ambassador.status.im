@@ -101,7 +101,7 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
 <br />
 
 ## Status Ambassadors ✨
-The profile below doesn't include all the Status ambassadors. There are more than 30 ambassadors at the moment.
+There are more than 30 Status ambassadors at the moment! The profiles below don't include all the ambassadors.
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
