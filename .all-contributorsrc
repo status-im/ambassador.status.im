@@ -49,6 +49,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "enevve",
+      "name": "Nicolás V. Villarreal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/61705093?v=4",
+      "profile": "https://github.com/enevve",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
