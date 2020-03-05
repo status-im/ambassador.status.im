@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -117,6 +117,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/enevve"><img src="https://avatars1.githubusercontent.com/u/61705093?v=4" width="100px;" alt=""/><br /><sub><b>Nicolás V. Villarreal</b></sub></a><br /><a href="#content-enevve" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/LightLeo21"><img src="https://avatars1.githubusercontent.com/u/51802956?v=4" width="100px;" alt=""/><br /><sub><b>LightLeo21</b></sub></a><br /><a href="#translation-LightLeo21" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#content-zplit" title="Content">🖋</a></td>
   </tr>
 </table>
 
