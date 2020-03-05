@@ -88,24 +88,16 @@ class People extends Component {
         return (
 
             <div style={{ display: 'block', marginTop: '3rem' }}>
-                
                 <div className="ellipse-up">
-
                     <Container><Text>We are spread across the world with different backgrounds and areas of expertise</Text></Container>
                     <Link> { becomeAmbassador({ locale }) } </Link>
-
                 </div>
-
                 <div className="center">
                     <ul className="contributors">
                         {profilePhotos}
                     </ul>
                 </div>
-
-
-
             </div>
-
         );
     }
 }

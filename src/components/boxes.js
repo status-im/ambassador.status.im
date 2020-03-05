@@ -150,41 +150,27 @@ export class Boxes extends Component {
         return (
             <ScrollableAnchor id={'about'}>
                 <div style={{ display: 'block', paddingTop: '1rem'}}>
-                    
                     <Container>
-
                         <Box>
-
                             <Firstline> What We Do </Firstline>
                             <Secondline> We are free to choose our own contributions. Some of us write code, others write blog posts. Some host events and some host webinars. Together we help create and spread the word about Status. </Secondline>
                             <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Working Groups </CalltoActionButton></a>
-
                         </Box>
-
                         <Box>
 
                             <Firstline> Why we do it </Firstline>
                             <Secondline> We believe in a private, secure, open, and fair internet for all. Status is building the tools and infrastructure for the next generation of the web, and together, we help make this vision a reality. </Secondline>
                             <a href="https://status.im/about/" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Status Principles </CalltoActionButton> </a> 
-
                         </Box>
-
                         <Box>
-
                             <Firstline> What it takes </Firstline>
                             <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
                             { becomeAmbassador({ locale }) }
-
                         </Box>
-
                     </Container>
-
                     <Container>
-
                         <Link> <a href="https://docs.google.com/presentation/d/e/2PACX-1vTq-r4ZSEX7y9gr7Mlw95IDXEfVGbd2rxp0jk2NvmX6Q2EWwqaLUcWcWuUAZdiz1GDvouv5bpuIVSCW/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer"> Learn more about the Status Ambassadors</a> </Link>
-
                     </Container>
-
                 </div>
             </ScrollableAnchor>
         );

@@ -62,20 +62,12 @@ class Contact extends Component {
     render() {
         return (
             <div style={{ display: 'block', marginTop: '8rem' }}>
-
                 <Container>
-
                     <Line left/><Title> Get in touch </Title><Line right/>
-
-
                 </Container>
-                
                 <Link2> <a href="https://get.status.im/chat/public/statusphere" target="_blank" rel="noopener noreferrer"> Contact us in the Status Hangout channel #Statusphere </a> </Link2>
-                
                 <Blank/>
-
             </div>
-
         );
     }
 }

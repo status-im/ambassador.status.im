@@ -93,23 +93,14 @@ class Header extends Component {
     render() {
         return (
             <header style={{ display: 'block', textAlign: 'center'}}>
-
                 <Tagline> We are Status </Tagline>
-
                 <SecondTagline> As the Status Ambassadors, we build, educate, promote, and contribute to the next generation of the Web </SecondTagline>
-
                 <div className="ellipse-down">
-
                     <Fade left>
-
                         { becomeAmbassador({locale}) }
-
                     </Fade>
                 </div>
-
-
             </header>
-
         );
     }
 }

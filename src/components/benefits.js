@@ -214,27 +214,22 @@ export class Benefits extends Component {
         return (
             <ScrollableAnchor id={'benefits'}>
                 <div style={{ marginTop: '3rem', paddingTop: '1rem'}}>
-                    
                         <Container style={{ marginBottom: '2rem'}}><Line left/><Title> Benefits </Title><Line right/></Container>
-
                         <Container className="box-display">
                             {funding}
                             {support}
                             {rewards}
                             {future}
                         </Container>
-
                         <Carousel className="carousel-display carousel-center" showThumbs={false} showArrows={false} showStatus={false}>
                             {funding}
                             {support}
                             {rewards}
                             {future}
                         </Carousel>      
-
                         <Container style={{ marginTop: '1rem'}}>
                         <Container style={{ marginTop: '1rem' }}> { becomeAmbassador({ locale }) } </Container>
                         </Container>
-                    
                 </div>
             </ScrollableAnchor>
         );

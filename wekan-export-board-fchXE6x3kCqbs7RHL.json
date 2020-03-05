@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/dc24dc15cf421a3cd7cc55f7237c696ac90dfc80.css?meteor_css_resource=true">
+<title></title><meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0,user-scalable=0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="shortcut icon" href="/wekan-favicon.png"><link rel="apple-touch-icon" href="/wekan-favicon.png"><link rel="mask-icon" href="/wekan-logo-150.svg"><link rel="manifest" href="/wekan-manifest.json">
+
+</head>
+<body>
+  <script type="text/javascript">__meteor_runtime_config__ = JSON.parse(decodeURIComponent("%7B%22meteorRelease%22%3A%22METEOR%401.8.2%22%2C%22gitCommitHash%22%3A%223565437728b17d7333189539b95cbf1839adbc6e%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22production%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTINGS%22%3A%7B%22CARD_OPENED_WEBHOOK_ENABLED%22%3Atrue%2C%22RICHER_CARD_COMMENT_EDITOR%22%3Atrue%7D%2C%22ROOT_URL%22%3A%22https%3A%2F%2Fboards.status.im%22%2C%22ROOT_URL_PATH_PREFIX%22%3A%22%22%2C%22autoupdate%22%3A%7B%22versions%22%3A%7B%22web.browser%22%3A%7B%22version%22%3A%22ee0dc895ff7cf82ce7851fc027aa8113742166e7%22%2C%22versionRefreshable%22%3A%22d5a5685c427edfc1bc7688e2ba15c7e16f56c6ab%22%2C%22versionNonRefreshable%22%3A%22298be77cb70ac6123093ed5d77a3eb8d23219eb2%22%7D%2C%22web.browser.legacy%22%3A%7B%22version%22%3A%22811f4fff9b2200183a839149a320c0f5f62f7061%22%2C%22versionRefreshable%22%3A%22d5a5685c427edfc1bc7688e2ba15c7e16f56c6ab%22%2C%22versionNonRefreshable%22%3A%228339155d25f90cb78e74b81debace8da6664ed7d%22%7D%7D%2C%22autoupdateVersion%22%3Anull%2C%22autoupdateVersionRefreshable%22%3Anull%2C%22autoupdateVersionCordova%22%3Anull%2C%22appId%22%3A%22dvyihgykyzec6y1dpg%22%7D%2C%22appId%22%3A%22dvyihgykyzec6y1dpg%22%2C%22accountsConfigCalled%22%3Atrue%2C%22isModern%22%3Atrue%7D"))</script>
+
+  <script type="text/javascript" src="/1e254298dba6b53f719179f293984ab03ae3d582.js?meteor_js_resource=true"></script>
+
+
+</body>
+</html>

@@ -144,7 +144,6 @@ class Nav extends Component {
     render() {
         return (
             <nav >
-
                 {/* Desktop version */}
                 <Navbar>
                     <Logo><a href="https://status.im/" target="_blank" rel="noopener noreferrer"><img src={require('../images/logo.png')} alt="Status Logo" /></a></Logo>
@@ -167,13 +166,11 @@ class Nav extends Component {
                     </button>
                     
                     {/* clicked */}
-                    
                     <div>
                         {this.state.isToggleOn ? ""
                             : 
                             <Fade duration={500}>
                                 <div className="mobile-nav-menu">
-                            
                                     <div style={{ paddingTop: '15px' }}> {statusLogo} 
                                         <button className="mobile-menu" onClick={this.handleClick}>
                                             {this.state.isToggleOn ? <svg width="22" height="8" viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="22" height="1" rx="0.5" fill="#090909" /> <rect y="7" width="22" height="1" rx="0.5" fill="#090909" /> </svg> 
@@ -181,21 +178,17 @@ class Nav extends Component {
                                             }
                                         </button>
                                     </div>
-
                                     <div><MobileNav><NavItem >
                                         <li><a onClick={this.handleClick} href="#about" > About </a></li>
                                         <li><a onClick={this.handleClick} href="#benefits"> Benefits </a></li>
                                         <li><a onClick={this.handleClick} href="#tasks"> Working Groups </a></li>
                                         { becomeAmbassador({ locale }) }
                                     </NavItem></MobileNav></div>
-
                                 </div>
                             </Fade>
                         }
                     </div>
-                    
                 </div>
-
             </nav>
         );
     }

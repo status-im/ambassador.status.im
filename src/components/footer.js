@@ -97,7 +97,7 @@ const SecondRow = styled.div`
 
 const DivContainer = styled.div`
     display: inline-block;
-    margin-right: 120px;
+    margin-right: 200px;
 
     @media(max-width: 1100px) {
         margin-right: 60px;
@@ -127,9 +127,7 @@ class Footer extends Component {
                             <a href="https://status.im/get/" target="_blank" rel="noopener noreferrer"><CtaButton>Get Status <KeyboardArrowRightIcon style={{ marginLeft: '30px' }}/></CtaButton></a>
                     </Container>
                 </div>
-
             </FirstRow>
-
             <SecondRow>
                     <DivContainer>
                         <h3>Connect</h3>
@@ -196,18 +194,13 @@ class Footer extends Component {
                             </li>
                         </ul>
                     </DivContainer>
-
                     <div style={{ display: 'inline-block' }}>
                         <a href="https://www.iubenda.com/privacy-policy/94457202" target="_blank" rel="noopener noreferrer"> <h3>Privacy Policy</h3> </a>
                         <ul ><li style={{ color: 'rgba(255, 255, 255, 0.6)', margin: '0' }}>Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland</li></ul>
                     </div>
             </SecondRow>
-
-
         </div>
-
     </FooterComponent>
-      
     )
   }
 }

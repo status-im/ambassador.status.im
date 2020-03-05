@@ -90,37 +90,22 @@ export const Link = styled.div`
 export class Tasks extends Component {
     render() {
         return (
-
             <ScrollableAnchor id={'tasks'}>
-
                 <div style={{ display: 'block', marginTop: '3rem', paddingTop: '1rem' }}>
-
                     <Container>
-
                         <Line left /><Title> We work across a range of areas and collaborate in many ways. </Title><Line right/>
-
                     </Container>
-
                     <Container>
-
                         <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
-
                     </Container>
-
                     <Container>
-
                         <Box className="event-bg"> Events & Meetups </Box>
                         <Box className="content-bg"> Content & Creative </Box>
                         <Box className="community-bg"> Community Development </Box>
                         <Box className="technical-bg"> Technical Contribution </Box>
-
                     </Container>
-
                 </div>
-
             </ScrollableAnchor>
-
-
         );
     }
 }

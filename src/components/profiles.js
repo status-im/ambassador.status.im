@@ -35,7 +35,6 @@ class Profiles extends Component {
     render() {
         const { profileItem } = this.state
         return (
-
             <li className="contributor">
                 {profileItem !== null
                     ?
@@ -46,12 +45,10 @@ class Profiles extends Component {
                                 <b>{profileItem.name}</b>
                                 <span></span>
                                 <ul>
-                                <li><a href={profileItem.status} target="_blank" rel="noopener noreferrer"><img src={require('../images/status.svg')} className="" alt="Status" /></a></li>
-                                <li><a href={profileItem.twitter} target="_blank" rel="noopener noreferrer"><img src={require('../images/twitter.svg')} className="" alt="Twitter" /></a></li>
+                                    <li><a href={profileItem.twitter} target="_blank" rel="noopener noreferrer"><img src={require('../images/twitter.svg')} className="" alt="Twitter" /></a></li>
                                 </ul>
                             </div>
                         </div>
-
                     : ''}
             </li>
         );
