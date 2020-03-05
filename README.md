@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -118,6 +118,7 @@ There are more than 30 Status ambassadors at the moment! You can find some of th
   </tr>
   <tr>
     <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#content-zplit" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/cryptounknown"><img src="https://avatars1.githubusercontent.com/u/60149317?v=4" width="100px;" alt=""/><br /><sub><b>cryptounknown</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=cryptounknown" title="Code">💻</a></td>
   </tr>
 </table>
 
