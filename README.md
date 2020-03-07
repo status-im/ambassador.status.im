@@ -133,7 +133,7 @@ There are more than 30 Status ambassadors at the moment! You can find some of th
 
 - **Status Ambassadors Hangout chat** : https://get.status.im/chat/public/statusphere
 
-- **Email**  : jinho@status.im
+- **Email** : ambassador@status.im or jinho@status.im
     
 <br />
 
