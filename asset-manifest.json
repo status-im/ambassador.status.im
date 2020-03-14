@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.7e3dcc6a.chunk.css",
-    "main.js": "/static/js/main.ca832a8e.chunk.js",
-    "main.js.map": "/static/js/main.ca832a8e.chunk.js.map",
+    "main.js": "/static/js/main.13fd91dd.chunk.js",
+    "main.js.map": "/static/js/main.13fd91dd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79aca55a.js",
     "runtime-main.js.map": "/static/js/runtime-main.79aca55a.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.c250abf8.chunk.js": "/static/js/2.c250abf8.chunk.js",
-    "static/js/2.c250abf8.chunk.js.map": "/static/js/2.c250abf8.chunk.js.map",
+    "static/js/2.8b3d3636.chunk.js": "/static/js/2.8b3d3636.chunk.js",
+    "static/js/2.8b3d3636.chunk.js.map": "/static/js/2.8b3d3636.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e016799b1d80aa764b7e7d90aac53e36.js": "/precache-manifest.e016799b1d80aa764b7e7d90aac53e36.js",
+    "precache-manifest.f968bcbfa08e6270aa6b027f839d7143.js": "/precache-manifest.f968bcbfa08e6270aa6b027f839d7143.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
     "static/css/main.7e3dcc6a.chunk.css.map": "/static/css/main.7e3dcc6a.chunk.css.map",
@@ -20,13 +20,14 @@
     "static/media/cryptounknown.jpg": "/static/media/cryptounknown.a336d9e6.jpg",
     "static/media/danieltbar.png": "/static/media/danieltbar.3bfe1759.png",
     "static/media/eduardo.jpg": "/static/media/eduardo.c3e5010d.jpg",
-    "static/media/elpriist.png": "/static/media/elpriist.57993e0b.png",
+    "static/media/elpriist.png": "/static/media/elpriist.2939ad4c.png",
     "static/media/enrico.jpg": "/static/media/enrico.32b89039.jpg",
     "static/media/eve.png": "/static/media/eve.1b310030.png",
     "static/media/funke.jpeg": "/static/media/funke.d5eb4240.jpeg",
     "static/media/henry.jpg": "/static/media/henry.a0a3aebe.jpg",
     "static/media/joly.jpg": "/static/media/joly.b8daf221.jpg",
     "static/media/kris.jpg": "/static/media/kris.821b9f17.jpg",
+    "static/media/lilsiri.jpg": "/static/media/lilsiri.c3a47011.jpg",
     "static/media/logo.png": "/static/media/logo.b8735962.png",
     "static/media/nanda.jpg": "/static/media/nanda.5e4b690e.jpg",
     "static/media/odeneye.jpg": "/static/media/odeneye.a5e467be.jpg",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.79aca55a.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.c250abf8.chunk.js",
+    "static/js/2.8b3d3636.chunk.js",
     "static/css/main.7e3dcc6a.chunk.css",
-    "static/js/main.ca832a8e.chunk.js"
+    "static/js/main.13fd91dd.chunk.js"
   ]
 }
