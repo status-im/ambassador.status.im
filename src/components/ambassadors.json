@@ -66,14 +66,6 @@
 
     {
         "id": 9,
-        "name": "Odeneye Iyiolapo",
-        "photo": "odeneye.jpg",
-        "status": "https://get.status.im/user/0x044fc07eea8dddb5777442e360ba4606918ec3912149cc3343f340fb23a19b07d738e830aa932306785992ad3a25cd3a1bedd3a7057efcb67bb9a619ff2ce7811f",
-        "twitter": "https://twitter.com/iamthethirdkind"
-    },
-
-    {
-        "id": 10,
         "name": "Elpriist",
         "photo": "elpriist.png",
         "status": "https://get.status.im/user/0x0470937a65203de5ceb2940b4633620fc80ac9c339103e69d314b665cdeb2b224803fb0d48eb4e460e0b48d5ebf6acd4052256e5c8f25e0846f80f7a583115fe1b",
@@ -81,7 +73,7 @@
     },
 
     {
-        "id": 11,
+        "id": 10,
         "name": "Wondeuk Cho",
         "photo": "wondeuk.jpg",
         "status": "https://get.status.im/user/0x04a47c684b6eba46ccb7532ca2735cffd787e2584281b38e88e6178a9c6df749cda2ea9d42bbb0842b6235d856adda854e24987125884ba322e55682eac705aa22",
@@ -89,7 +81,7 @@
     },
 
     {
-        "id": 12,
+        "id": 11,
         "name": "Henry Dada",
         "photo": "henry.jpg",
         "status": "https://get.status.im/user/0x04b7d2bae0f81dc93fdab66ffe93270bcf4744869d5ef871240bf40235a21b964c04db4143e7526ef8c891f51d7f0259b992bfa152a39ad0b15b7948f6555a1299",
@@ -97,7 +89,7 @@
     },
 
     {
-        "id": 13,
+        "id": 12,
         "name": "SDH01",
         "photo": "sdh.png",
         "status": "https://get.status.im/user/0x04c65e27e830098990e7c61de72c026d776752c65f36a76ad6dd4d0d842a52665037476648ca23a4c3d88dabf75702324011d85a2850b57bc708298d9a796edba3",
@@ -105,7 +97,7 @@
     },
 
     {
-        "id": 14,
+        "id": 13,
         "name": "CryptoUnknown",
         "photo": "cryptounknown.jpg",
         "status": "https://get.status.im/user/0x044e356ffed7a5a72439ee5fc65e550e075e227b55a03edd31db65e769840d59e2a68a7a79519fb2a7a850907079b395419d1b49d72612d4c98c558d99def57d08",
@@ -113,7 +105,7 @@
     },
 
     {
-        "id": 15,
+        "id": 14,
         "name": "Pearlumie",
         "photo": "pearlumie.jpg",
         "status": "https://get.status.im/user/0x04d1ea25c4c7c9965ea3b0c40e06b91d0f6e7f73477ff5ec3ee6249d884105f54b6c6b24fadfe2224188efd7719253795999cf4e4fe4b37f8e2ff75f1784951949",
@@ -121,11 +113,19 @@
     }, 
 
     {
-        "id": 16,
+        "id": 15,
         "name": "Rachid Moulakhnif",
         "photo": "rachid.jpg",
         "status": "https://get.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
         "twitter": "https://twitter.com/rachid_eth"
-    }   
+    },
+
+    {
+        "id": 16,
+        "name": "Lilsiri",
+        "photo": "lilsiri.jpg",
+        "status": "https://get.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
+        "twitter": "https://twitter.com/onebotband"
+    }
 
 ]
