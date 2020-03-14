@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -120,6 +120,7 @@ There are more than 30 Status ambassadors at the moment! You can find some of th
     <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#content-zplit" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/cryptounknown"><img src="https://avatars1.githubusercontent.com/u/60149317?v=4" width="100px;" alt=""/><br /><sub><b>cryptounknown</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=cryptounknown" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/wdcho82"><img src="https://avatars0.githubusercontent.com/u/61836410?v=4" width="100px;" alt=""/><br /><sub><b>wdcho82</b></sub></a><br /><a href="#content-wdcho82" title="Content">🖋</a></td>
+    <td align="center"><a href="https://Dollet.eth.link"><img src="https://avatars2.githubusercontent.com/u/60158814?v=4" width="100px;" alt=""/><br /><sub><b>Lilsiri.eth</b></sub></a><br /><a href="#content-onebotband" title="Content">🖋</a></td>
   </tr>
 </table>
 
