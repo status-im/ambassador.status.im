@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -122,6 +122,7 @@ There are more than 30 Status ambassadors at the moment! You can find some of th
     <td align="center"><a href="https://github.com/wdcho82"><img src="https://avatars0.githubusercontent.com/u/61836410?v=4" width="100px;" alt=""/><br /><sub><b>wdcho82</b></sub></a><br /><a href="#content-wdcho82" title="Content">🖋</a></td>
     <td align="center"><a href="https://Dollet.eth.link"><img src="https://avatars2.githubusercontent.com/u/60158814?v=4" width="100px;" alt=""/><br /><sub><b>Lilsiri.eth</b></sub></a><br /><a href="#content-onebotband" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/elpriist"><img src="https://avatars0.githubusercontent.com/u/41715652?v=4" width="100px;" alt=""/><br /><sub><b>elpriist</b></sub></a><br /><a href="#content-elpriist" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#content-mercuriosilber" title="Content">🖋</a></td>
   </tr>
 </table>
 
