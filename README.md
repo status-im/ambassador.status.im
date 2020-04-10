@@ -11,7 +11,7 @@
 
 <br />
 
-Status ambassadors are a group of passionate people from all over the world who help grow the community, educate new members, and spread the words about Status.
+Status ambassadors are a group of passionate people from all over the world who help grow the community, educate new members, and spread the word about Status.
 
 As the Status ambassadors, we build, educate, promote, and contribute to the next generation of the Web together.
 
@@ -32,7 +32,7 @@ Help from core contributors on the projects
 - **Rewards**  
 Get some cool Status swag and earn SNT
 
-- **Build theFuture**  
+- **Build the Future**  
 Active contribution in building the next generation of the internet
 
 <br />
@@ -58,7 +58,7 @@ Welcome kit
 - **Requirement**  
 Need to complete more than 2 tasks
 
-- **Items**
+- **Items**  
 Status T-shirt, Status stickers, SNT and ETH
 
 <br />
@@ -68,10 +68,9 @@ Status T-shirt, Status stickers, SNT and ETH
 - **Wekan Task board**  
 https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
 
-- **Working groups**
-
-  - Ambassadors are free to choose their own contributions but ambassadors can find some task examples as below.
-  
+- **Working groups**  
+Ambassadors are free to choose their own contributions. Task examples are listed below.
+ 
   - Event
     - Host a meetup
     - Attend a Hackathon and build something with Status or Embark
@@ -90,12 +89,12 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
   - Community developemnt 
     - Invite your friends to Status
     - Moderate Status channels
-    - Answer a community questions on the forum (discuss.status.im)
+    - Answer community questions on the forum ([discuss.status.im](https://discuss.status.im/))
 
   - Technical
     - Technical tutorial
     - Build a DApp with Embark
-    - QA the app and create an issue on Github
+    - QA the app and create an issue on GitHub
     
     
 <br />
@@ -135,27 +134,26 @@ More than 30 ambassadors are spreading the word of Status.
 
 ## Contact us
 
-- **Status Ambassadors Hangout chat** : https://get.status.im/chat/public/statusphere
+- **Status Ambassadors Hangout chat**: https://join.status.im/chat/public/statusphere
 
-- **Email** : ambassador@status.im or jinho@status.im
+- **Email**: ambassador@status.im or jinho@status.im
     
 <br />
 
-## Build the official website(https://ambassador.status.im/)
+## Build the official website (https://ambassador.status.im/)
 
 
 ```bash
 git clone https://github.com/status-im/ambassador.status.im.git
-cd translate.status.im
-```
-
-```bash
+cd ambassador.status.im
 npm install
 npm start
 ```
 or
 
 ```bash
+git clone https://github.com/status-im/ambassador.status.im.git
+cd ambassador.status.im
 yarn install
 yarn run build
 ```
@@ -171,7 +169,7 @@ Example
         "id": 1,
         "name": "Jinho Jang",
         "photo": "jinho.jpg",
-        "status": "https://get.status.im/user/0x048cb499b5d77deebf9ad064878dafeb90df81e8cc6baeba8c97c89f849baf6a7eac07be2ee89e0a863cdece3d6b7847ee3f20b9c3a0a50d90a131e6bce3de185a",
+        "status": "https://join.status.im/user/0x048cb499b5d77deebf9ad064878dafeb90df81e8cc6baeba8c97c89f849baf6a7eac07be2ee89e0a863cdece3d6b7847ee3f20b9c3a0a50d90a131e6bce3de185a",
         "twitter": "https://twitter.com/jinhojang6"
     },
 ```
