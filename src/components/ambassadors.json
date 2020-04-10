@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Daniel Bar",
         "photo": "danieltbar.png",
-        "status": "https://get.status.im/user/0x049029a0412381e65b9b206f037adf3b98f29d085d1d05075db52d593677c12886ddfa8a25896a6a321e538e6d9645b904a735546442926f9680614f255f1e1d9a",
+        "status": "https://join.status.im/user/0x049029a0412381e65b9b206f037adf3b98f29d085d1d05075db52d593677c12886ddfa8a25896a6a321e538e6d9645b904a735546442926f9680614f255f1e1d9a",
         "twitter": "https://twitter.com/danieltbar"
     },
 
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Eduardo Garza",
         "photo": "eduardo.jpg",
-        "status": "https://get.status.im/user/0x042ca8156db05e0430bb11d74c3017c8d01b759a74b01288ce62a3dc78f27f153e5f332430b8ce7ff08abbc1135d75b50736619ec508202f4f1365157a3a95b87d",
+        "status": "https://join.status.im/user/0x042ca8156db05e0430bb11d74c3017c8d01b759a74b01288ce62a3dc78f27f153e5f332430b8ce7ff08abbc1135d75b50736619ec508202f4f1365157a3a95b87d",
         "twitter": "https://twitter.com/dondesomos1"
     },
     
@@ -20,7 +20,7 @@
         "id": 3,
         "name": "Enrico Del Fante",
         "photo": "enrico.jpg",
-        "status": "https://get.status.im/user/0x04ba732c5a3b4de16b150bdc833ade07cc1ee3a0429334751313aab0643439fc218eee796b56204f84c594c18f5dbb5b2922f0641ee06134b86fd5f0033f03f872",
+        "status": "https://join.status.im/user/0x04ba732c5a3b4de16b150bdc833ade07cc1ee3a0429334751313aab0643439fc218eee796b56204f84c594c18f5dbb5b2922f0641ee06134b86fd5f0033f03f872",
         "twitter": "https://twitter.com/tbenr"
     },
 
@@ -28,7 +28,7 @@
         "id": 4,
         "name": "Kris Calabio",
         "photo": "kris.jpg",
-        "status": "https://get.status.im/user/0x04825abbccf20caa211e1564dc566222278f3f08a5d0013f9277d643a8e10e52e48486248d432a31ce3832ce7eb51d44a62503e54f8088595310b28c0a2a3016c3",
+        "status": "https://join.status.im/user/0x04825abbccf20caa211e1564dc566222278f3f08a5d0013f9277d643a8e10e52e48486248d432a31ce3832ce7eb51d44a62503e54f8088595310b28c0a2a3016c3",
         "twitter": "https://twitter.com/KuyaKris88"
     },
 
@@ -36,7 +36,7 @@
         "id": 5,
         "name": "Sebastian Moonjava",
         "photo": "sebastian.jpg",
-        "status": "https://get.status.im/user/0x040936b96b92470cfbec14d63667cac0d84a47291d76843f4a16e435910e90363a438b32bbca9d3898b5f9ac3fb8143d43805010640ba93fdc2a7474b959d2a7e8",
+        "status": "https://join.status.im/user/0x040936b96b92470cfbec14d63667cac0d84a47291d76843f4a16e435910e90363a438b32bbca9d3898b5f9ac3fb8143d43805010640ba93fdc2a7474b959d2a7e8",
         "twitter": "https://twitter.com/theDAOKING"
     },
 
@@ -44,7 +44,7 @@
         "id": 6,
         "name": "Sourav Kumar Nanda",
         "photo": "nanda.jpg",
-        "status": "https://get.status.im/user/0x041beada27e0f0072108f52a86b11f08ded17bc7e77d00d47861f1038ed64ddbd5466cab1e15a765d8f7a95f666d4ed147a36ff1d582c9de206456a9744ec0dbd2",
+        "status": "https://join.status.im/user/0x041beada27e0f0072108f52a86b11f08ded17bc7e77d00d47861f1038ed64ddbd5466cab1e15a765d8f7a95f666d4ed147a36ff1d582c9de206456a9744ec0dbd2",
         "twitter": "https://twitter.com/souravinsights"
     },
     
@@ -52,7 +52,7 @@
         "id": 7,
         "name": "Warsoverjohn",
         "photo": "warsoverjohn.jpg",
-        "status": "https://get.status.im/user/0x04c940125c0b746c44dad3ef29a15a567fe63f291fa70bb06f0167c1711de2f13bd2dffb3932755775e06886ea3da91ccc5b9b44c8568c62d8e8b08a8bcdc168b3",
+        "status": "https://join.status.im/user/0x04c940125c0b746c44dad3ef29a15a567fe63f291fa70bb06f0167c1711de2f13bd2dffb3932755775e06886ea3da91ccc5b9b44c8568c62d8e8b08a8bcdc168b3",
         "twitter": "https://twitter.com/Warsoverjohn1"
     },
     
@@ -60,7 +60,7 @@
         "id": 8,
         "name": "Joselito Mutuc",
         "photo": "joly.jpg",
-        "status": "https://get.status.im/user/0x04a354c120ec1ebddbd625c802e9760c0f12bfd2f3031f06d9b67c4f388046ea9fd3a13808476e4bba43277965c5bd8b2ba5c05c00008efb5b553a3d8c5bc827fe",
+        "status": "https://join.status.im/user/0x04a354c120ec1ebddbd625c802e9760c0f12bfd2f3031f06d9b67c4f388046ea9fd3a13808476e4bba43277965c5bd8b2ba5c05c00008efb5b553a3d8c5bc827fe",
         "twitter": "https://twitter.com/joselitommutuc"
     },
 
@@ -68,7 +68,7 @@
         "id": 9,
         "name": "Elpriist",
         "photo": "elpriist.png",
-        "status": "https://get.status.im/user/0x0470937a65203de5ceb2940b4633620fc80ac9c339103e69d314b665cdeb2b224803fb0d48eb4e460e0b48d5ebf6acd4052256e5c8f25e0846f80f7a583115fe1b",
+        "status": "https://join.status.im/user/0x0470937a65203de5ceb2940b4633620fc80ac9c339103e69d314b665cdeb2b224803fb0d48eb4e460e0b48d5ebf6acd4052256e5c8f25e0846f80f7a583115fe1b",
         "twitter": "https://twitter.com/el_priist"
     },
 
@@ -76,7 +76,7 @@
         "id": 10,
         "name": "Wondeuk Cho",
         "photo": "wondeuk.jpg",
-        "status": "https://get.status.im/user/0x04a47c684b6eba46ccb7532ca2735cffd787e2584281b38e88e6178a9c6df749cda2ea9d42bbb0842b6235d856adda854e24987125884ba322e55682eac705aa22",
+        "status": "https://join.status.im/user/0x04a47c684b6eba46ccb7532ca2735cffd787e2584281b38e88e6178a9c6df749cda2ea9d42bbb0842b6235d856adda854e24987125884ba322e55682eac705aa22",
         "twitter": "https://twitter.com/cryptojohnburre"
     },
 
@@ -84,7 +84,7 @@
         "id": 11,
         "name": "Henry Dada",
         "photo": "henry.jpg",
-        "status": "https://get.status.im/user/0x04b7d2bae0f81dc93fdab66ffe93270bcf4744869d5ef871240bf40235a21b964c04db4143e7526ef8c891f51d7f0259b992bfa152a39ad0b15b7948f6555a1299",
+        "status": "https://join.status.im/user/0x04b7d2bae0f81dc93fdab66ffe93270bcf4744869d5ef871240bf40235a21b964c04db4143e7526ef8c891f51d7f0259b992bfa152a39ad0b15b7948f6555a1299",
         "twitter": "https://twitter.com/HenryBitmod"
     },
 
@@ -92,7 +92,7 @@
         "id": 12,
         "name": "SDH01",
         "photo": "sdh.png",
-        "status": "https://get.status.im/user/0x04c65e27e830098990e7c61de72c026d776752c65f36a76ad6dd4d0d842a52665037476648ca23a4c3d88dabf75702324011d85a2850b57bc708298d9a796edba3",
+        "status": "https://join.status.im/user/0x04c65e27e830098990e7c61de72c026d776752c65f36a76ad6dd4d0d842a52665037476648ca23a4c3d88dabf75702324011d85a2850b57bc708298d9a796edba3",
         "twitter": "https://twitter.com/shygalchi"
     },
 
@@ -100,7 +100,7 @@
         "id": 13,
         "name": "CryptoUnknown",
         "photo": "cryptounknown.jpg",
-        "status": "https://get.status.im/user/0x044e356ffed7a5a72439ee5fc65e550e075e227b55a03edd31db65e769840d59e2a68a7a79519fb2a7a850907079b395419d1b49d72612d4c98c558d99def57d08",
+        "status": "https://join.status.im/user/0x044e356ffed7a5a72439ee5fc65e550e075e227b55a03edd31db65e769840d59e2a68a7a79519fb2a7a850907079b395419d1b49d72612d4c98c558d99def57d08",
         "twitter": "https://twitter.com/CryptoUnknown"
     },
 
@@ -108,7 +108,7 @@
         "id": 14,
         "name": "Pearlumie",
         "photo": "pearlumie.jpg",
-        "status": "https://get.status.im/user/0x04d1ea25c4c7c9965ea3b0c40e06b91d0f6e7f73477ff5ec3ee6249d884105f54b6c6b24fadfe2224188efd7719253795999cf4e4fe4b37f8e2ff75f1784951949",
+        "status": "https://join.status.im/user/0x04d1ea25c4c7c9965ea3b0c40e06b91d0f6e7f73477ff5ec3ee6249d884105f54b6c6b24fadfe2224188efd7719253795999cf4e4fe4b37f8e2ff75f1784951949",
         "twitter": "https://twitter.com/Pearlumie"
     }, 
 
@@ -116,7 +116,7 @@
         "id": 15,
         "name": "Rachid Moulakhnif",
         "photo": "rachid.jpg",
-        "status": "https://get.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
+        "status": "https://join.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
         "twitter": "https://twitter.com/rachid_eth"
     },
 
@@ -124,8 +124,16 @@
         "id": 16,
         "name": "Lilsiri",
         "photo": "lilsiri.jpg",
-        "status": "https://get.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
+        "status": "https://join.status.im/user/0x048ecfbc8eb07a1f1d21f51a0dcd550c7af13429e56dcb1c7ef2d02177eaf61fd69b150ca9a5707d75fa9007030983c10327ec6cae32ac32540272a79ed8514fff",
         "twitter": "https://twitter.com/onebotband"
+    },
+
+    {
+        "id": 17,
+        "name": "Chris Kraynik",
+        "photo": "chris.jpg",
+        "status": "https://join.status.im/user/0x044857212d6dc51da310f51a57fc61610ffda05840beeb5adb8c762a8d73bfe412dadfaa982eea8caac53edea2f059285a159b199041a55a58141db820157a2d7d",
+        "twitter": "https://twitter.com/tidus"
     }
 
 ]
