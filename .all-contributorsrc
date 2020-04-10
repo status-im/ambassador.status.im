@@ -121,6 +121,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Irvine",
+      "name": "Chris Kraynik",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/423132?v=4",
+      "profile": "https://chris.kraynik.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
