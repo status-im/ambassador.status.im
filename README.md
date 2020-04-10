@@ -49,17 +49,17 @@ A call with a Status team member (conversations via email or written form are av
 
 
 - **3. Complete your tasks**  
-NFT badge & Welcome kit
+Welcome kit
 
 <br />
 
 ## Welcome Kit
 
 - **Requirement**  
-Need to complete more than 3 tasks
+Need to complete more than 2 tasks
 
 - **Items**
-Welcome letter, Status T-shirt, Status stickers, and some SNT and ETH
+Status T-shirt, Status stickers, SNT and ETH
 
 <br />
 
@@ -101,7 +101,7 @@ https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
 <br />
 
 ## Status Ambassadors ✨
-There are more than 30 Status ambassadors at the moment! You can find some of the ambassadors as below.
+More than 30 ambassadors are spreading the word of Status.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
