@@ -134,6 +134,13 @@
         "photo": "chris.jpg",
         "status": "https://join.status.im/user/0x044857212d6dc51da310f51a57fc61610ffda05840beeb5adb8c762a8d73bfe412dadfaa982eea8caac53edea2f059285a159b199041a55a58141db820157a2d7d",
         "twitter": "https://twitter.com/tidus"
+    },
+
+    {
+        "id": 18,
+        "name": "Fasih Ahmad Fakhri",
+        "photo": "fasih.png",
+        "status": "https://join.status.im/user/0x04700a0f95e17ab13a73c466006deb266cad5c7f35292226f8032be24e1e74fc230d217aee809c97864fb81e152032e135c4ca10ae0761a59a1847b6aa43ed6049"
     }
 
 ]
