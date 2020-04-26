@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -123,6 +123,9 @@ More than 30 ambassadors are spreading the word of Status.
     <td align="center"><a href="https://github.com/elpriist"><img src="https://avatars0.githubusercontent.com/u/41715652?v=4" width="100px;" alt=""/><br /><sub><b>elpriist</b></sub></a><br /><a href="#content-elpriist" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#content-mercuriosilber" title="Content">🖋</a></td>
     <td align="center"><a href="https://chris.kraynik.com/"><img src="https://avatars2.githubusercontent.com/u/423132?v=4" width="100px;" alt=""/><br /><sub><b>Chris Kraynik</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=Irvine" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://fasihahmad.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasihahmad" title="Code">💻</a></td>
   </tr>
 </table>
 
