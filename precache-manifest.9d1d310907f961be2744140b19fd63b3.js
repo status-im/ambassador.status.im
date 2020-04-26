@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73a11fc316262e2f18c9b69a03417551",
+    "revision": "d76bfc460cb6342cea9380ad7692c703",
     "url": "/index.html"
   },
   {
-    "revision": "6b829e20ad9d826b2774",
+    "revision": "9dc4bf39fc20bd3c511f",
     "url": "/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "6b882f67926707ea70ac",
-    "url": "/static/css/main.17a40ae2.chunk.css"
+    "revision": "17218cbb51bf9dc046e8",
+    "url": "/static/css/main.7e3dcc6a.chunk.css"
   },
   {
-    "revision": "6b829e20ad9d826b2774",
-    "url": "/static/js/2.9b94d48a.chunk.js"
+    "revision": "9dc4bf39fc20bd3c511f",
+    "url": "/static/js/2.3827ecca.chunk.js"
   },
   {
-    "revision": "6b882f67926707ea70ac",
-    "url": "/static/js/main.8020cd76.chunk.js"
+    "revision": "17218cbb51bf9dc046e8",
+    "url": "/static/js/main.7d2cc476.chunk.js"
   },
   {
     "revision": "0c7f15c03b9bab8b7aa9",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/event.1e54815e.png"
   },
   {
+    "revision": "215834663b7cfa69f3e8c5157df7c5f9",
+    "url": "/static/media/fasih.21583466.png"
+  },
+  {
     "revision": "d5eb42403974f54d60abbf6b669e8b24",
     "url": "/static/media/funke.d5eb4240.jpeg"
   },
@@ -108,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nanda.5e4b690e.jpg"
   },
   {
+    "revision": "aa50a76421a0b145581e68f34426f702",
+    "url": "/static/media/nicolas.aa50a764.png"
+  },
+  {
     "revision": "a5e467be067db431ab88f0dd6a9e71fa",
     "url": "/static/media/odeneye.a5e467be.jpg"
   },
@@ -130,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b977abdeb1175052a2e8b7530c5fe177",
     "url": "/static/media/sebastian.b977abde.jpg"
+  },
+  {
+    "revision": "d26f55a324d76bc6cc3ae049d903342d",
+    "url": "/static/media/status.d26f55a3.svg"
   },
   {
     "revision": "a58738088badd9eededbbdd9cc388b9e",
