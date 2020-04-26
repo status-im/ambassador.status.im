@@ -36,7 +36,7 @@ class Profiles extends Component {
         const { profileItem } = this.state
         return (
             <li className="contributor">
-                {profileItem !== null
+                {profileItem != null
                     ?
                         <div>
                             <img src={require('../images/ambassadors/' + profileItem.photo)} className="contributor-profile" alt={profileItem.name} />
@@ -45,7 +45,12 @@ class Profiles extends Component {
                                 <b>{profileItem.name}</b>
                                 <span></span>
                                 <ul>
-                                    <li><a href={profileItem.twitter} target="_blank" rel="noopener noreferrer"><img src={require('../images/twitter.svg')} className="" alt="Twitter" /></a></li>
+                                    {profileItem.twitter != null
+                                        ?
+                                            <li><a href={profileItem.twitter} target="_blank" rel="noopener noreferrer"><img src={require('../images/twitter.svg')} className="" alt="Twitter" /></a></li>
+                                        :
+                                            <li><a href={profileItem.status} target="_blank" rel="noopener noreferrer"><img src={require('../images/status.svg')} className="" alt="Status" /></a></li>
+                                    }
                                 </ul>
                             </div>
                         </div>

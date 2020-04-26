@@ -134,6 +134,13 @@
         "photo": "chris.jpg",
         "status": "https://join.status.im/user/0x044857212d6dc51da310f51a57fc61610ffda05840beeb5adb8c762a8d73bfe412dadfaa982eea8caac53edea2f059285a159b199041a55a58141db820157a2d7d",
         "twitter": "https://twitter.com/tidus"
+    },
+
+    {
+        "id": 18,
+        "name": "Fasih Ahmad Fakhri",
+        "photo": "fasih.png",
+        "status": "https://join.status.im/user/python.stateofus.eth"
     }
 
 ]
