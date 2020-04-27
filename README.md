@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -126,6 +126,7 @@ More than 30 ambassadors are spreading the word of Status.
   </tr>
   <tr>
     <td align="center"><a href="https://fasihahmad.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasihahmad" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Bild96"><img src="https://avatars2.githubusercontent.com/u/52472445?v=4" width="100px;" alt=""/><br /><sub><b>NASI₿ </b></sub></a><br /><a href="#translation-Bild96" title="Translation">🌍</a></td>
   </tr>
 </table>
 
