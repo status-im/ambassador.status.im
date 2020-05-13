@@ -31,5 +31,14 @@ We’re excited you’ve decided to take this step and apply to be an ambassador
     - Technical contribution to the source code
     - Translation of Status application and other content (docs, blog posts, etc)
     - Others
+    
+12. Can you let us know your social media handle? (e.g., Twitter)
 
-Please send your response to ambassador@status.im
+## Please send your responses to ambassador@status.im
+
+Someone from The Status Network will reach out to you soon.
+
+- Wekan task board: https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
+
+- Status Hangout channel for ambassadors: https://join.status.im/statusphere
+
