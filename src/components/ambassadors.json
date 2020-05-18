@@ -148,6 +148,13 @@
         "name": "Nicolás V. Villarreal",
         "photo": "nicolas.png",
         "twitter": "https://twitter.com/enevve"
+    },
+
+    {
+        "id": 20,
+        "name": "Erol",
+        "photo": "erol.jpg",
+        "twitter": "https://twitter.com/technopro360"
     }
 
 ]
