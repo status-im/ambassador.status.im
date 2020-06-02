@@ -65,7 +65,7 @@ class Contact extends Component {
                 <Container>
                     <Line left/><Title> Get in touch </Title><Line right/>
                 </Container>
-                <Link2> <a href="https://get.status.im/chat/public/statusphere" target="_blank" rel="noopener noreferrer"> Contact us in the Status Hangout channel #Statusphere </a> </Link2>
+                <Link2> <a href="https://join.status.im/statusphere" target="_blank" rel="noopener noreferrer"> Contact us in the Status Hangout channel #Statusphere </a> </Link2>
                 <Blank/>
             </div>
         );
