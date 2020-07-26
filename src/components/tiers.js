@@ -175,11 +175,12 @@ const Firstline = styled.p`
 
 //The second line in the boxs
 const Secondline = styled(Firstline)`
-    font-size: 1.1rem;
+    font-size: 20px;
     margin-top: 1.5rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
     height: 130px;
+    line-height: 1.5;
 
     @media(max-width: 1250px) {
         height: 145px;

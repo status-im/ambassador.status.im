@@ -400,6 +400,11 @@ code {
 		margin-bottom: 3rem;
 	}
 
+	.align-center {
+		width: 98%;
+	}
+
+
 	.mobile-nav-menu {
 		padding: 0.5rem;
 	}
