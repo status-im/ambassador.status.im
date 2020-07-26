@@ -9,6 +9,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Fathom from "./components/fathom";
 import './App.css';
+import Payouts from './components/payouts';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Boxes />
       <Benefits />
+      <Payouts />
       <Tasks />
       <People />
       <Contact />
