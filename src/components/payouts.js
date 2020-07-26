@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Container } from './boxes';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { Carousel } from 'react-responsive-carousel';
 
@@ -63,7 +62,7 @@ const Title = styled.div`
 const Payouts = () => {
     
         return (
-            <ScrollableAnchor id={'benefits'}>
+            <ScrollableAnchor id={'payouts'}>
                 <div style={{ marginTop: '3rem', paddingTop: '1rem'}}>
                         <Container style={{ marginTop: '2rem', marginBottom: '5rem'}}><Line left/><Title> Payout Structure & Tiers </Title><Line right/></Container>
                             <Carousel className="carousel-center desktop" showThumbs={false} showArrows={true} showStatus={false}>

@@ -1,0 +1,223 @@
+import React from 'react';
+import styled from 'styled-components';
+import { Container } from './boxes';
+import ScrollableAnchor from 'react-scrollable-anchor'
+
+//Containers of tier1
+const Tier1 = styled.div`
+    width: 380px;
+    height: 400px;
+    margin: 0 1% 2% 1%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    float: left;
+
+    @media(max-width: 1250px) {
+        width: 320px;
+        height: 320px;
+    }
+
+    @media(max-width: 1024px) {
+        text-align: center;
+        margin: 0 10rem 3rem 10rem;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 1.5rem;
+        margin: 3vw;
+    }
+`
+
+//reward of tier1
+const RewardTier1 = styled.div`
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    bottom: 0;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    vertical-align: middle;
+
+    @media(max-width: 1024px) {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+`
+
+//Containers of tier2
+const Tier2 = styled.div`
+    width: 380px;
+    height: 400px;
+    margin: 0 1% 2% 1%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    float: left;
+
+    @media(max-width: 1250px) {
+        width: 320px;
+        height: 320px;
+    }
+
+    @media(max-width: 1024px) {
+        text-align: center;
+        margin: 0 10rem 3rem 10rem;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 1.5rem;
+        margin: 3vw;
+    }
+`
+
+//reward of tier2
+const RewardTier2 = styled.div`
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    bottom: 0;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    vertical-align: middle;
+
+    @media(max-width: 1024px) {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+`
+
+//Containers of tier3
+const Tier3 = styled.div`
+    width: 380px;
+    height: 400px;
+    margin: 0 1% 2% 1%;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    float: left;
+
+    @media(max-width: 1250px) {
+        width: 320px;
+        height: 320px;
+    }
+
+    @media(max-width: 1024px) {
+        text-align: center;
+        margin: 0 10rem 3rem 10rem;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 1.5rem;
+        margin: 3vw;
+    }
+`
+
+//reward of tier3
+const RewardTier3 = styled.div`
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    bottom: 0;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    vertical-align: middle;
+
+    @media(max-width: 1024px) {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+`
+
+//The first line in the box
+const Firstline = styled.p`
+    font-weight: 500;
+    text-align:left;
+    font-size: 1.5rem;
+    line-height: 23px;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+
+    @media(max-width: 1024px) {
+        margin-left: 0rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+`
+
+//The second line in the boxs
+const Secondline = styled(Firstline)`
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    height: 130px;
+
+    @media(max-width: 1250px) {
+        height: 145px;
+    }
+
+    @media(max-width: 1024px) {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        height: auto;
+    }
+`
+
+const Tiers = () => {
+    
+        return (
+            <ScrollableAnchor id={'tiers'}>
+                <div style={{ marginTop: '3rem', marginBottom: '1rem'}}>
+                <Container>
+                        <Tier1>
+                            <Firstline>Tier1</Firstline>
+                            <Secondline>Ambassadors who have completed 1-5 tasks</Secondline>
+                            <RewardTier1>Base reward</RewardTier1>
+                        </Tier1>
+                        <Tier2>
+                            <Firstline>Tier2</Firstline>
+                            <Secondline>Ambassadors who completed 6-20 tasks and stay active for more than 2 months</Secondline>
+                            <RewardTier2>Base reward x 1.2</RewardTier2>
+                        </Tier2>
+                        <Tier3>
+                            <Firstline>Tier3</Firstline>
+                            <Secondline>Ambassadors who completed more than 21 tasks and stay active for more than 6 months</Secondline>
+                            <RewardTier3>Base reward x 1.5</RewardTier3>
+                        </Tier3>
+                    </Container>
+                </div>
+            </ScrollableAnchor>
+        );
+}
+
+export default Tiers;
