@@ -18,7 +18,7 @@ const Tier1 = styled.div`
 
     @media(max-width: 1250px) {
         width: 320px;
-        height: 320px;
+        height: auto;
     }
 
     @media(max-width: 1024px) {
@@ -69,7 +69,7 @@ const Tier2 = styled.div`
 
     @media(max-width: 1250px) {
         width: 320px;
-        height: 320px;
+        height: auto;
     }
 
     @media(max-width: 1024px) {
@@ -120,7 +120,7 @@ const Tier3 = styled.div`
 
     @media(max-width: 1250px) {
         width: 320px;
-        height: 320px;
+        height: auto;
     }
 
     @media(max-width: 1024px) {

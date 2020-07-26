@@ -21,7 +21,6 @@ const Text = styled.section`
         width: 75vw;
         font-size: 1.3rem;
     }
-
 `
 
 //Shuffle ambassador profile photos

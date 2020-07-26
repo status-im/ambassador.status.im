@@ -5,23 +5,23 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 const Line = styled.div`
-    width: 25%;
+    width: 30%;
     border-bottom: 1px solid #A8A8A8;
 
     @media(max-width: 1100px) {
-        width: 15%;
+        width: 29%;
     }
 
     @media(max-width: 770px) {
         position: absolute;
-        width: 15%;
+        width: 28%;
         left: ${props => { if (props.left) { return "0" } }};
         right: ${props => { if (props.right) { return "0" } }};
     }
 `
 
 const Title = styled.div`
-    width: 35%
+    width: 25%
     font-size: 1.5rem;
     color: #2C2C2C;
     margin: 0 2.5rem 0 2.5rem;
@@ -32,6 +32,23 @@ const Title = styled.div`
         font-size: 1rem;
         width: 55%
         margin: 0 1rem 0 1rem;
+    }
+`
+
+// Text in the section
+const Text = styled.section`
+    width: 80vw;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2C2C2C;
+    padding-top: 4rem;
+    margin: auto;
+
+    @media(max-width: 770px) {
+        width: 75vw;
+        font-size: 1.3rem;
     }
 `
 
@@ -93,10 +110,13 @@ export class Tasks extends Component {
             <ScrollableAnchor id={'tasks'}>
                 <div style={{ display: 'block', marginTop: '3rem', paddingTop: '1rem' }}>
                     <Container>
-                        <Line left /><Title> We work across a range of areas and collaborate in many ways. </Title><Line right/>
+                        <Line left /><Title>Submitting Tasks</Title><Line right/>
                     </Container>
+                    <Container><Text>When submitting your claim for reward, you'll be asked to share links demonstrating your involvement in each task (e.g., screenshots or video clips). 
+                        You can start working on your task after adding a card to the Wekan task board and get it reviewed with the Status team. 
+                        You can also suggest a task which is not listed on the task sheet below.</Text></Container>
                     <Container>
-                        <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer"> Check out our shared project board </a> </Link>
+                        <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer">Submit now</a> </Link>
                     </Container>
                     <Container>
                         <Box className="event-bg"> Events & Meetups </Box>
