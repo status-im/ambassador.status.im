@@ -6,7 +6,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 //Containers of tier1
 const Tier1 = styled.div`
     width: 380px;
-    height: 400px;
+    height: 310px;
     margin: 0 1% 2% 1%;
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid #FFFFFF;
@@ -25,7 +25,8 @@ const Tier1 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: auto;
+        height: 190px;
+        font-size: 1rem;
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
@@ -57,7 +58,7 @@ const RewardTier1 = styled.div`
 //Containers of tier2
 const Tier2 = styled.div`
     width: 380px;
-    height: 400px;
+    height: 310px;
     margin: 0 1% 2% 1%;
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid #FFFFFF;
@@ -76,7 +77,7 @@ const Tier2 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: auto;
+        height: 190px;
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
@@ -108,7 +109,7 @@ const RewardTier2 = styled.div`
 //Containers of tier3
 const Tier3 = styled.div`
     width: 380px;
-    height: 400px;
+    height: 310px;
     margin: 0 1% 2% 1%;
     background: rgba(0, 0, 0, 0.8);
     border: 1px solid #FFFFFF;
@@ -127,7 +128,7 @@ const Tier3 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: auto;
+        height: 190px;
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
@@ -189,7 +190,7 @@ const Secondline = styled(Firstline)`
     @media(max-width: 1024px) {
         margin-left: 2rem;
         margin-top: 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         height: auto;
     }
 `

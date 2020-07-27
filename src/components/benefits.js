@@ -89,7 +89,7 @@ const Category = styled.p`
     font-size: 1.2rem;
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
 
     @media(max-width: 1160px) {
@@ -178,7 +178,7 @@ function becomeAmbassador({ locale }) {
 // Box content
 const funding = 
     <Box className="funding-bg">
-        <img src={require('../images/funding.png')} alt="Status Logo" height="90px" />
+        <img src={require('../images/funding.svg')} alt="Status Logo" width="auto" height="120px" />
         <Category>Funding</Category>
         <hr />
         <Text>Receive funding to host meetups, workshops, and projects</Text>
@@ -186,7 +186,7 @@ const funding =
 
 const support = 
     <Box className="support-bg">
-        <img src={require('../images/support.png')} alt="Status Logo" height="90px" />
+        <img src={require('../images/support.svg')} alt="Status Logo" width="auto" height="120px" />
         <Category>Access & Support</Category>
         <hr />
         <Text>Help from core contributors on technical, organizational, and other projects</Text>
@@ -194,7 +194,7 @@ const support =
 
 const rewards = 
     <Box className="rewards-bg">
-        <img src={require('../images/rewards.png')} alt="Status Logo" height="90px" />
+        <img src={require('../images/rewards.svg')} alt="Status Logo" width="auto" height="120px" />
         <Category>Rewards</Category>
         <hr />
         <Text>Get some cool Status swag and earn SNT</Text>
@@ -202,7 +202,7 @@ const rewards =
 
 const future = 
     <Box className="future-bg">
-        <img src={require('../images/future.png')} alt="Status Logo" height="90px" />
+        <img src={require('../images/future.svg')} alt="Status Logo" width="auto" height="120px" />
         <Category>Build the future</Category>
         <hr />
         <Text>Active contribution in building the next generation of the internet</Text>
