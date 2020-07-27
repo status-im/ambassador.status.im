@@ -25,7 +25,7 @@ const Tier1 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: 190px;
+        height: 200px;
         font-size: 1rem;
         padding-bottom: 1.5rem;
         margin: 3vw;
@@ -77,7 +77,7 @@ const Tier2 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: 190px;
+        height: 220px;
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
@@ -128,7 +128,7 @@ const Tier3 = styled.div`
         text-align: center;
         margin: 0 10rem 3rem 10rem;
         width: 80vw;
-        height: 190px;
+        height: 220px;
         padding-bottom: 1.5rem;
         margin: 3vw;
     }
