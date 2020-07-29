@@ -11,10 +11,7 @@ const Box = styled.div`
 
     @media(max-width: 600px) {
         width: 90%;
-    }
-
-    @media(max-width: 600px) {
-        width: 90%;
+        margin: 50px auto 70px auto;
     }
 
     hr {

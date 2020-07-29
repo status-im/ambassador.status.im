@@ -6,11 +6,12 @@ const Box = styled.div`
     width: 70%;
     height: auto;
     box-sizing: border-box;
-    margin: 50px auto 70px auto;
+    margin: 60px auto 70px auto;
     font-size: 1.5rem;
 
     @media(max-width: 600px) {
         width: 90%;
+        margin: 50px auto 70px auto;
     }
 
     hr {
