@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e3e0476e3be42cf0039426c00217c86",
+    "revision": "c0a6261ee8bdc998ea8c0cc92536a1d9",
     "url": "/index.html"
   },
   {
-    "revision": "bcdec942fb48010b8d8c",
+    "revision": "2a6d5de67c56769cb99e",
     "url": "/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "0116ea5e9b0da6e24b9c",
-    "url": "/static/css/main.7e3dcc6a.chunk.css"
+    "revision": "19a044b831e8072ea9bf",
+    "url": "/static/css/main.f1dcb133.chunk.css"
   },
   {
-    "revision": "bcdec942fb48010b8d8c",
-    "url": "/static/js/2.ab20b709.chunk.js"
+    "revision": "2a6d5de67c56769cb99e",
+    "url": "/static/js/2.8b7606e3.chunk.js"
   },
   {
-    "revision": "0116ea5e9b0da6e24b9c",
-    "url": "/static/js/main.84453f29.chunk.js"
+    "revision": "19a044b831e8072ea9bf",
+    "url": "/static/js/main.53cb041d.chunk.js"
   },
   {
     "revision": "0c7f15c03b9bab8b7aa9",
@@ -88,8 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fasih.21583466.png"
   },
   {
+    "revision": "7630e4350188c80eccc44ceb4800ac8f",
+    "url": "/static/media/funding.7630e435.svg"
+  },
+  {
     "revision": "d5eb42403974f54d60abbf6b669e8b24",
     "url": "/static/media/funke.d5eb4240.jpeg"
+  },
+  {
+    "revision": "3779db0227d99713b2d6e66d5a342bcd",
+    "url": "/static/media/future.3779db02.svg"
   },
   {
     "revision": "a0a3aebe9227625da107073a3f3ea6c7",
@@ -140,6 +148,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rachid.1972c5d4.jpg"
   },
   {
+    "revision": "3b2a485d261582d3af1c4f2fef264f9d",
+    "url": "/static/media/rewards.3b2a485d.svg"
+  },
+  {
     "revision": "1455813defac39cef810a0eee90c3ca0",
     "url": "/static/media/sdh.1455813d.png"
   },
@@ -150,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d26f55a324d76bc6cc3ae049d903342d",
     "url": "/static/media/status.d26f55a3.svg"
+  },
+  {
+    "revision": "d915be35c85e9a0543b2c9dc81d474fb",
+    "url": "/static/media/support.d915be35.svg"
   },
   {
     "revision": "a58738088badd9eededbbdd9cc388b9e",
