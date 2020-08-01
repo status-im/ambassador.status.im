@@ -162,6 +162,13 @@
         "name": "Ken",
         "photo": "ken.jpg",
         "twitter": "https://twitter.com/kenberey"
-    }    
+    },
+
+    {
+        "id": 22,
+        "name": "Asif",
+        "photo": "asif.jpg",
+        "status": "https://join.status.im/u/0x04092f207956c98cac6ceffeb8ac15d6b50443e588f7225abe30c4fb184856bba86d383d30e7b33aeb7a3bdb76a1f57dad494715a9923300b07f356448b9860fa7"
+    }
 
 ]
