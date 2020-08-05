@@ -43,7 +43,7 @@ const CommunityBuildingFirst = (
                             <br/>
                             <span className="description-content">- Welcome newcomers</span>
                             <br/>
-                            <span className="description-content">- e.g., moderating #status-korean & #movie public chats for 1 week.</span>
+                            <span className="description-content">- e.g., moderating <a href="https://join.status.im/status-korean" target="_blank" rel="noopener noreferrer" className="table-link">#status-korean</a> & <a href="https://join.status.im/movie" target="_blank" rel="noopener noreferrer" className="table-link">#movie</a> public chats for 1 week.</span>
                         </div>
                     </td>
                     <td className="tg-center">
@@ -73,12 +73,12 @@ const CommunityBuildingFirst = (
                         <div className="align-center">
                             <span className="description-header">Referral program bonus</span>
                             <br/>
-                            <span className="description-content">- Additional bonus for participating in the referral program</span>
+                            <span className="description-content">- Additional bonus for participating in the referral program. Up to 10 referrals</span>
                         </div>
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            200 SNT
+                            100 SNT
                         </div>
                     </td>
                 </tr>

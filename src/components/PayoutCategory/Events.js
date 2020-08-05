@@ -71,7 +71,7 @@ const Events = (
                         <div className="align-center">
                             <span className="description-header">Meetup</span>
                             <br/>
-                            <span className="description-content">- http://bit.ly/ambassador-meetup-budget</span>
+                            <span className="description-content">- <a href="http://bit.ly/ambassador-meetup-budget" target="_blank" rel="noopener noreferrer" className="table-link">Meetup budget guidelines</a></span>
                             <br/>
                             <span className="description-content">- Based on a meetup of the ‘S’ size</span>
                         </div>

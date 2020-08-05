@@ -39,7 +39,7 @@ const ContentFirst = (
                         <div className="align-center">
                             <span className="description-header">Blog post or article</span>
                             <br/>
-                            <span className="description-content">- Our Status</span>
+                            <span className="description-content">- <a href="https://our.status.im/" target="_blank" rel="noopener noreferrer" className="table-link">Our Status</a></span>
                             <br/>
                             <span className="description-content">- Third-party blog platforms (Medium, Steemit, etc.)</span>
                             <br/>

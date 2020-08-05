@@ -55,13 +55,15 @@ const CommunityBuildingSecond = (
                         <div className="align-center">
                             <span className="description-header">Commenting on Status’ social channels</span>
                             <br/>
-                            <span className="description-content">- Facebook</span>
+                            <span className="description-content">- <a href="https://www.facebook.com/ethstatus" target="_blank" rel="noopener noreferrer" className="table-link">Facebook</a></span>
                             <br/>
-                            <span className="description-content">- Twitter</span>
+                            <span className="description-content">- <a href="https://twitter.com/ethstatus" target="_blank" rel="noopener noreferrer" className="table-link">Twitter</a></span>
                             <br/>
-                            <span className="description-content">- Reddit</span>
+                            <span className="description-content">- <a href="https://www.reddit.com/r/statusim/" target="_blank" rel="noopener noreferrer" className="table-link">Reddit</a></span>
                             <br/>
-                            <span className="description-content">- Discuss forum</span>
+                            <span className="description-content">- <a href="https://www.instagram.com/status.im/" target="_blank" rel="noopener noreferrer" className="table-link">Instagram</a></span>
+                            <br/>
+                            <span className="description-content">- <a href="https://discuss.status.im/" target="_blank" rel="noopener noreferrer" className="table-link">Discuss forum</a></span>
                             <br/>
                             <span className="description-content">- Up to 5 times per month</span>
                         </div>

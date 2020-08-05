@@ -202,6 +202,19 @@ code {
 	justify-content: center;
 }
 
+.table-link {
+	color: white !important;
+	text-decoration: underline;
+}
+
+.table-link:visited {
+	color: white !important;
+}
+
+.table-link:hover {
+	color: #9299a3 !important;
+}
+
 
 @media screen and (min-width: 1025px) {
   .carousel-display{
