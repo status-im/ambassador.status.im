@@ -125,7 +125,7 @@ More than 30 ambassadors are spreading the word of Status.
     <td align="center"><a href="https://chris.kraynik.com/"><img src="https://avatars2.githubusercontent.com/u/423132?v=4" width="100px;" alt=""/><br /><sub><b>Chris Kraynik</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=Irvine" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://fasihahmad.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasihahmad" title="Code">💻</a></td>
+    <td align="center"><a href="https://fasih.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasih" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Bild96"><img src="https://avatars2.githubusercontent.com/u/52472445?v=4" width="100px;" alt=""/><br /><sub><b>NASI₿ </b></sub></a><br /><a href="#translation-Bild96" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/albed24"><img src="https://avatars0.githubusercontent.com/u/62461597?v=4" width="100px;" alt=""/><br /><sub><b>Albed</b></sub></a><br /><a href="#translation-albed24" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/Minimisthupper"><img src="https://avatars2.githubusercontent.com/u/36794294?v=4" width="100px;" alt=""/><br /><sub><b>Floyd</b></sub></a><br /><a href="#translation-Minimisthupper" title="Translation">🌍</a></td>
