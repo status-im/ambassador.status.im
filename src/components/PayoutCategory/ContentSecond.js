@@ -53,7 +53,7 @@ const ContentSecond = (
                         <div className="align-center">
                             <span className="description-header">Translations - Status app</span>
                             <br/>
-                            <span className="description-content">(per 500 words)</span>
+                            <span className="description-content">- per 500 words</span>
                         </div>
                     </td>
                     <td className="tg-center">
@@ -67,7 +67,7 @@ const ContentSecond = (
                         <div className="align-center">
                             <span className="description-header">Translations - Status website</span>
                             <br/>
-                            <span className="description-content">(per 500 words)</span>
+                            <span className="description-content">- per 500 words</span>
                         </div>
                     </td>
                     <td className="tg-center">
@@ -81,7 +81,7 @@ const ContentSecond = (
                         <div className="align-center">
                             <span className="description-header">Translations - documents or content</span>
                             <br/>
-                            <span className="description-content">(per 500 words)</span>
+                            <span className="description-content">- per 500 words</span>
                         </div>
                     </td>
                     <td className="tg-center">
