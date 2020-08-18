@@ -58,7 +58,7 @@ const ContentSecond = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            1,200 SNT
+                            1,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -72,7 +72,7 @@ const ContentSecond = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            1,200 SNT
+                            1,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -86,7 +86,7 @@ const ContentSecond = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            1,200 SNT
+                            1,000 SNT
                         </div>
                     </td>
                 </tr>

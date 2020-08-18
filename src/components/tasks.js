@@ -114,7 +114,7 @@ export class Tasks extends Component {
                     </Container>
                     <Container><Text>When submitting your claim for reward, you'll be asked to share links demonstrating your involvement in each task (e.g., screenshots or video clips). 
                         You can start working on your task after adding a card to the Wekan task board and get it reviewed with the Status team. 
-                        You can also suggest a task which is not listed on the task sheet below. The base reward can be flexible based on circumstances</Text></Container>
+                        You can also suggest a task which is not listed on the task sheet below. The base reward can be flexible based on circumstances.</Text></Container>
                     <Container>
                         <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer">Submit now</a> </Link>
                     </Container>

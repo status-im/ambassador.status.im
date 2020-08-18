@@ -43,12 +43,12 @@ const ContentFirst = (
                             <br/>
                             <span className="description-content">- Third-party blog platforms (Medium, Steemit, etc.)</span>
                             <br/>
-                            <span className="description-content">- Min. 5 mins read</span>
+                            <span className="description-content">- Min. 600 words</span>
                         </div>
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            2,500 SNT
+                            2,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -62,7 +62,7 @@ const ContentFirst = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            2,000 SNT
+                            1,500 SNT
                         </div>
                     </td>
                 </tr>
@@ -80,7 +80,7 @@ const ContentFirst = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            2,000 SNT
+                            1,500 SNT
                         </div>
                     </td>
                 </tr>

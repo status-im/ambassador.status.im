@@ -39,7 +39,7 @@ const Technical = (
                         <div className="align-center">
                             <span className="description-header">Technical blog post or tutorial</span>
                             <br/>
-                            <span className="description-content">- Min. 5 mins read</span>
+                            <span className="description-content">- Min. 500 words</span>
                         </div>
                     </td>
                     <td className="tg-center">

@@ -48,7 +48,7 @@ const Events = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            3,500 SNT
+                            3,200 SNT
                         </div>
                     </td>
                 </tr>
@@ -62,7 +62,7 @@ const Events = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            3,200 SNT
+                            3,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -78,7 +78,7 @@ const Events = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            3,200 SNT
+                            3,000 SNT
                         </div>
                     </td>
                 </tr>
