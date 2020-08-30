@@ -84,7 +84,7 @@ const CommunityBuildingSecond = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            600 SNT
+                            200 SNT
                         </div>
                     </td>
                 </tr>

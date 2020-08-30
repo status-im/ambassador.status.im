@@ -48,7 +48,7 @@ const CommunityBuildingFirst = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            1,500 SNT
+                            1,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -64,7 +64,7 @@ const CommunityBuildingFirst = (
                     </td>
                     <td className="tg-center">
                         <div className="reward-font">
-                            1,000 SNT
+                            800 SNT
                         </div>
                     </td>
                 </tr>
