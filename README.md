@@ -100,7 +100,7 @@ Ambassadors are free to choose their own contributions. Task examples are listed
 <br />
 
 ## Status Ambassadors ✨
-More than 30 ambassadors are spreading the word of Status.
+More than 50 ambassadors are spreading the word of Status.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
