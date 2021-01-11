@@ -164,8 +164,8 @@ export class Boxes extends Component {
                         </Box>
                         <Box>
                             <Firstline> What it takes </Firstline>
-                            <Secondline> Anyone who believes in this vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. Sign up and let us know how you would like to get involved. </Secondline>
-                            { becomeAmbassador({ locale }) }
+                            <Secondline> Anyone who believes in our vision can become an ambassador. In a permission less environment, anyone is welcome to contribute how they choose. </Secondline>
+                            <a href="https://status.im/" target="_blank" rel="noopener noreferrer"> <CalltoActionButton> Learn Status </CalltoActionButton> </a> 
                         </Box>
                     </Container>
                     <Container>
