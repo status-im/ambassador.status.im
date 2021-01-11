@@ -28,7 +28,7 @@ const Payouts = () => {
             <ScrollableAnchor id={'payouts'}>
                 <div style={{ marginTop: '3rem', paddingTop: '1rem'}}>
                     <div style={{ backgroundColor: 'black', paddingTop: '50px' }}>
-                        <Title> Payout Structure & Tiers </Title>
+                        <Title> Ambassador Action </Title>
                     </div>
                     <Carousel className="carousel-center desktop" showThumbs={false} showArrows={true} showStatus={false}>
                         {Events}

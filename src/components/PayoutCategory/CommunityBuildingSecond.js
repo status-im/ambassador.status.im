@@ -26,11 +26,10 @@ const CommunityBuildingSecond = (
         <table className="tg">
             <thead>
                 <tr>
-                    <th className="tg-header header-font" colspan="2">Community Building</th>
+                    <th className="tg-header header-font">Community Building</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -42,11 +41,6 @@ const CommunityBuildingSecond = (
                             <span className="description-content">- Posting the latest updates or news on popular social channels (e.g., Reddit, Facebook, Twitter, Steemit, etc.)</span>
                             <br/>
                             <span className="description-content">- Up to 5 times per month</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            120 SNT
                         </div>
                     </td>
                 </tr>
@@ -68,11 +62,6 @@ const CommunityBuildingSecond = (
                             <span className="description-content">- Up to 5 times per month</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            120 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -80,11 +69,6 @@ const CommunityBuildingSecond = (
                             <span className="description-header">Help register ENS names for other people</span>
                             <br/>
                             <span className="description-content">- Up to 10 ENS names</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            200 SNT
                         </div>
                     </td>
                 </tr>

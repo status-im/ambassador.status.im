@@ -29,8 +29,7 @@ const Technical = (
                     <th className="tg-header header-font" colspan="2">Technical</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -42,11 +41,6 @@ const Technical = (
                             <span className="description-content">- Min. 500 words</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            3,000 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -54,11 +48,6 @@ const Technical = (
                             <span className="description-header">Github pull request</span>
                             <br/>
                             <span className="description-content">- Should be merged or have some comments from core contributors</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            From 3,500 SNT
                         </div>
                     </td>
                 </tr>
@@ -70,21 +59,11 @@ const Technical = (
                             <span className="description-content">- Should be mentioned or have some comments from core contributors</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            800 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
                         <div className="align-center">
                             <span className="description-header">Building a dapp using Embark</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            TBD
                         </div>
                     </td>
                 </tr>

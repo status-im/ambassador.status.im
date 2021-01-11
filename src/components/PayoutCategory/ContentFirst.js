@@ -26,11 +26,10 @@ const ContentFirst = (
         <table className="tg">
             <thead>
                 <tr>
-                    <th className="tg-header header-font" colspan="2">Content</th>
+                    <th className="tg-header header-font">Content</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -46,11 +45,6 @@ const ContentFirst = (
                             <span className="description-content">- Min. 600 words</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,500 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -58,11 +52,6 @@ const ContentFirst = (
                             <span className="description-header">Infographic</span>
                             <br/>
                             <span className="description-content">- More than 6 data fields (e.g., the number of ENS registrations from https://analytics.status.im/)</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -76,11 +65,6 @@ const ContentFirst = (
                             <span className="description-content">- ↑ 3 images</span>
                             <br/>
                             <span className="description-content">- Brand guidelines</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
                         </div>
                     </td>
                 </tr>

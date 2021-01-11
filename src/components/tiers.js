@@ -202,19 +202,19 @@ const Tiers = () => {
                 <div style={{ marginTop: '3rem', marginBottom: '1rem'}}>
                 <Container>
                         <Tier1>
-                            <Firstline>Tier1</Firstline>
-                            <Secondline>Ambassadors who have completed 1-5 tasks</Secondline>
-                            <RewardTier1>Base reward</RewardTier1>
+                            <Firstline>Tier1 tasks</Firstline>
+                            <Secondline>e.g., Welcoming newcomers in public chats, introducing Status to friends, or inviting people to download Status.</Secondline>
+                            <RewardTier1>Ambassador recognition</RewardTier1>
                         </Tier1>
                         <Tier2>
-                            <Firstline>Tier2</Firstline>
-                            <Secondline>Ambassadors who completed 6-20 tasks and stay active for more than 2 months</Secondline>
-                            <RewardTier2>Base reward x 1.2</RewardTier2>
+                            <Firstline>Tier2 tasks</Firstline>
+                            <Secondline>Create content for Status, commenting on Status social channels, or translating Status into other languages.</Secondline>
+                            <RewardTier2>Base rewards</RewardTier2>
                         </Tier2>
                         <Tier3>
-                            <Firstline>Tier3</Firstline>
-                            <Secondline>Ambassadors who completed more than 21 tasks and stay active for more than 6 months</Secondline>
-                            <RewardTier3>Base reward x 1.5</RewardTier3>
+                            <Firstline>Tier3 tasks</Firstline>
+                            <Secondline>e.g., Business partnerships, memes with a lot of tractions, or technical contributions.</Secondline>
+                            <RewardTier3>Higher rewards</RewardTier3>
                         </Tier3>
                     </Container>
                 </div>

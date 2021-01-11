@@ -26,11 +26,10 @@ const CommunityBuildingFirst = (
         <table className="tg">
             <thead>
                 <tr>
-                    <th className="tg-header header-font" colspan="2">Community Building</th>
+                    <th className="tg-header header-font">Community Building</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -46,11 +45,6 @@ const CommunityBuildingFirst = (
                             <span className="description-content">- e.g., moderating <a href="https://join.status.im/status-korean" target="_blank" rel="noopener noreferrer" className="table-link">#status-korean</a> & <a href="https://join.status.im/movie" target="_blank" rel="noopener noreferrer" className="table-link">#movie</a> public chats for 1 week.</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -62,11 +56,6 @@ const CommunityBuildingFirst = (
                             <span className="description-content">- New ambassadors should complete at least 2 tasks</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            800 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -74,11 +63,6 @@ const CommunityBuildingFirst = (
                             <span className="description-header">Referral program bonus</span>
                             <br/>
                             <span className="description-content">- Additional bonus for participating in the referral program. Up to 10 referrals</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            100 SNT
                         </div>
                     </td>
                 </tr>

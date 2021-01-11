@@ -26,11 +26,10 @@ const Events = (
         <table className="tg">
             <thead>
                 <tr>
-                    <th className="tg-header header-font" colspan="2">Events</th>
+                    <th className="tg-header header-font">Events</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -46,11 +45,6 @@ const Events = (
                             <span className="description-content">- Recommend using localized slides &amp; materials</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            3,000 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -58,11 +52,6 @@ const Events = (
                             <span className="description-header">Hackathon & conference representation</span>
                             <br/>
                             <span className="description-content">- 1 speaking session</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            2,500 SNT
                         </div>
                     </td>
                 </tr>
@@ -74,11 +63,6 @@ const Events = (
                             <span className="description-content">- <a href="http://bit.ly/ambassador-meetup-budget" target="_blank" rel="noopener noreferrer" className="table-link">Meetup budget guidelines</a></span>
                             <br/>
                             <span className="description-content">- Based on a meetup of the ‘S’ size</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            2,500 SNT
                         </div>
                     </td>
                 </tr>

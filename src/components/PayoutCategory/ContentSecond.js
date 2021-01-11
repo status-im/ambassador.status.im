@@ -26,11 +26,10 @@ const ContentSecond = (
         <table className="tg">
             <thead>
                 <tr>
-                    <th className="tg-header header-font" colspan="2">Content</th>
+                    <th className="tg-header header-font">Content</th>
                 </tr>                
                 <tr>
-                    <th className="tg-center header-font">Tasks</th>
-                    <th className="tg-center header-font">Base reward</th>
+                    <th className="tg-center header-font">Examples</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -42,11 +41,6 @@ const ContentSecond = (
                             <span className="description-content">- Min. 1 mins duration</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            2,000 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -54,11 +48,6 @@ const ContentSecond = (
                             <span className="description-header">Translations - Status app</span>
                             <br/>
                             <span className="description-content">- per 500 words</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
                         </div>
                     </td>
                 </tr>
@@ -70,11 +59,6 @@ const ContentSecond = (
                             <span className="description-content">- per 500 words</span>
                         </div>
                     </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
-                        </div>
-                    </td>
                 </tr>
                 <tr>
                     <td className="tg-left">
@@ -82,11 +66,6 @@ const ContentSecond = (
                             <span className="description-header">Translations - documents or content</span>
                             <br/>
                             <span className="description-content">- per 500 words</span>
-                        </div>
-                    </td>
-                    <td className="tg-center">
-                        <div className="reward-font">
-                            1,000 SNT
                         </div>
                     </td>
                 </tr>
