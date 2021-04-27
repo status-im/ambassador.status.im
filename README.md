@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -107,34 +107,36 @@ More than 50 ambassadors are spreading the word of Status.
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/tbenr"><img src="https://avatars2.githubusercontent.com/u/15999009?v=4" width="100px;" alt=""/><br /><sub><b>Enrico Del Fante</b></sub></a><br /><a href="#translation-tbenr" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/shygalchi1234"><img src="https://avatars0.githubusercontent.com/u/52996496?v=4" width="100px;" alt=""/><br /><sub><b>shygalchi1234</b></sub></a><br /><a href="#content-shygalchi1234" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/acolytec3"><img src="https://avatars2.githubusercontent.com/u/17355484?v=4" width="100px;" alt=""/><br /><sub><b>acolytec3</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=acolytec3" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/enevve"><img src="https://avatars1.githubusercontent.com/u/61705093?v=4" width="100px;" alt=""/><br /><sub><b>Nicolás V. Villarreal</b></sub></a><br /><a href="#content-enevve" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/LightLeo21"><img src="https://avatars1.githubusercontent.com/u/51802956?v=4" width="100px;" alt=""/><br /><sub><b>LightLeo21</b></sub></a><br /><a href="#translation-LightLeo21" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/tbenr"><img src="https://avatars2.githubusercontent.com/u/15999009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Enrico Del Fante</b></sub></a><br /><a href="#translation-tbenr" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/shygalchi1234"><img src="https://avatars0.githubusercontent.com/u/52996496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>shygalchi1234</b></sub></a><br /><a href="#content-shygalchi1234" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/acolytec3"><img src="https://avatars2.githubusercontent.com/u/17355484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>acolytec3</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=acolytec3" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/enevve"><img src="https://avatars1.githubusercontent.com/u/61705093?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolás V. Villarreal</b></sub></a><br /><a href="#content-enevve" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/LightLeo21"><img src="https://avatars1.githubusercontent.com/u/51802956?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LightLeo21</b></sub></a><br /><a href="#translation-LightLeo21" title="Translation">🌍</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#content-zplit" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/cryptounknown"><img src="https://avatars1.githubusercontent.com/u/60149317?v=4" width="100px;" alt=""/><br /><sub><b>cryptounknown</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=cryptounknown" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/wdcho82"><img src="https://avatars0.githubusercontent.com/u/61836410?v=4" width="100px;" alt=""/><br /><sub><b>wdcho82</b></sub></a><br /><a href="#content-wdcho82" title="Content">🖋</a></td>
-    <td align="center"><a href="https://Dollet.eth.link"><img src="https://avatars2.githubusercontent.com/u/60158814?v=4" width="100px;" alt=""/><br /><sub><b>Lilsiri.eth</b></sub></a><br /><a href="#content-onebotband" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/elpriist"><img src="https://avatars0.githubusercontent.com/u/41715652?v=4" width="100px;" alt=""/><br /><sub><b>elpriist</b></sub></a><br /><a href="#content-elpriist" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#content-mercuriosilber" title="Content">🖋</a></td>
-    <td align="center"><a href="https://chris.kraynik.com/"><img src="https://avatars2.githubusercontent.com/u/423132?v=4" width="100px;" alt=""/><br /><sub><b>Chris Kraynik</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=Irvine" title="Code">💻</a></td>
+    <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#content-zplit" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/cryptounknown"><img src="https://avatars1.githubusercontent.com/u/60149317?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cryptounknown</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=cryptounknown" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/wdcho82"><img src="https://avatars0.githubusercontent.com/u/61836410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>wdcho82</b></sub></a><br /><a href="#content-wdcho82" title="Content">🖋</a></td>
+    <td align="center"><a href="https://Dollet.eth.link"><img src="https://avatars2.githubusercontent.com/u/60158814?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lilsiri.eth</b></sub></a><br /><a href="#content-onebotband" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/elpriist"><img src="https://avatars0.githubusercontent.com/u/41715652?v=4?s=100" width="100px;" alt=""/><br /><sub><b>elpriist</b></sub></a><br /><a href="#content-elpriist" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#content-mercuriosilber" title="Content">🖋</a></td>
+    <td align="center"><a href="https://chris.kraynik.com/"><img src="https://avatars2.githubusercontent.com/u/423132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Kraynik</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=Irvine" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://fasihahmad.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasihahmad" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Bild96"><img src="https://avatars2.githubusercontent.com/u/52472445?v=4" width="100px;" alt=""/><br /><sub><b>NASI₿ </b></sub></a><br /><a href="#translation-Bild96" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/albed24"><img src="https://avatars0.githubusercontent.com/u/62461597?v=4" width="100px;" alt=""/><br /><sub><b>Albed</b></sub></a><br /><a href="#translation-albed24" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/Minimisthupper"><img src="https://avatars2.githubusercontent.com/u/36794294?v=4" width="100px;" alt=""/><br /><sub><b>Floyd</b></sub></a><br /><a href="#translation-Minimisthupper" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://jdreyespaez.site/"><img src="https://avatars0.githubusercontent.com/u/1473138?v=4" width="100px;" alt=""/><br /><sub><b>Juandavid Reyes</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=jdreyespaez" title="Code">💻</a></td>
+    <td align="center"><a href="https://fasihahmad.github.io"><img src="https://avatars1.githubusercontent.com/u/1082157?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fasih Ahmad Fakhri</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=fasihahmad" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Bild96"><img src="https://avatars2.githubusercontent.com/u/52472445?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NASI₿ </b></sub></a><br /><a href="#translation-Bild96" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/albed24"><img src="https://avatars0.githubusercontent.com/u/62461597?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Albed</b></sub></a><br /><a href="#translation-albed24" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Minimisthupper"><img src="https://avatars2.githubusercontent.com/u/36794294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Floyd</b></sub></a><br /><a href="#translation-Minimisthupper" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://jdreyespaez.site/"><img src="https://avatars0.githubusercontent.com/u/1473138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juandavid Reyes</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=jdreyespaez" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ajacklink"><img src="https://avatars.githubusercontent.com/u/81025043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>4DZ!4K</b></sub></a><br /><a href="#translation-ajacklink" title="Translation">🌍</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <br />
