@@ -183,6 +183,13 @@
         "name": "Pieter Buikema",
         "photo": "pieter.jpg",
         "status": "https://join.status.im/u/0x04342d2229ac619f5d478b7d4442789740361debeb15971b844b78a0513bbf15f740b135b46fe24e4f99ac16a04d52c3903ff52d4151c0076bfe0851d81c85d7d4"
+    },
+    
+    {
+        "id": 25,
+        "name": "John Carlo Dupalco",
+        "photo": "carl.jpg",
+        "status": "https://twitter.com/jc_binance"
     }
 
 ]
