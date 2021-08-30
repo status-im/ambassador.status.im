@@ -195,7 +195,7 @@ class Footer extends Component {
                         </ul>
                     </DivContainer>
                     <div style={{ display: 'inline-block' }}>
-                        <a href="https://www.iubenda.com/privacy-policy/94457202" target="_blank" rel="noopener noreferrer"> <h3>Privacy Policy</h3> </a>
+                        <a href="https://status.im/privacy-policy/" target="_blank" rel="noopener noreferrer"> <h3>Privacy Policy</h3> </a>
                         <ul ><li style={{ color: 'rgba(255, 255, 255, 0.6)', margin: '0' }}>Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland</li></ul>
                     </div>
             </SecondRow>
