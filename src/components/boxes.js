@@ -130,8 +130,10 @@ export const Link = styled.div`
     }    
 `
 
+// eslint-disable-next-line no-unused-vars
 var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0, 2)) || "en";
 
+// eslint-disable-next-line no-unused-vars
 function becomeAmbassador({ locale }) {
     if (locale === 'zh') {
         return (
