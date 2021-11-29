@@ -39,7 +39,7 @@ We’re excited you’ve decided to take this step and apply to be an ambassador
 
 Someone from The Status Network will reach out to you soon.
 
-- Wekan task board: https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
+- Wekan task board: https://boards.status.im/b/79zLjA2QdoAWRTbSy/new-status-ambassadors
 
 - Status Hangout channel for ambassadors: https://join.status.im/ambassador-global
 

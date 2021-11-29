@@ -66,7 +66,7 @@ Status T-shirt, Status stickers, SNT and ETH
 ## Task board
 
 - **Wekan Task board**  
-https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
+https://boards.status.im/b/79zLjA2QdoAWRTbSy/new-status-ambassadors
 
 - **Working groups**  
 Ambassadors are free to choose their own contributions. Task examples are listed below.

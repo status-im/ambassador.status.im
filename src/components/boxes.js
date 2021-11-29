@@ -180,7 +180,7 @@ export class Boxes extends Component {
                 Status.{" "}
               </Secondline>
               <a
-                href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks"
+                href="https://boards.status.im/b/79zLjA2QdoAWRTbSy/new-status-ambassadors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
