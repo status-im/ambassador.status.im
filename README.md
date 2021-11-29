@@ -143,7 +143,7 @@ More than 50 ambassadors are spreading the word of Status.
 
 ## Contact us
 
-- **Status Ambassadors Hangout chat**: https://join.status.im/chat/public/statusphere
+- **Status Ambassadors Hangout chat**: https://join.status.im/chat/public/ambassador-global
 
 - **Email**: ambassador@status.im or jinho@status.im
     

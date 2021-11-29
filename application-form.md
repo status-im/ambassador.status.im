@@ -41,5 +41,5 @@ Someone from The Status Network will reach out to you soon.
 
 - Wekan task board: https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks
 
-- Status Hangout channel for ambassadors: https://join.status.im/statusphere
+- Status Hangout channel for ambassadors: https://join.status.im/ambassador-global
 

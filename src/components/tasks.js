@@ -116,7 +116,7 @@ export class Tasks extends Component {
                         You can start working on your task after adding a card to the Wekan task board and get it reviewed with the Status team. 
                         You can also suggest a task which is not listed on the task sheet below. The base reward can be flexible based on circumstances and the SNT price.</Text></Container>
                     <Container>
-                        <Link> <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" rel="noopener noreferrer">Submit now</a> </Link>
+                        <Link> <a href="https://boards.status.im/b/79zLjA2QdoAWRTbSy/new-status-ambassadors" target="_blank" rel="noopener noreferrer">Submit now</a> </Link>
                     </Container>
                     <Container>
                         <Box className="event-bg"> Events & Meetups </Box>

@@ -133,7 +133,7 @@ class Footer extends Component {
                         <h3>Connect</h3>
                         <ul>
                             <li>
-                                <a href="https://join.status.im/statusphere" target="_blank" rel="noopener noreferrer">
+                                <a href="https://join.status.im/ambassador-global" target="_blank" rel="noopener noreferrer">
                                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.5">
                                             <rect width="26" height="26" rx="2" fill="white" />
