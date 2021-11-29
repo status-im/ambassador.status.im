@@ -28,16 +28,16 @@ const Line = styled.div`
 `;
 
 const Title = styled.div`
-    width: 15%;
-    font-size: 1.8rem;
-    color: #2C2C2C;
-    margin: 0 2.5rem 0 2.5rem;
-    text-align: center;
+  width: 15%;
+  font-size: 1.8rem;
+  color: #2c2c2c;
+  margin: 0 2.5rem 0 2.5rem;
+  text-align: center;
 
-    @media(max-width: 1024px) {
-        font-size: 1rem;
-        width: 30%;
-    }
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+    width: 30%;
+  }
 `;
 
 const Link2 = styled(Link)`

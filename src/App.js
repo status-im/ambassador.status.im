@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Nav from "./components/nav";
 import Header from "./components/header";
 import { Boxes } from "./components/boxes";
@@ -8,9 +8,9 @@ import People from "./components/people";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Fathom from "./components/fathom";
-import './App.css';
-import Payouts from './components/payouts';
-import Tiers from './components/tiers'
+import "./App.css";
+import Payouts from "./components/payouts";
+import Tiers from "./components/tiers";
 
 function App() {
   return (
