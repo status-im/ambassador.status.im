@@ -43,7 +43,7 @@ pipeline {
     stage('Robot') {
       when { expression { !GIT_BRANCH.endsWith('master') } }
       steps { script {
-        sh 'echo "Disallow: /" >> public/robots.txt'
+        sh 'echo "Disallow: /" >> build/robots.txt'
       } }
     }
 
@@ -61,7 +61,7 @@ pipeline {
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
           sh """
-            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
+            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete build/. \
             ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
           """
         }
