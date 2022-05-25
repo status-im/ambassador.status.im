@@ -1,6 +1,6 @@
 # Status Ambassador Program
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br />
@@ -131,6 +131,7 @@ More than 50 ambassadors are spreading the word of Status.
     <td align="center"><a href="https://github.com/Minimisthupper"><img src="https://avatars2.githubusercontent.com/u/36794294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Floyd</b></sub></a><br /><a href="#translation-Minimisthupper" title="Translation">🌍</a></td>
     <td align="center"><a href="https://jdreyespaez.site/"><img src="https://avatars0.githubusercontent.com/u/1473138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juandavid Reyes</b></sub></a><br /><a href="https://github.com/status-im/ambassador.status.im/commits?author=jdreyespaez" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ajacklink"><img src="https://avatars.githubusercontent.com/u/81025043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>4DZ!4K</b></sub></a><br /><a href="#translation-ajacklink" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/ashavaadi"><img src="https://avatars.githubusercontent.com/u/93755583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ashavaadi</b></sub></a><br /><a href="#translation-ashavaadi" title="Translation">🌍</a></td>
   </tr>
 </table>
 
