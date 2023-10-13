@@ -7,7 +7,6 @@ import { Tasks } from "./components/tasks";
 import People from "./components/people";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import Fathom from "./components/fathom";
 import "./App.css";
 import Payouts from "./components/payouts";
 import Tiers from "./components/tiers";
@@ -25,7 +24,6 @@ function App() {
       <People />
       <Contact />
       <Footer />
-      <Fathom />
     </div>
   );
 }
